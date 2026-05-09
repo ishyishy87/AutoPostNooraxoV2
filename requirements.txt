@@ -1,0 +1,10 @@
+pandas
+requests
+moviepy==1.0.3
+Pillow==9.5.0
+imageio
+imageio-ffmpeg
+numpy
+decorator==4.4.2
+gTTS==2.5.4
+edge-tts==6.1.12
