@@ -1,87 +1,91 @@
 import os
-import asyncio
-import tempfile
+import requests
 from datetime import datetime
 
 from config import (
-    VOICEOVER_ENABLED, VOICE_ENGINE,
-    EDGE_TTS_VOICE, EDGE_TTS_RATE, EDGE_TTS_VOLUME,
-    GTTS_LANG, GTTS_SLOW
+    VOICEOVER_ENABLED,
+    VOICE_ENGINE,
+    ELEVENLABS_API_KEY,
+    ELEVENLABS_VOICE_ID,
+    ELEVENLABS_MODEL,
+    ELEVENLABS_OUTPUT_FORMAT,
+    ELEVENLABS_STABILITY,
+    ELEVENLABS_SIMILARITY_BOOST,
+    ELEVENLABS_STYLE,
+    ELEVENLABS_USE_SPEAKER_BOOST,
 )
 from modules.logger import log
-
-LAST_VOICEOVER_PATH = ""
-LAST_VOICEOVER_ENGINE = ""
-
-async def _edge_tts_save(script_text, voice_path):
-    import edge_tts
-
-    communicate = edge_tts.Communicate(
-        text=str(script_text),
-        voice=EDGE_TTS_VOICE,
-        rate=EDGE_TTS_RATE,
-        volume=EDGE_TTS_VOLUME
-    )
-    await communicate.save(voice_path)
-
-
-def _create_edge_voiceover(script_text, voice_path):
-    asyncio.run(_edge_tts_save(script_text, voice_path))
-    return voice_path
-
-
-def _create_gtts_voiceover(script_text, voice_path):
-    from gtts import gTTS
-
-    tts = gTTS(
-        text=str(script_text),
-        lang=GTTS_LANG,
-        slow=GTTS_SLOW
-    )
-    tts.save(voice_path)
-    return voice_path
 
 
 def create_voiceover(script_text):
     """
-    Creates a Roman Urdu + English AI-style voiceover.
-    Primary engine: Edge TTS neural voice.
-    Fallback engine: gTTS.
-    No OpenAI API is used.
+    Creates human-like AI voiceover using ElevenLabs.
+    Returns local mp3 path or None.
     """
-    global LAST_VOICEOVER_PATH, LAST_VOICEOVER_ENGINE
 
     if not VOICEOVER_ENABLED:
         log("Voiceover skipped - disabled")
         return None
 
-    if not script_text or not str(script_text).strip():
+    if VOICE_ENGINE != "elevenlabs":
+        log(f"Voiceover skipped - unsupported engine: {VOICE_ENGINE}")
+        return None
+
+    if not ELEVENLABS_API_KEY:
+        log("Voiceover skipped - ELEVENLABS_API_KEY missing")
+        return None
+
+    if not ELEVENLABS_VOICE_ID or ELEVENLABS_VOICE_ID == "UT6USLtoAlXHj5k4sOLY":
+        log("Voiceover skipped - ELEVENLABS_VOICE_ID missing")
+        return None
+
+    script_text = str(script_text).strip()
+
+    if not script_text:
         log("Voiceover skipped - empty script")
         return None
 
-    voice_path = os.path.join(
-        tempfile.gettempdir(),
-        f"voiceover_{datetime.now().strftime('%Y%m%d_%H%M%S')}.mp3"
+    output_path = f"voiceover_{datetime.now().strftime('%Y%m%d_%H%M%S')}.mp3"
+
+    url = (
+        f"https://api.elevenlabs.io/v1/text-to-speech/"
+        f"{ELEVENLABS_VOICE_ID}?output_format={ELEVENLABS_OUTPUT_FORMAT}"
     )
 
-    # Try neural Edge TTS first.
-    if str(VOICE_ENGINE).lower() == "edge":
-        try:
-            _create_edge_voiceover(script_text, voice_path)
-            LAST_VOICEOVER_PATH = voice_path
-            LAST_VOICEOVER_ENGINE = "edge_tts"
-            log(f"Neural AI voiceover created with Edge TTS: {voice_path}")
-            return voice_path
-        except Exception as e:
-            log(f"Edge TTS voiceover failed, falling back to gTTS: {e}")
+    headers = {
+        "xi-api-key": ELEVENLABS_API_KEY,
+        "Content-Type": "application/json",
+        "Accept": "audio/mpeg",
+    }
 
-    # Fallback.
+    payload = {
+        "text": script_text,
+        "model_id": ELEVENLABS_MODEL,
+        "voice_settings": {
+            "stability": ELEVENLABS_STABILITY,
+            "similarity_boost": ELEVENLABS_SIMILARITY_BOOST,
+            "style": ELEVENLABS_STYLE,
+            "use_speaker_boost": ELEVENLABS_USE_SPEAKER_BOOST,
+        },
+    }
+
     try:
-        _create_gtts_voiceover(script_text, voice_path)
-        LAST_VOICEOVER_PATH = voice_path
-        LAST_VOICEOVER_ENGINE = "gtts_fallback"
-        log(f"Fallback AI voiceover created with gTTS: {voice_path}")
-        return voice_path
+        response = requests.post(url, headers=headers, json=payload, timeout=60)
+
+        if response.status_code != 200:
+            log(f"ElevenLabs voiceover failed: HTTP {response.status_code} | {response.text[:500]}")
+            return None
+
+        with open(output_path, "wb") as f:
+            f.write(response.content)
+
+        if not os.path.exists(output_path) or os.path.getsize(output_path) < 1000:
+            log("ElevenLabs voiceover failed - output file too small")
+            return None
+
+        log(f"ElevenLabs voiceover created: {output_path}")
+        return output_path
+
     except Exception as e:
-        log(f"Voiceover creation failed: {e}")
+        log(f"ElevenLabs voiceover error: {e}")
         return None

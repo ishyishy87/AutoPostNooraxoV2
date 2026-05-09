@@ -248,60 +248,78 @@ def _roman_urdu_benefits(title, category):
     return benefits[:4]
 
 
-def generate_reel_scenes(title, price, score):
-    category = detect_category(title)
+def _short_benefit_for_reel(title, category):
+    """
+    One very short product benefit for clean, product-first reels.
+    Text overlay must stay minimal; voiceover explains the detail.
+    """
+
     benefits = _roman_urdu_benefits(title, category)
-    hook, hook_style = generate_hook(title, category, score)
-
-    roman_hooks = [
-        "Stop scrolling! Yeh deal dekhein",
-        "Aap ke liye smart pick",
-        "Daily use ke liye useful item",
-        "Limited stock alert!",
-        "Yeh product worth checking hai",
-    ]
-
-    scene_templates = [
-        {
-            "name": "cinematic_problem_solution",
-            "scenes": [
-                random.choice(roman_hooks),
-                "Routine ko easy banaye",
-                title,
-                " • ".join(benefits[:3]),
-                f"Rs {price} | Inbox to Order"
-            ]
-        },
-        {
-            "name": "premium_sales_pitch",
-            "scenes": [
-                "New arrival feel, smart price",
-                "Quality aur value aik sath",
-                title,
-                random.choice(benefits),
-                f"Cash on Delivery | Rs {price}"
-            ]
-        },
-        {
-            "name": "conversion_offer",
-            "scenes": [
-                "Aaj ka smart shopping pick",
-                "Useful, practical, affordable",
-                title,
-                "Order before stock ends",
-                f"Only Rs {price}"
-            ]
-        }
-    ]
-
-    selected = random.choice(scene_templates)
-    meta = {
-        "reel_style": selected["name"],
-        "hook_style": hook_style,
-        "category": category
+    preferred = {
+        "tech": ["Smart Gadget", "Easy Use", "Daily Tech"],
+        "beauty": ["Soft Glow", "Self Care", "Fresh Look"],
+        "fashion": ["Premium Look", "Trendy Style", "Smart Style"],
+        "kitchen": ["Kitchen Helper", "Easy Cooking", "Time Saver"],
+        "home": ["Home Helper", "Neat Setup", "Daily Essential"],
+        "baby": ["Kids Pick", "Family Use", "Daily Care"],
+        "fitness": ["Active Life", "Workout Pick", "Stay Fit"],
+        "general": ["Daily Use", "Smart Pick", "Best Value"],
     }
 
-    return selected["scenes"], meta
+    # Prefer category-specific short phrases.
+    if category in preferred:
+        return random.choice(preferred[category])
+
+    # Fallback: shorten extracted benefit.
+    if benefits:
+        words = benefits[0].split()[:3]
+        return " ".join(words).title()
+
+    return "Smart Pick"
+
+
+def generate_reel_scenes(title, price, score):
+    """
+    Voice-first reel scene engine.
+    Keep reel text very short so the product stays dominant.
+    Title is NOT rewritten; it is intentionally not placed as a full overlay on every scene.
+    """
+
+    category = detect_category(title)
+    hook, hook_style = generate_hook(title, category, score)
+    short_benefit = _short_benefit_for_reel(title, category)
+
+    first_scene_options = [
+        "Aaj Ki Pick",
+        "Smart Pick",
+        "New Find",
+        "Worth It",
+        "Dekhein Zara",
+    ]
+
+    cta_options = [
+        "Inbox Now",
+        "Order Now",
+        "COD Available",
+        "Limited Stock",
+    ]
+
+    scenes = [
+        random.choice(first_scene_options),
+        "Premium Look",
+        short_benefit,
+        f"Rs {price}",
+        random.choice(cta_options),
+    ]
+
+    meta = {
+        "reel_style": "voice_first_product_focused_minimal_text",
+        "hook_style": hook_style,
+        "category": category,
+        "scene_count": len(scenes),
+    }
+
+    return scenes, meta
 
 
 def generate_auto_comment(title, price):
@@ -314,57 +332,54 @@ def generate_auto_comment(title, price):
     return random.choice(comments)
 
 
-def generate_voiceover_script(title, price, score):
+def generate_voiceover_script(title, price, score=None):
     """
-    Builds a Roman Urdu + English ecommerce voiceover script.
-    The product title is preserved exactly as provided in products.csv.
+    ElevenLabs-ready Roman Urdu + English ecommerce voice script.
+    Short, conversational, female-ad style.
+    Title remains exactly from products.csv.
     """
+
     category = detect_category(title)
     benefits = _roman_urdu_benefits(title, category)
 
-    category_openers = {
-        "tech": [
-            "Agar aap daily tech routine ko easy banana chahte hain,",
-            "Mobile aur gadgets ke liye smart upgrade chahiye?",
-        ],
-        "beauty": [
-            "Apni daily self care routine ko thora aur better banayein,",
-            "Fresh look aur simple care ke liye yeh pick dekhein,",
-        ],
-        "fashion": [
-            "Apni style ko simple tareeqe se upgrade karein,",
-            "Agar aap trendy aur practical choice dhoond rahe hain,",
-        ],
-        "kitchen": [
-            "Kitchen ka kaam easy aur fast banana chahte hain?",
-            "Daily kitchen routine ke liye yeh smart helper dekhein,",
-        ],
-        "home": [
-            "Home setup ko neat aur smart banana chahte hain?",
-            "Ghar ke daily use ke liye yeh practical pick hai,",
-        ],
-        "baby": [
-            "Parents ke liye yeh aik useful daily pick hai,",
-            "Kids aur family use ke liye yeh product check karein,",
-        ],
-        "fitness": [
-            "Active lifestyle ke liye smart support chahiye?",
-            "Workout aur daily routine ke liye yeh useful pick hai,",
-        ],
-        "general": [
-            "Aap ke daily use ke liye aik smart product,",
-            "Agar aap affordable aur useful item dhoond rahe hain,",
-        ],
-    }
+    b1 = benefits[0] if len(benefits) > 0 else "daily use ke liye practical"
+    b2 = benefits[1] if len(benefits) > 1 else "premium look aur smart value"
 
-    opener = random.choice(category_openers.get(category, category_openers["general"]))
-    benefit_one = benefits[0] if benefits else "daily use ke liye practical"
-    benefit_two = benefits[1] if len(benefits) > 1 else "easy to use"
-
-    scripts = [
-        f"{opener} try this: {title}. Is mein {benefit_one} aur {benefit_two} milta hai. Price sirf {price} rupees. Cash on Delivery available hai. Order karne ke liye abhi inbox karein.",
-        f"Stop scrolling. Yeh {title} aap ke liye aik smart pick ho sakta hai. {benefit_one}, plus {benefit_two}. Sirf {price} rupees mein available. Inbox now to book your order.",
-        f"Aaj ki useful deal: {title}. Yeh product {benefit_one} provide karta hai, aur daily routine mein kaafi helpful hai. Price only {price} rupees. Cash on Delivery ke sath order karein.",
+    openers = [
+        "Assalam o Alaikum!",
+        "Aaj ki smart pick dekhein.",
+        "Yeh product aap ke kaam aa sakta hai.",
     ]
 
-    return random.choice(scripts)
+    soft_hooks = [
+        "Agar aap kuch useful aur stylish dhoond rahe hain,",
+        "Agar aap daily use ke liye smart choice chahte hain,",
+        "Agar aap quality ke sath value bhi chahte hain,",
+    ]
+
+    product_lines = [
+        f"to yeh {title} aap ke liye acha option ho sakta hai.",
+        f"to {title} zaroor check karein.",
+        f"to yeh {title} aap ki routine ko easy bana sakta hai.",
+    ]
+
+    closing_lines = [
+        "Cash on Delivery available hai.",
+        "Order ke liye abhi inbox karein.",
+        "Stock limited hai, is liye jaldi message karein.",
+    ]
+
+    # Extra punctuation and line breaks help ElevenLabs create natural pauses.
+    return f"""
+{random.choice(openers)}
+
+{random.choice(soft_hooks)}
+{random.choice(product_lines)}
+
+Is mein milta hai... {b1}.
+Aur sath hi... {b2}.
+
+Price sirf Rs {price}.
+
+{random.choice(closing_lines)}
+""".strip()

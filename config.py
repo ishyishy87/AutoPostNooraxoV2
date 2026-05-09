@@ -59,44 +59,34 @@ OPEN_MUSIC_URLS = [
     "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-16.mp3",
 ]
 
-# ================= AI CINEMATIC VOICEOVER =================
+
+# ================= ELEVENLABS VOICEOVER =================
 
 VOICEOVER_ENABLED = True
 
-# ================= EDGE TTS =================
-# Pakistani Female Neural Voice
-# Human-like Roman Urdu + English ecommerce narration
+VOICE_ENGINE = "elevenlabs"
 
-VOICE_ENGINE = "edge"
+ELEVENLABS_API_KEY = os.getenv("ELEVENLABS_API_KEY")
 
-EDGE_TTS_VOICE = "ur-PK-UzmaNeural"
+# Replace this with your selected ElevenLabs female voice ID
+ELEVENLABS_VOICE_ID = "PASTE_YOUR_ELEVENLABS_VOICE_ID_HERE"
 
-# Slightly slower for premium selling feel
-EDGE_TTS_RATE = "-12%"
+ELEVENLABS_MODEL = "eleven_multilingual_v2"
 
-# Stronger clearer female voice
-EDGE_TTS_VOLUME = "+25%"
+ELEVENLABS_OUTPUT_FORMAT = "mp3_44100_128"
 
-# ================= GTTS FALLBACK =================
+ELEVENLABS_STABILITY = 0.48
+ELEVENLABS_SIMILARITY_BOOST = 0.78
+ELEVENLABS_STYLE = 0.45
+ELEVENLABS_USE_SPEAKER_BOOST = True
 
-GTTS_LANG = "ur"
-GTTS_SLOW = False
+# Final mix
+VOICEOVER_VOLUME = 1.25
+MUSIC_VOLUME_WITH_VOICEOVER = 0.05
+MUSIC_VOLUME_WITHOUT_VOICEOVER = 0.28
 
-# ================= FINAL AUDIO MIX =================
-# Voice should dominate
-# Music should stay cinematic and soft
-
-VOICEOVER_VOLUME = 1.50
-
-MUSIC_VOLUME_WITH_VOICEOVER = 0.06
-
-MUSIC_VOLUME_WITHOUT_VOICEOVER = 0.30
-
-# Slightly slower music for cinematic emotional feel
 MUSIC_SPEED_FACTOR = 0.92
-
 MUSIC_FADEIN_SECONDS = 1.0
-
 MUSIC_FADEOUT_SECONDS = 1.5
 
 # ================= REAL ANIMATED REEL EFFECTS =================
