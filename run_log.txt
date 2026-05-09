@@ -1,1 +1,23 @@
 
+2026-05-09 13:28:53.146199 - Automation started
+2026-05-09 13:28:53.198518 - Found 5 images
+2026-05-09 13:28:56.746440 - Step 1 Completed: Product selected | Title: Blackhead Suction Remover Portable Pore Cleaner with LED Display and Multiple Suction Levels | Score: 5
+2026-05-09 13:28:56.746914 - Step 2 Completed: Local AI content generated | Category: tech | Hook: budget
+2026-05-09 13:29:04.579892 - Uploaded images: 4
+2026-05-09 13:29:05.028446 - Edge TTS voiceover failed, falling back to gTTS: 403, message='Invalid response status', url='wss://speech.platform.bing.com/consumer/speech/synthesize/readaloud/edge/v1?TrustedClientToken=6A5AA1D4EAFF4E9FB37E23D68491D6F4&ConnectionId=a4e80ff8b49b4cbab0e412adfbeca7b4'
+2026-05-09 13:29:06.241103 - Fallback AI voiceover created with gTTS: /tmp/voiceover_20260509_132904.mp3
+2026-05-09 13:29:06.254945 - Voice-aware scene duration selected: 5.20s
+2026-05-09 13:29:06.254987 - Voiceover script: Mobile aur gadgets ke liye smart upgrade chahiye? try this: Blackhead Suction Remover Portable Pore Cleaner with LED Display and Multiple Suction Levels. Is mein easy carry design aur bright stylish look milta hai. Price sirf 1899 rupees. Cash on Delivery available hai. Order karne ke liye abhi inbox karein.
+2026-05-09 13:29:07.672085 - Selected online music: https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3
+2026-05-09 13:29:10.887102 - Music downloaded: /tmp/music_20260509_132908.mp3
+2026-05-09 13:29:10.901357 - Music speed adjustment skipped: module 'moviepy.audio.fx.all' has no attribute 'speedx'
+2026-05-09 13:29:10.901666 - Slow low-volume background music added to reel audio mix
+2026-05-09 13:29:10.912519 - Roman Urdu + English AI voiceover added | Duration: 23.9
+2026-05-09 13:30:30.177080 - Final reel has audio before upload
+2026-05-09 13:30:30.177135 - Cinematic reel video created: videos/reel_20260509_132907.mp4
+2026-05-09 13:30:30.177165 - Step 3 Completed: Facebook images uploaded and reel created | Reel style: premium_sales_pitch
+2026-05-09 13:30:43.454843 - Reel/video uploaded successfully: 1899042828147466
+2026-05-09 13:30:47.087225 - Auto comment posted: 1549362220533609_819040697555587
+2026-05-09 13:30:47.088238 - Step 4 Completed: Facebook post and reel published successfully
+2026-05-09 13:30:47.091674 - Step 5 Completed: Memory updated and run locked
+2026-05-09 13:30:47.091712 - Automation finished successfully
