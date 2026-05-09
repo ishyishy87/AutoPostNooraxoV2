@@ -607,9 +607,9 @@ function App() {
         <section className="hero-panel">
   <p className="eyebrow">AI Facebook Commerce Platform</p>
 
-  <h2>
+  <h4>
     Automate Facebook posts, AI reels, captions & voiceovers.
-  </h2>
+  </h4>
 
   <p className="subtitle">
     🚀 Smart Posting &nbsp; • &nbsp;
