@@ -1,6 +1,7 @@
+import os
 import pandas as pd
 
-from config import PRODUCTS_FILE, POST_ONCE_PER_DAY, ROLLBACK_IF_REEL_FAILS, AUTO_COMMENT_ENABLED
+from config import PRODUCTS_FILE, POST_ONCE_PER_DAY, ROLLBACK_IF_REEL_FAILS, AUTO_COMMENT_ENABLED, ACCESS_TOKEN, PAGE_ID
 from modules.logger import log
 from modules.storage import already_ran_today, mark_run, load_memory, save_memory
 from modules.csv_engine import normalize_columns, map_columns, safe_get
@@ -16,6 +17,13 @@ from modules.facebook_api import (
 from modules.reel_builder import create_reel_video
 import modules.music as music_state
 
+
+def stop_failed(message):
+    """Stop workflow with non-zero exit so GitHub does not show false success."""
+    log(message)
+    raise SystemExit(1)
+
+
 def collect_product_images(df, product, pid, img, col_map):
     image_files = []
 
@@ -30,10 +38,10 @@ def collect_product_images(df, product, pid, img, col_map):
     if product_rows.empty and "sku" in df.columns:
         product_rows = df[df["sku"] == pid]
 
-    if "image position" in df.columns:
+    if "image position" in df.columns and not product_rows.empty:
         product_rows = product_rows.sort_values(by="image position")
 
-    image_urls = product_rows[image_col].dropna().unique().tolist() if image_col else []
+    image_urls = product_rows[image_col].dropna().unique().tolist() if image_col and not product_rows.empty else []
 
     log(f"Found {len(image_urls)} images")
 
@@ -49,24 +57,54 @@ def collect_product_images(df, product, pid, img, col_map):
 
     return image_files
 
+
+def validate_environment():
+    if not ACCESS_TOKEN:
+        stop_failed("Failed: ACCESS_TOKEN secret is missing. Add it in GitHub Repository Settings > Secrets and variables > Actions.")
+
+    if not PAGE_ID:
+        stop_failed("Failed: PAGE_ID secret is missing. Add it in GitHub Repository Settings > Secrets and variables > Actions.")
+
+    if not os.path.exists(PRODUCTS_FILE):
+        stop_failed(f"Failed: {PRODUCTS_FILE} not found in repository root.")
+
+
 def main():
     log("Automation started")
 
+    validate_environment()
+
     if POST_ONCE_PER_DAY and already_ran_today():
-        log("Skipped - already ran today")
+        log("Skipped - already ran today. No new post created.")
         return
 
     # ===== STEP 1: PRODUCT SELECTION =====
 
-    df = pd.read_csv(PRODUCTS_FILE)
+    try:
+        df = pd.read_csv(PRODUCTS_FILE)
+    except Exception as e:
+        stop_failed(f"Failed: Could not read {PRODUCTS_FILE}: {e}")
+
+    if df.empty:
+        stop_failed("Failed: products.csv is empty.")
+
     df = normalize_columns(df)
 
     memory = load_memory()
     col_map = map_columns(df)
 
+    if "title" not in col_map:
+        stop_failed("Failed: Product title column not found. Required column: title/product title/name/product_name")
+
+    if "image" not in col_map:
+        stop_failed("Failed: Product image column not found. Required column: image src/image/image_url/img/photo")
+
     product = select_product(df, memory, col_map)
 
     pid = str(safe_get(product, col_map, "sku")).strip()
+    if not pid:
+        pid = str(product.name)
+
     title = safe_get(product, col_map, "title", "No Title")  # TITLE STAYS EXACTLY AS CSV
     price = safe_get(product, col_map, "price", 0)
     img = safe_get(product, col_map, "image")
@@ -77,10 +115,9 @@ def main():
     image_files = collect_product_images(df, product, pid, img, col_map)
 
     if not image_files:
-        log("Failed: No product images found. Automation stopped.")
-        return
+        stop_failed("Failed: No product images found/downloaded. Automation stopped.")
 
-    log(f"Step 1 Completed: Product selected | Title: {title} | Score: {score}")
+    log(f"Step 1 Completed: Product selected | Product ID: {pid} | Title: {title} | Score: {score}")
 
     # ===== STEP 2: LOCAL AI MARKETING CONTENT =====
 
@@ -106,14 +143,12 @@ def main():
     log(f"Uploaded images: {len(image_ids)}")
 
     if not image_ids:
-        log("Failed: No images uploaded to Facebook. Automation stopped.")
-        return
+        stop_failed("Failed: No images uploaded to Facebook. Check ACCESS_TOKEN, PAGE_ID, and app permissions.")
 
     reel_video_path, reel_meta = create_reel_video(image_files, title, final_price, score)
 
-    if not reel_video_path:
-        log("Failed: Reel video creation failed. Automation stopped.")
-        return
+    if not reel_video_path or not os.path.exists(reel_video_path):
+        stop_failed("Failed: Reel video creation failed. Automation stopped.")
 
     log(f"Step 3 Completed: Facebook images uploaded and reel created | Reel style: {reel_meta.get('reel_style', '')}")
 
@@ -123,8 +158,7 @@ def main():
     post_id = result.get("id") if result else None
 
     if not post_id:
-        log(f"Failed: Facebook carousel post failed: {result}")
-        return
+        stop_failed(f"Failed: Facebook carousel post failed: {result}")
 
     reel_result = upload_reel_video(reel_video_path, reel_caption)
     reel_id = reel_result.get("id") if reel_result else None
@@ -136,7 +170,7 @@ def main():
             delete_facebook_object(post_id)
             log("Rollback completed: Carousel post deleted because reel failed")
 
-        return
+        stop_failed("Failed: Reel upload failed after carousel post. Workflow stopped after rollback attempt.")
 
     if AUTO_COMMENT_ENABLED:
         create_comment(post_id, auto_comment_text)
@@ -169,6 +203,7 @@ def main():
     mark_run()
     log("Step 5 Completed: Memory updated and run locked")
     log("Automation finished successfully")
+
 
 if __name__ == "__main__":
     main()

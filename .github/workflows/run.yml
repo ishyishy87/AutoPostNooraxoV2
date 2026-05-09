@@ -28,7 +28,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip uninstall -y moviepy || true
+          pip uninstall -y moviepy pillow || true
           pip install --no-cache-dir -r requirements.txt
           python -c "from moviepy.editor import ImageClip; print('MoviePy OK')"
 
@@ -39,9 +39,11 @@ jobs:
         run: python main.py
 
       - name: Commit updates
+        if: always()
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "actions@github.com"
           git add memory.csv run_log.txt run_lock.txt videos/ || true
+          git status --short
           git commit -m "Auto update" || echo "No changes"
-          git push
+          git push || echo "No push needed"

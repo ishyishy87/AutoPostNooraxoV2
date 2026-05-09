@@ -2,4 +2,6 @@ __pycache__/
 *.pyc
 .env
 temp_*.jpg
-run_lock.txt
+reel_scene_*.jpg
+reel_ready_*.jpg
+temp-audio.m4a
