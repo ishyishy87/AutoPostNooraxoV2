@@ -133,34 +133,36 @@ def prepare_reel_scene_image(image_path, scene_text, title="", price="", scene_i
     background.paste(product, (px, py))
 
     # Top hook panel.
-    draw.rounded_rectangle((42, 45, output_size[0] - 42, 318), radius=34, fill=(10, 10, 18), outline=accent, width=3)
+    draw.rounded_rectangle((90, 70, output_size[0] - 90, 205), radius=34, fill=(10, 10, 18), outline=accent, width=3)
 
     # Bottom title/CTA panel.
-    draw.rounded_rectangle((42, 1552, output_size[0] - 42, output_size[1] - 48), radius=34, fill=(10, 10, 18), outline=accent, width=3)
+    draw.rounded_rectangle((140, 1625, output_size[0] - 140, 1815), radius=34, fill=(10, 10, 18), outline=accent, width=3)
 
-    scene_font = _load_font(64)
-    title_font = _load_font(48)
-    price_font = _load_font(76)
-    small_font = _load_font(36)
+    scene_font = _load_font(52)
+    title_font = _load_font(34)
+    price_font = _load_font(66)
+    small_font = _load_font(32)
 
     # Main scene text works like animated subtitle panel.
-    _draw_centered_text(draw, scene_text, 82, scene_font, fill=(255, 255, 255), max_lines=3)
+    short_scene_text = str(scene_text).split(".")[0][:28]
+    _draw_centered_text(draw, short_scene_text, 105, scene_font, fill=(255, 255, 255), max_lines=1)
 
     # Product title is preserved exactly from CSV.
-    _draw_centered_text(draw, str(title), 1594, title_font, fill=(255, 255, 255), max_lines=3)
+    if scene_index == 0:
+        _draw_centered_text(draw, str(title)[:42], 1655, title_font, fill=(255, 255, 255), max_lines=2)
 
     if scene_index >= 3:
-        _draw_centered_text(draw, f"Rs {price}", 1772, price_font, fill=accent, max_lines=1)
+        _draw_centered_text(draw, f"Rs {price}", 1685, price_font, fill=accent, max_lines=1)
     else:
-        _draw_centered_text(draw, "Cash on Delivery Available", 1818, small_font, fill=accent, max_lines=1)
+        _draw_centered_text(draw, "COD Available", 1705, small_font, fill=accent, max_lines=1)
 
     # Small progress indicator.
     total_dots = 5
-    dot_y = 1505
-    start_x = (output_size[0] - (total_dots * 34)) // 2
+    dot_y = 1855
+    start_x = (output_size[0] - (total_dots * 28)) // 2
     for i in range(total_dots):
         fill = accent if i == scene_index % total_dots else (90, 90, 100)
-        draw.ellipse((start_x + i * 34, dot_y, start_x + i * 34 + 16, dot_y + 16), fill=fill)
+        draw.ellipse((start_x + i * 28, dot_y, start_x + i * 28 + 12, dot_y + 12), fill=fill)
 
     prepared_path = f"reel_scene_{scene_index}_{os.path.basename(image_path)}"
     background.save(prepared_path, quality=95)

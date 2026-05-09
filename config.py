@@ -72,7 +72,7 @@ VOICE_ENGINE = "edge"
 EDGE_TTS_VOICE = "ur-PK-UzmaNeural"
 
 # Slightly slower for premium selling feel
-EDGE_TTS_RATE = "-5%"
+EDGE_TTS_RATE = "-12%"
 
 # Stronger clearer female voice
 EDGE_TTS_VOLUME = "+25%"
@@ -86,9 +86,9 @@ GTTS_SLOW = False
 # Voice should dominate
 # Music should stay cinematic and soft
 
-VOICEOVER_VOLUME = 1.45
+VOICEOVER_VOLUME = 1.50
 
-MUSIC_VOLUME_WITH_VOICEOVER = 0.08
+MUSIC_VOLUME_WITH_VOICEOVER = 0.06
 
 MUSIC_VOLUME_WITHOUT_VOICEOVER = 0.30
 
