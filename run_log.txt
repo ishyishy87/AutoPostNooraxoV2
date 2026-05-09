@@ -182,3 +182,41 @@ Order ke liye abhi inbox karein.
 2026-05-09 16:20:08.108822 - Video cleanup completed. Deleted files: 1
 2026-05-09 16:20:08.108876 - Step 6 Completed: Video folder cleaned
 2026-05-09 16:20:08.108936 - Automation finished successfully
+2026-05-09 16:48:05.963483 - Automation started
+2026-05-09 16:48:06.012835 - Found 4 images
+2026-05-09 16:48:10.393722 - Step 1 Completed: Product selected | Product ID: Pe-51-00-00-511 | Title: Face Wash | Chando Naturals Neem Pimple Fighting Face Wash 100ml Daily Cleanser for Oily and Acne-Prone Skin | Score: 8
+2026-05-09 16:48:10.394563 - Step 2 Completed: Local AI content generated | Category: beauty | Hook: budget
+2026-05-09 16:48:13.027513 - Image uploaded successfully: 1549522897184208
+2026-05-09 16:48:14.665453 - Image uploaded successfully: 1549522937184204
+2026-05-09 16:48:15.915216 - Image uploaded successfully: 1549522973850867
+2026-05-09 16:48:17.645098 - Image uploaded successfully: 1549523017184196
+2026-05-09 16:48:17.646090 - Uploaded images: 4
+2026-05-09 16:48:17.646398 - Voiceover skipped - ELEVENLABS_API_KEY missing
+2026-05-09 16:48:17.646458 - Voice-aware scene duration selected: 3.20s
+2026-05-09 16:48:17.646514 - Voiceover script: Yeh product aap ke kaam aa sakta hai.
+
+Agar aap kuch useful aur stylish dhoond rahe hain,
+to yeh Face Wash | Chando Naturals Neem Pimple Fighting Face Wash 100ml Daily Cleanser for Oily and Acne-Prone Skin aap ke liye acha option ho sakta hai.
+
+Is mein milta hai... daily self care support.
+Aur sath hi... daily routine ke liye useful.
+
+Price sirf Rs 799.
+
+Stock limited hai, is liye jaldi message karein.
+2026-05-09 16:48:18.946809 - Selected online music: https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3
+2026-05-09 16:48:21.421603 - Music downloaded: /tmp/music_20260509_164819.mp3
+2026-05-09 16:48:21.436695 - Music speed adjustment skipped: module 'moviepy.audio.fx.all' has no attribute 'speedx'
+2026-05-09 16:48:21.437090 - Slow low-volume background music added to reel audio mix
+2026-05-09 16:49:09.775272 - Final reel has audio before upload
+2026-05-09 16:49:09.775414 - Cinematic reel video created: videos/reel_20260509_164818.mp4
+2026-05-09 16:49:09.775570 - Step 3 Completed: Facebook images uploaded and reel created | Reel style: voice_first_product_focused_minimal_text
+2026-05-09 16:49:13.487312 - Carousel post published successfully: 105834518183309_1549523633850801
+2026-05-09 16:49:22.231122 - Reel/video uploaded successfully: 1476201400961328
+2026-05-09 16:49:26.834384 - Auto comment posted: 1549523633850801_1754623992363156
+2026-05-09 16:49:26.835390 - Step 4 Completed: Facebook post and reel published successfully
+2026-05-09 16:49:26.839093 - Step 5 Completed: Memory updated and run locked
+2026-05-09 16:49:26.839456 - Deleted video file: videos/reel_20260509_164818.mp4
+2026-05-09 16:49:26.839508 - Video cleanup completed. Deleted files: 1
+2026-05-09 16:49:26.839556 - Step 6 Completed: Video folder cleaned
+2026-05-09 16:49:26.839603 - Automation finished successfully
