@@ -1,1 +1,28 @@
 
+2026-05-09 14:05:02.077801 - Automation started
+2026-05-09 14:05:02.129487 - Found 6 images
+2026-05-09 14:05:06.209667 - Step 1 Completed: Product selected | Product ID: Ho-65-00-00-658 | Title: Blue Ultra Slim Notebook Style Water Bottle 380ml | Portable Memo Bottle for Travel, School & Office | Score: 8
+2026-05-09 14:05:06.210470 - Step 2 Completed: Local AI content generated | Category: kitchen | Hook: urgency
+2026-05-09 14:05:07.587635 - Image uploaded successfully: 1549389477197550
+2026-05-09 14:05:08.578359 - Image uploaded successfully: 1549389543864210
+2026-05-09 14:05:09.607447 - Image uploaded successfully: 1549389577197540
+2026-05-09 14:05:10.687485 - Image uploaded successfully: 1549389620530869
+2026-05-09 14:05:10.688345 - Uploaded images: 4
+2026-05-09 14:05:11.038798 - Edge TTS voiceover failed, falling back to gTTS: 403, message='Invalid response status', url='wss://speech.platform.bing.com/consumer/speech/synthesize/readaloud/edge/v1?TrustedClientToken=6A5AA1D4EAFF4E9FB37E23D68491D6F4&ConnectionId=f4cf0a0819cb420d966896adf924a5af'
+2026-05-09 14:05:12.292423 - Fallback AI voiceover created with gTTS: /tmp/voiceover_20260509_140510.mp3
+2026-05-09 14:05:12.306057 - Voice-aware scene duration selected: 5.20s
+2026-05-09 14:05:12.306129 - Voiceover script: Aaj ki useful deal: Blue Ultra Slim Notebook Style Water Bottle 380ml | Portable Memo Bottle for Travel, School & Office. Yeh product easy carry design provide karta hai, aur daily routine mein kaafi helpful hai. Price only 699 rupees. Cash on Delivery ke sath order karein.
+2026-05-09 14:05:13.833435 - Selected online music: https://www.soundhelix.com/examples/mp3/SoundHelix-Song-6.mp3
+2026-05-09 14:05:15.966503 - Music downloaded: /tmp/music_20260509_140514.mp3
+2026-05-09 14:05:15.981250 - Music speed adjustment skipped: module 'moviepy.audio.fx.all' has no attribute 'speedx'
+2026-05-09 14:05:15.981610 - Slow low-volume background music added to reel audio mix
+2026-05-09 14:05:15.993520 - Roman Urdu + English AI voiceover added | Duration: 23.9
+2026-05-09 14:06:35.470252 - Final reel has audio before upload
+2026-05-09 14:06:35.470356 - Cinematic reel video created: videos/reel_20260509_140513.mp4
+2026-05-09 14:06:35.470425 - Step 3 Completed: Facebook images uploaded and reel created | Reel style: conversion_offer
+2026-05-09 14:06:40.387094 - Carousel post published successfully: 105834518183309_1549390790530752
+2026-05-09 14:06:50.350574 - Reel/video uploaded successfully: 1293782798975525
+2026-05-09 14:06:53.977815 - Auto comment posted: 1549390790530752_1299657642256588
+2026-05-09 14:06:53.978905 - Step 4 Completed: Facebook post and reel published successfully
+2026-05-09 14:06:53.982408 - Step 5 Completed: Memory updated and run locked
+2026-05-09 14:06:53.982452 - Automation finished successfully
