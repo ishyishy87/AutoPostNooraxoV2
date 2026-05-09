@@ -525,7 +525,7 @@ function App() {
   const [token, setToken] = useState(localStorage.getItem("github_pat") || "");
 
   const latest = memoryRows[memoryRows.length - 1] || {};
-
+  const latestFive = memoryRows.slice(-5).reverse();
   const successfulPosts = memoryRows.filter((r) =>
     String(r.status || "").toLowerCase().includes("posted")
   ).length;
@@ -791,6 +791,54 @@ function App() {
             </div>
           </section>
 
+          <section className="panel" style={{ marginTop: 18 }}>
+  <div className="panel-title">
+    <div>
+      <h3>Latest 5 Posts & Reels</h3>
+      <p>Direct links to recently published Facebook content</p>
+    </div>
+    <ExternalLink color="#67e8f9" />
+  </div>
+
+  <div className="activity-list">
+    {latestFive.length ? (
+      latestFive.map((item, index) => (
+        <div className="activity-row" key={index}>
+          <div>
+            <h4>{item.product_id || `Post ${index + 1}`}</h4>
+            <p>{item.date || "No date found"}</p>
+          </div>
+
+          <div className="button-row" style={{ marginTop: 0 }}>
+            {item.post_url && (
+              <a
+                className="secondary-btn"
+                href={item.post_url}
+                target="_blank"
+                rel="noreferrer"
+              >
+                View Post <ExternalLink size={14} />
+              </a>
+            )}
+
+            {(item.reel_url || item.reel_id) && (
+              <a
+                className="primary-btn"
+                href={item.reel_url || `https://facebook.com/${item.reel_id}`}
+                target="_blank"
+                rel="noreferrer"
+              >
+                View Reel <ExternalLink size={14} />
+              </a>
+            )}
+          </div>
+        </div>
+      ))
+    ) : (
+      <p className="tiny">No published posts found yet.</p>
+    )}
+  </div>
+</section>
           <section className="panel" style={{ marginTop: 18 }}>
             <div className="panel-title">
               <div>
