@@ -605,22 +605,33 @@ function App() {
         </header>
 
         <section className="hero-panel">
-          <p className="eyebrow">Social Commerce SaaS Dashboard</p>
-          <h2>Automate Facebook sales content with AI reels, captions and voiceovers.</h2>
-          <p className="subtitle">
-            Monitor campaign status, publish AI-generated commerce posts, review logs, track latest
-            reels, and operate the whole automation engine from one premium dashboard.
-          </p>
+  <p className="eyebrow">AI Facebook Commerce Platform</p>
 
-          <div className="hero-actions">
-            <button className="primary-btn" onClick={handleRun}>
-              <Play size={18} /> Run Automation
-            </button>
-            <button className="secondary-btn" onClick={loadData}>
-              <RefreshCw size={18} /> Refresh Dashboard
-            </button>
-          </div>
-        </section>
+  <h2>
+    Automate Facebook posts, AI reels, captions & voiceovers.
+  </h2>
+
+  <p className="subtitle">
+    🚀 Smart Posting &nbsp; • &nbsp;
+    🎬 Viral AI Reels &nbsp; • &nbsp;
+    🎤 Human-like Voiceovers &nbsp; • &nbsp;
+    📈 Growth Automation
+    <br /><br />
+    Want this automation for your business?
+    <br />
+    📱 WhatsApp: 03169250202
+  </p>
+
+  <div className="hero-actions">
+    <button className="primary-btn" onClick={handleRun}>
+      <Play size={18} /> Run Automation
+    </button>
+
+    <button className="secondary-btn" onClick={loadData}>
+      <RefreshCw size={18} /> Refresh Dashboard
+    </button>
+  </div>
+</section>
 
         {message && (
           <div className="notice">
