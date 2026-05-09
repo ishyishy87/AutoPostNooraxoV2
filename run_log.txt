@@ -32,3 +32,40 @@
 2026-05-09 14:46:56.519552 - Skipped - already ran today. No new post created.
 2026-05-09 14:58:58.877670 - Automation started
 2026-05-09 14:58:58.877854 - Skipped - already ran today. No new post created.
+2026-05-09 15:00:59.324781 - Automation started
+2026-05-09 15:00:59.373239 - Found 8 images
+2026-05-09 15:01:08.084061 - Step 1 Completed: Product selected | Product ID: Sm-27-00-00-271 | Title: Foldable Car Windshield Umbrella Sunshade | UV Protection & Heat Blocker for All Vehicles | Score: 5
+2026-05-09 15:01:08.084841 - Step 2 Completed: Local AI content generated | Category: general | Hook: discovery
+2026-05-09 15:01:09.831763 - Image uploaded successfully: 1549430523860112
+2026-05-09 15:01:11.395490 - Image uploaded successfully: 1549430570526774
+2026-05-09 15:01:12.870032 - Image uploaded successfully: 1549430603860104
+2026-05-09 15:01:14.406965 - Image uploaded successfully: 1549430647193433
+2026-05-09 15:01:14.407951 - Uploaded images: 4
+2026-05-09 15:01:14.965623 - Edge TTS voiceover failed, falling back to gTTS: 403, message='Invalid response status', url='wss://speech.platform.bing.com/consumer/speech/synthesize/readaloud/edge/v1?TrustedClientToken=6A5AA1D4EAFF4E9FB37E23D68491D6F4&ConnectionId=bdb2a43b54df46b18c57b22d2d64d4ff'
+2026-05-09 15:01:16.189272 - Fallback AI voiceover created with gTTS: /tmp/voiceover_20260509_150114.mp3
+2026-05-09 15:01:16.202502 - Voice-aware scene duration selected: 5.20s
+2026-05-09 15:01:16.202593 - Voiceover script: Aaj ki useful deal: Foldable Car Windshield Umbrella Sunshade | UV Protection & Heat Blocker for All Vehicles. Yeh product daily use ke liye practical provide karta hai, aur daily routine mein kaafi helpful hai. Price only 2499 rupees. Cash on Delivery ke sath order karein.
+2026-05-09 15:01:17.517977 - Selected online music: https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3
+2026-05-09 15:01:20.753667 - Music downloaded: /tmp/music_20260509_150118.mp3
+2026-05-09 15:01:20.769003 - Music speed adjustment skipped: module 'moviepy.audio.fx.all' has no attribute 'speedx'
+2026-05-09 15:01:20.769463 - Slow low-volume background music added to reel audio mix
+2026-05-09 15:01:20.782904 - Roman Urdu + English AI voiceover added | Duration: 23.9
+2026-05-09 15:02:38.735002 - Final reel has audio before upload
+2026-05-09 15:02:38.735115 - Cinematic reel video created: videos/reel_20260509_150117.mp4
+2026-05-09 15:02:38.735201 - Step 3 Completed: Facebook images uploaded and reel created | Reel style: premium_sales_pitch
+2026-05-09 15:02:45.783121 - Carousel post published successfully: 105834518183309_1549431853859979
+2026-05-09 15:02:54.531779 - Reel/video uploaded successfully: 1406852084542635
+2026-05-09 15:02:58.457587 - Auto comment posted: 1549431853859979_2451826968572892
+2026-05-09 15:02:58.458649 - Step 4 Completed: Facebook post and reel published successfully
+2026-05-09 15:02:58.462268 - Step 5 Completed: Memory updated and run locked
+2026-05-09 15:02:58.462483 - Deleted video file: videos/reel_20260509_115817.mp4
+2026-05-09 15:02:58.462590 - Deleted video file: videos/test.txt
+2026-05-09 15:02:58.462940 - Deleted video file: videos/reel_20260509_150117.mp4
+2026-05-09 15:02:58.463427 - Deleted video file: videos/reel_20260509_140513.mp4
+2026-05-09 15:02:58.463567 - Deleted video file: videos/reel_20260509_121326.mp4
+2026-05-09 15:02:58.463694 - Deleted video file: videos/reel_20260509_114513.mp4
+2026-05-09 15:02:58.464125 - Deleted video file: videos/reel_20260509_132907.mp4
+2026-05-09 15:02:58.464305 - Deleted video file: videos/reel_20260509_122338.mp4
+2026-05-09 15:02:58.464379 - Video cleanup completed. Deleted files: 8
+2026-05-09 15:02:58.464428 - Step 6 Completed: Video folder cleaned
+2026-05-09 15:02:58.464478 - Automation finished successfully
