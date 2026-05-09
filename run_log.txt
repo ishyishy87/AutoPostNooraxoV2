@@ -107,3 +107,40 @@ Cash on Delivery available hai.
 2026-05-09 15:55:36.473709 - Video cleanup completed. Deleted files: 1
 2026-05-09 15:55:36.473738 - Step 6 Completed: Video folder cleaned
 2026-05-09 15:55:36.473787 - Automation finished successfully
+2026-05-09 16:04:23.543321 - Automation started
+2026-05-09 16:04:23.593691 - Found 3 images
+2026-05-09 16:04:27.204456 - Step 1 Completed: Product selected | Product ID: Pe-60-00-00-609 | Title: DermiVe Moisturizing Wash Face & Body 100ml | Jenpharm | Score: 8
+2026-05-09 16:04:27.205230 - Step 2 Completed: Local AI content generated | Category: beauty | Hook: discovery
+2026-05-09 16:04:28.546633 - Image uploaded successfully: 1549487517187746
+2026-05-09 16:04:29.674599 - Image uploaded successfully: 1549487603854404
+2026-05-09 16:04:30.824437 - Image uploaded successfully: 1549487680521063
+2026-05-09 16:04:30.825479 - Uploaded images: 3
+2026-05-09 16:04:30.825720 - Voiceover skipped - ELEVENLABS_API_KEY missing
+2026-05-09 16:04:30.825798 - Voice-aware scene duration selected: 3.20s
+2026-05-09 16:04:30.825838 - Voiceover script: Aaj ki smart pick dekhein.
+
+Agar aap kuch useful aur stylish dhoond rahe hain,
+to yeh DermiVe Moisturizing Wash Face & Body 100ml | Jenpharm aap ke liye acha option ho sakta hai.
+
+Is mein milta hai... daily routine ke liye useful.
+Aur sath hi... fresh look and feel.
+
+Price sirf Rs 699.
+
+Order ke liye abhi inbox karein.
+2026-05-09 16:04:32.162968 - Selected online music: https://www.soundhelix.com/examples/mp3/SoundHelix-Song-6.mp3
+2026-05-09 16:04:34.333808 - Music downloaded: /tmp/music_20260509_160432.mp3
+2026-05-09 16:04:34.349569 - Music speed adjustment skipped: module 'moviepy.audio.fx.all' has no attribute 'speedx'
+2026-05-09 16:04:34.349906 - Slow low-volume background music added to reel audio mix
+2026-05-09 16:05:24.059388 - Final reel has audio before upload
+2026-05-09 16:05:24.059512 - Cinematic reel video created: videos/reel_20260509_160432.mp4
+2026-05-09 16:05:24.059574 - Step 3 Completed: Facebook images uploaded and reel created | Reel style: voice_first_product_focused_minimal_text
+2026-05-09 16:05:27.507496 - Carousel post published successfully: 105834518183309_1549489377187560
+2026-05-09 16:05:37.955083 - Reel/video uploaded successfully: 1466013008598618
+2026-05-09 16:05:40.747183 - Auto comment posted: 1549489377187560_1666067914668278
+2026-05-09 16:05:40.748292 - Step 4 Completed: Facebook post and reel published successfully
+2026-05-09 16:05:40.751738 - Step 5 Completed: Memory updated and run locked
+2026-05-09 16:05:40.752121 - Deleted video file: videos/reel_20260509_160432.mp4
+2026-05-09 16:05:40.752184 - Video cleanup completed. Deleted files: 1
+2026-05-09 16:05:40.752227 - Step 6 Completed: Video folder cleaned
+2026-05-09 16:05:40.752261 - Automation finished successfully
