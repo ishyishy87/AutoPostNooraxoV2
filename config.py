@@ -63,24 +63,41 @@ OPEN_MUSIC_URLS = [
 
 VOICEOVER_ENABLED = True
 
-# "edge" gives a much more attractive neural AI voice than basic gTTS.
-# It needs internet in GitHub Actions. If it fails, code falls back to gTTS.
-VOICE_ENGINE = "edge"
-EDGE_TTS_VOICE = "en-IN-NeerjaNeural"   # Good for Roman Urdu + English ecommerce style.
-EDGE_TTS_RATE = "-8%"                   # Slightly slower, clearer selling voice.
-EDGE_TTS_VOLUME = "+20%"                # Stronger voice before final mix.
+# ================= EDGE TTS =================
+# Pakistani Female Neural Voice
+# Human-like Roman Urdu + English ecommerce narration
 
-# Fallback only.
-GTTS_LANG = "en"
+VOICE_ENGINE = "edge"
+
+EDGE_TTS_VOICE = "ur-PK-UzmaNeural"
+
+# Slightly slower for premium selling feel
+EDGE_TTS_RATE = "-5%"
+
+# Stronger clearer female voice
+EDGE_TTS_VOLUME = "+25%"
+
+# ================= GTTS FALLBACK =================
+
+GTTS_LANG = "ur"
 GTTS_SLOW = False
 
-# Final mix: voice should dominate, music should support.
-VOICEOVER_VOLUME = 1.35
-MUSIC_VOLUME_WITH_VOICEOVER = 0.10
-MUSIC_VOLUME_WITHOUT_VOICEOVER = 0.35
-MUSIC_SPEED_FACTOR = 0.92                # Slightly slower background music feeling.
-MUSIC_FADEIN_SECONDS = 0.8
-MUSIC_FADEOUT_SECONDS = 1.2
+# ================= FINAL AUDIO MIX =================
+# Voice should dominate
+# Music should stay cinematic and soft
+
+VOICEOVER_VOLUME = 1.45
+
+MUSIC_VOLUME_WITH_VOICEOVER = 0.08
+
+MUSIC_VOLUME_WITHOUT_VOICEOVER = 0.30
+
+# Slightly slower music for cinematic emotional feel
+MUSIC_SPEED_FACTOR = 0.92
+
+MUSIC_FADEIN_SECONDS = 1.0
+
+MUSIC_FADEOUT_SECONDS = 1.5
 
 # ================= REAL ANIMATED REEL EFFECTS =================
 
