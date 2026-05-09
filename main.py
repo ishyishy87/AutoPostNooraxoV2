@@ -100,6 +100,7 @@ def main():
 
     validate_environment()
 
+    POST_ONCE_PER_DAY = False
     if POST_ONCE_PER_DAY and already_ran_today():
         log("Skipped - already ran today. No new post created.")
         return

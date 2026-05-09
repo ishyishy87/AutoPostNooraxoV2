@@ -2,7 +2,9 @@ name: AutoPostNooraxoV2
 
 on:
   schedule:
-    - cron: "0 */6 * * *"
+    - cron: "30 5 * * *"    # 10:30 AM Pakistan
+    - cron: "30 9 * * *"    # 02:30 PM Pakistan
+    - cron: "30 15 * * *"   # 08:30 PM Pakistan
   workflow_dispatch:
 
 permissions:
@@ -43,7 +45,7 @@ jobs:
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "actions@github.com"
-          git add memory.csv run_log.txt run_lock.txt videos/ || true
+          git add memory.csv run_log.txt run_lock.txt || true
           git status --short
           git commit -m "Auto update" || echo "No changes"
           git push || echo "No push needed"
