@@ -69,7 +69,7 @@ VOICE_ENGINE = "elevenlabs"
 ELEVENLABS_API_KEY = os.getenv("ELEVENLABS_API_KEY")
 
 # Replace this with your selected ElevenLabs female voice ID
-ELEVENLABS_VOICE_ID = "PASTE_YOUR_ELEVENLABS_VOICE_ID_HERE"
+ELEVENLABS_VOICE_ID = "UT6USLtoAlXHj5k4sOLY"
 
 ELEVENLABS_MODEL = "eleven_multilingual_v2"
 
