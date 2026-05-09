@@ -68,6 +68,32 @@ def validate_environment():
     if not os.path.exists(PRODUCTS_FILE):
         stop_failed(f"Failed: {PRODUCTS_FILE} not found in repository root.")
 
+def cleanup_video_folder():
+    """
+    Delete generated reel/video files after successful publishing.
+    """
+
+    video_dir = "videos"
+
+    if not os.path.exists(video_dir):
+        return
+
+    deleted = 0
+
+    for file_name in os.listdir(video_dir):
+
+        file_path = os.path.join(video_dir, file_name)
+
+        try:
+            if os.path.isfile(file_path):
+                os.remove(file_path)
+                deleted += 1
+                log(f"Deleted video file: {file_path}")
+
+        except Exception as e:
+            log(f"Video cleanup failed for {file_path}: {e}")
+
+    log(f"Video cleanup completed. Deleted files: {deleted}")
 
 def main():
     log("Automation started")
@@ -202,7 +228,15 @@ def main():
 
     mark_run()
     log("Step 5 Completed: Memory updated and run locked")
+
+# ===== STEP 6: CLEANUP =====
+
+    cleanup_video_folder()
+
+    log("Step 6 Completed: Video folder cleaned")
+
     log("Automation finished successfully")
+    
 
 
 if __name__ == "__main__":
