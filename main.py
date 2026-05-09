@@ -212,6 +212,7 @@ def main():
         "price": final_price,
         "post_url": post_url,
         "reel_id": reel_id,
+        "reel_url": f"https://facebook.com/{reel_id}",
         "likes": 0,
         "comments": 0,
         "shares": 0,
