@@ -850,6 +850,48 @@ function App() {
     )}
   </div>
 </section>
+
+<section className="panel" style={{ marginTop: 18 }}>
+  <div className="panel-title">
+    <div>
+      <h3>AI Analytics Summary</h3>
+      <p>Best performing content based on engagement score</p>
+    </div>
+    <Activity color="#67e8f9" />
+  </div>
+
+  <div className="detail-list">
+    <div className="detail-item">
+      <span>Best Product</span>
+      <b>{bestPost.product_id || "—"}</b>
+    </div>
+
+    <div className="detail-item">
+      <span>Engagement Score</span>
+      <b>{bestPost.engagement_score || "0"}</b>
+    </div>
+
+    <div className="detail-item">
+      <span>Likes</span>
+      <b>{toNumber(bestPost.likes) + toNumber(bestPost.reel_likes)}</b>
+    </div>
+
+    <div className="detail-item">
+      <span>Comments</span>
+      <b>{toNumber(bestPost.comments) + toNumber(bestPost.reel_comments)}</b>
+    </div>
+
+    <div className="detail-item">
+      <span>Reel Views</span>
+      <b>{bestPost.reel_views || "0"}</b>
+    </div>
+
+    <div className="detail-item">
+      <span>Last Analytics Update</span>
+      <b>{bestPost.analytics_updated_at || "—"}</b>
+    </div>
+  </div>
+</section>
           <section className="panel" style={{ marginTop: 18 }}>
             <div className="panel-title">
               <div>
