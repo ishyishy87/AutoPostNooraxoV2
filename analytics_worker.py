@@ -15,11 +15,15 @@ def clean_value(value):
     if value.lower() in ["", "nan", "none", "null"]:
         return ""
 
-    if value.endswith(".0") and value.replace(".0", "").isdigit():
-        value = value[:-2]
+    # Fix pandas converting Facebook IDs into float-like / decimal-like strings
+    # Example: 1293782798975525.0 → 1293782798975525
+    # Example: 2152037468894511.2 → 2152037468894511
+    if "." in value:
+        left, right = value.split(".", 1)
+        if left.isdigit() and right.isdigit():
+            value = left
 
     return value
-
 
 def extract_post_id_from_url(post_url):
     post_url = clean_value(post_url)
