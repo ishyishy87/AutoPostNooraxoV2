@@ -42,30 +42,41 @@ def get_post_basic_metrics(post_id):
     url = f"https://graph.facebook.com/{GRAPH_VERSION}/{post_id}"
 
     params = {
-        "fields": "shares",
+        "fields": "likes.summary(true).limit(0),comments.summary(true).limit(0),shares",
         "access_token": ACCESS_TOKEN,
     }
 
-    shares = 0
+    metrics = {
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+    }
 
     try:
         r = requests.get(url, params=params, timeout=30)
         data = r.json()
 
-        if "shares" in data:
-            shares = safe_int(data.get("shares", {}).get("count", 0))
+        if "error" in data:
+            log(f"Post metrics fetch failed for {post_id}: {data}")
+            return metrics
+
+        metrics["likes"] = safe_int(
+            data.get("likes", {}).get("summary", {}).get("total_count", 0)
+        )
+
+        metrics["comments"] = safe_int(
+            data.get("comments", {}).get("summary", {}).get("total_count", 0)
+        )
+
+        metrics["shares"] = safe_int(
+            data.get("shares", {}).get("count", 0)
+        )
+
+        return metrics
 
     except Exception as e:
-        log(f"Post share fetch error for {post_id}: {e}")
-
-    reactions = get_count_from_edge(post_id, "reactions")
-    comments = get_count_from_edge(post_id, "comments")
-
-    return {
-        "likes": reactions,
-        "comments": comments,
-        "shares": shares,
-    }
+        log(f"Post metrics fetch error for {post_id}: {e}")
+        return metrics
 
 
 def get_video_views(video_id):
@@ -103,15 +114,40 @@ def get_video_views(video_id):
 
 
 def get_reel_basic_metrics(reel_id):
-    comments = get_count_from_edge(reel_id, "comments")
-    reactions = get_count_from_edge(reel_id, "reactions")
-    views = get_video_views(reel_id)
-
-    return {
-        "reel_likes": reactions,
-        "reel_comments": comments,
-        "reel_views": views,
+    metrics = {
+        "reel_likes": 0,
+        "reel_comments": 0,
+        "reel_views": 0,
     }
+
+    url = f"https://graph.facebook.com/{GRAPH_VERSION}/{reel_id}"
+
+    params = {
+        "fields": "likes.summary(true).limit(0),comments.summary(true).limit(0)",
+        "access_token": ACCESS_TOKEN,
+    }
+
+    try:
+        r = requests.get(url, params=params, timeout=30)
+        data = r.json()
+
+        if "error" in data:
+            log(f"Reel metrics fetch failed for {reel_id}: {data}")
+        else:
+            metrics["reel_likes"] = safe_int(
+                data.get("likes", {}).get("summary", {}).get("total_count", 0)
+            )
+
+            metrics["reel_comments"] = safe_int(
+                data.get("comments", {}).get("summary", {}).get("total_count", 0)
+            )
+
+    except Exception as e:
+        log(f"Reel metrics fetch error for {reel_id}: {e}")
+
+    metrics["reel_views"] = get_video_views(reel_id)
+
+    return metrics
 
 
 def calculate_engagement_score(row):
