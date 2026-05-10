@@ -18,6 +18,16 @@ WHATSAPP_TOKEN = os.getenv("WHATSAPP_TOKEN")
 WHATSAPP_PHONE_NUMBER_ID = os.getenv("WHATSAPP_PHONE_NUMBER_ID")
 WHATSAPP_TO_NUMBER = os.getenv("WHATSAPP_TO_NUMBER")
 
+# ================= AI COMMENT REPLY =================
+
+AI_COMMENT_REPLY_ENABLED = True
+
+COMMENT_REPLY_LIMIT = 10
+
+COMMENT_MEMORY_FILE = "comment_memory.csv"
+
+COMMENT_REPLY_SIGNATURE = "😊"
+
 # ================= AUTOMATION =================
 
 POST_ONCE_PER_DAY = True
