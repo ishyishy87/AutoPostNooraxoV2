@@ -1099,3 +1099,40 @@ Order ke liye abhi inbox karein.
 2026-05-10 15:46:29.139224 - Scanning reel/video comments: 957591029936055
 2026-05-10 15:46:29.427328 - No comments found for AI reply
 2026-05-10 15:46:29.427721 - AI comment worker completed. Sources scanned: 33
+2026-05-10 16:03:31.222619 - AI Analytics worker started
+2026-05-10 16:03:31.226039 - Analytics scanning post: 105834518183309_1548707790599052
+2026-05-10 16:03:31.493059 - Analytics scanning post: 105834518183309_1548951090574722
+2026-05-10 16:03:31.824178 - Analytics scanning post: 105834518183309_1549158777220620
+2026-05-10 16:03:32.162088 - Analytics scanning post: 105834518183309_1549278827208615
+2026-05-10 16:03:32.466702 - Analytics scanning post: 105834518183309_1549290120540819
+2026-05-10 16:03:32.702899 - Analytics scanning post: 105834518183309_1549305133872651
+2026-05-10 16:03:33.063827 - Analytics scanning post: 105834518183309_1549313450538486
+2026-05-10 16:03:33.442829 - Analytics scanning post: 105834518183309_1549390790530752
+2026-05-10 16:03:33.914569 - Analytics scanning reel/video: 1293782798975525
+2026-05-10 16:03:34.476054 - Analytics scanning post: 105834518183309_1549431853859979
+2026-05-10 16:03:34.885546 - Analytics scanning reel/video: 1406852084542635
+2026-05-10 16:03:35.438240 - Analytics scanning post: 105834518183309_1549472983855866
+2026-05-10 16:03:35.907059 - Analytics scanning reel/video: 2032775197631595
+2026-05-10 16:03:36.320450 - Analytics scanning post: 105834518183309_1549489377187560
+2026-05-10 16:03:36.643899 - Analytics scanning reel/video: 1466013008598618
+2026-05-10 16:03:37.126194 - Analytics scanning post: 105834518183309_1549500470519784
+2026-05-10 16:03:37.360109 - Analytics scanning reel/video: 2.580952956872409e+16
+2026-05-10 16:03:37.541836 - Reel metrics fetch failed for 2.580952956872409e+16: {'error': {'message': "Unsupported get request. Object with ID '2.580952956872409e+16' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api", 'type': 'GraphMethodException', 'code': 100, 'error_subcode': 33, 'fbtrace_id': 'A-45Hm-yM1Q8eyW8sOX6h7U'}}
+2026-05-10 16:03:37.685165 - Video insights failed for 2.580952956872409e+16: {'error': {'message': "Unsupported get request. Object with ID '2.580952956872409e+16' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api", 'type': 'GraphMethodException', 'code': 100, 'error_subcode': 33, 'fbtrace_id': 'Aez7upqB3I-i-2YAfMI7g_j'}}
+2026-05-10 16:03:37.686931 - Analytics scanning post: 105834518183309_1549523633850801
+2026-05-10 16:03:37.915506 - Analytics scanning reel/video: 1476201400961328
+2026-05-10 16:03:38.312130 - Analytics scanning post: 105834518183309_1549591183844046
+2026-05-10 16:03:38.697169 - Analytics scanning reel/video: 977268515021676
+2026-05-10 16:03:39.204076 - Analytics scanning post: 105834518183309_1550054067131091
+2026-05-10 16:03:39.425821 - Analytics scanning reel/video: 2152037468894511
+2026-05-10 16:03:39.902913 - Analytics scanning post: 105834518183309_1550136320456199
+2026-05-10 16:03:40.099179 - Analytics scanning reel/video: 1794960628541039
+2026-05-10 16:03:40.571769 - Analytics scanning post: 105834518183309_1550143470455484
+2026-05-10 16:03:40.790546 - Analytics scanning reel/video: 2477044379409805
+2026-05-10 16:03:41.219180 - Analytics scanning post: 105834518183309_1550156170454214
+2026-05-10 16:03:41.426610 - Analytics scanning reel/video: 1008953445121737
+2026-05-10 16:03:41.791272 - Analytics scanning post: 105834518183309_1550178680451963
+2026-05-10 16:03:41.995541 - Analytics scanning reel/video: 863293589360316
+2026-05-10 16:03:42.435625 - Analytics scanning post: 105834518183309_1550358787100619
+2026-05-10 16:03:42.656771 - Analytics scanning reel/video: 957591029936055
+2026-05-10 16:03:43.076366 - AI Analytics completed. Rows updated: 21
