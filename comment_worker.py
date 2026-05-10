@@ -14,6 +14,10 @@ def clean_value(value):
     if value.lower() in ["", "nan", "none", "null"]:
         return ""
 
+    # Fix pandas converting Facebook IDs into float-like strings
+    if value.endswith(".0") and value.replace(".0", "").isdigit():
+        value = value[:-2]
+
     return value
 
 
@@ -30,7 +34,7 @@ def main():
     log("AI comment worker started")
 
     try:
-        memory = pd.read_csv(MEMORY_FILE)
+        memory = pd.read_csv(MEMORY_FILE, dtype=str)
     except Exception as e:
         log(f"Comment worker failed to read memory: {e}")
         raise SystemExit(1)
