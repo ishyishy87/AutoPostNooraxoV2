@@ -624,3 +624,82 @@ Cash on Delivery available hai.
 2026-05-10 13:43:04.992071 - Comment fetch failed: {'error': {'message': "Unsupported get request. Object with ID '863293589360316.0' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api", 'type': 'GraphMethodException', 'code': 100, 'error_subcode': 33, 'fbtrace_id': 'A7qF3DLQ0yN1ytN0I5Q8rw4'}}
 2026-05-10 13:43:04.992873 - No comments found for AI reply
 2026-05-10 13:43:04.993149 - AI comment worker completed. Sources scanned: 32
+2026-05-10 13:45:24.910273 - AI comment worker started
+2026-05-10 13:45:24.912703 - Scanning post comments: 105834518183309_1548475783955586
+2026-05-10 13:45:25.135475 - No comments found for AI reply
+2026-05-10 13:45:25.136010 - Scanning post comments: 105834518183309_1548707790599052
+2026-05-10 13:45:25.319548 - No comments found for AI reply
+2026-05-10 13:45:25.320076 - Scanning post comments: 105834518183309_1548951090574722
+2026-05-10 13:45:25.509326 - No comments found for AI reply
+2026-05-10 13:45:25.509905 - Scanning post comments: 105834518183309_1549158777220620
+2026-05-10 13:45:25.937198 - No comments found for AI reply
+2026-05-10 13:45:25.937723 - Scanning post comments: 105834518183309_1549278827208615
+2026-05-10 13:45:26.123140 - No comments found for AI reply
+2026-05-10 13:45:26.123649 - Scanning post comments: 105834518183309_1549290120540819
+2026-05-10 13:45:26.315504 - No comments found for AI reply
+2026-05-10 13:45:26.316015 - Scanning post comments: 105834518183309_1549305133872651
+2026-05-10 13:45:26.496773 - No comments found for AI reply
+2026-05-10 13:45:26.497271 - Scanning post comments: 105834518183309_1549313450538486
+2026-05-10 13:45:26.669685 - No comments found for AI reply
+2026-05-10 13:45:26.670197 - Scanning post comments: 105834518183309_1549390790530752
+2026-05-10 13:45:26.883781 - No new comments required AI reply
+2026-05-10 13:45:26.884117 - Scanning reel/video comments: 1293782798975525.0
+2026-05-10 13:45:27.051488 - Comment fetch failed: {'error': {'message': "Unsupported get request. Object with ID '1293782798975525.0' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api", 'type': 'GraphMethodException', 'code': 100, 'error_subcode': 33, 'fbtrace_id': 'AmlToSWaDH9ZMGD6-zJfd5h'}}
+2026-05-10 13:45:27.052439 - No comments found for AI reply
+2026-05-10 13:45:27.052918 - Scanning post comments: 105834518183309_1549431853859979
+2026-05-10 13:45:27.296734 - No new comments required AI reply
+2026-05-10 13:45:27.297082 - Scanning reel/video comments: 1406852084542635.0
+2026-05-10 13:45:27.438522 - Comment fetch failed: {'error': {'message': "Unsupported get request. Object with ID '1406852084542635.0' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api", 'type': 'GraphMethodException', 'code': 100, 'error_subcode': 33, 'fbtrace_id': 'AqqeFjLeuPGG8iA8604FGWH'}}
+2026-05-10 13:45:27.439473 - No comments found for AI reply
+2026-05-10 13:45:27.439905 - Scanning post comments: 105834518183309_1549472983855866
+2026-05-10 13:45:31.832326 - AI comment reply sent: 1549472983855866_27830775196522877
+2026-05-10 13:45:31.835691 - AI comment replies completed: 1
+2026-05-10 13:45:31.835770 - Scanning reel/video comments: 2032775197631595.2
+2026-05-10 13:45:31.970464 - Comment fetch failed: {'error': {'message': "Unsupported get request. Object with ID '2032775197631595.2' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api", 'type': 'GraphMethodException', 'code': 100, 'error_subcode': 33, 'fbtrace_id': 'AoRiB5q9Gl1kxz1A5YOhKhc'}}
+2026-05-10 13:45:31.971302 - No comments found for AI reply
+2026-05-10 13:45:31.971755 - Scanning post comments: 105834518183309_1549489377187560
+2026-05-10 13:45:32.236491 - No new comments required AI reply
+2026-05-10 13:45:32.236827 - Scanning reel/video comments: 1466013008598618.0
+2026-05-10 13:45:32.369527 - Comment fetch failed: {'error': {'message': "Unsupported get request. Object with ID '1466013008598618.0' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api", 'type': 'GraphMethodException', 'code': 100, 'error_subcode': 33, 'fbtrace_id': 'AWwOXdOikBzw36yPY9axmCW'}}
+2026-05-10 13:45:32.370351 - No comments found for AI reply
+2026-05-10 13:45:32.370798 - Scanning post comments: 105834518183309_1549500470519784
+2026-05-10 13:45:32.617964 - No new comments required AI reply
+2026-05-10 13:45:32.618273 - Scanning reel/video comments: 2.580952956872409e+16
+2026-05-10 13:45:32.761198 - Comment fetch failed: {'error': {'message': "Unsupported get request. Object with ID '2.580952956872409e+16' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api", 'type': 'GraphMethodException', 'code': 100, 'error_subcode': 33, 'fbtrace_id': 'Aer7X97vyX2M0lpNSf44_xS'}}
+2026-05-10 13:45:32.762045 - No comments found for AI reply
+2026-05-10 13:45:32.762479 - Scanning post comments: 105834518183309_1549523633850801
+2026-05-10 13:45:33.009366 - No new comments required AI reply
+2026-05-10 13:45:33.009743 - Scanning reel/video comments: 1476201400961328.0
+2026-05-10 13:45:33.140184 - Comment fetch failed: {'error': {'message': "Unsupported get request. Object with ID '1476201400961328.0' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api", 'type': 'GraphMethodException', 'code': 100, 'error_subcode': 33, 'fbtrace_id': 'AUT3n3aBS7r562p5Db2LkwE'}}
+2026-05-10 13:45:33.141175 - No comments found for AI reply
+2026-05-10 13:45:33.141511 - Scanning post comments: 105834518183309_1549591183844046
+2026-05-10 13:45:33.404953 - No new comments required AI reply
+2026-05-10 13:45:33.405296 - Scanning reel/video comments: 977268515021676.0
+2026-05-10 13:45:33.561794 - Comment fetch failed: {'error': {'message': "Unsupported get request. Object with ID '977268515021676.0' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api", 'type': 'GraphMethodException', 'code': 100, 'error_subcode': 33, 'fbtrace_id': 'A-K0OO7JYFeFVo46WcGaEMT'}}
+2026-05-10 13:45:33.562601 - No comments found for AI reply
+2026-05-10 13:45:33.563049 - Scanning post comments: 105834518183309_1550054067131091
+2026-05-10 13:45:33.776322 - No new comments required AI reply
+2026-05-10 13:45:33.776658 - Scanning reel/video comments: 2152037468894511.2
+2026-05-10 13:45:33.910899 - Comment fetch failed: {'error': {'message': "Unsupported get request. Object with ID '2152037468894511.2' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api", 'type': 'GraphMethodException', 'code': 100, 'error_subcode': 33, 'fbtrace_id': 'AUKezN9v87qUTfAUuySEz6y'}}
+2026-05-10 13:45:33.911693 - No comments found for AI reply
+2026-05-10 13:45:33.912117 - Scanning post comments: 105834518183309_1550136320456199
+2026-05-10 13:45:34.138797 - No new comments required AI reply
+2026-05-10 13:45:34.139122 - Scanning reel/video comments: 1794960628541039.0
+2026-05-10 13:45:34.274745 - Comment fetch failed: {'error': {'message': "Unsupported get request. Object with ID '1794960628541039.0' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api", 'type': 'GraphMethodException', 'code': 100, 'error_subcode': 33, 'fbtrace_id': 'AFPIIuQ8aHklAxf1VhXigLz'}}
+2026-05-10 13:45:34.275539 - No comments found for AI reply
+2026-05-10 13:45:34.275981 - Scanning post comments: 105834518183309_1550143470455484
+2026-05-10 13:45:34.632571 - No new comments required AI reply
+2026-05-10 13:45:34.632884 - Scanning reel/video comments: 2477044379409805.0
+2026-05-10 13:45:34.765858 - Comment fetch failed: {'error': {'message': "Unsupported get request. Object with ID '2477044379409805.0' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api", 'type': 'GraphMethodException', 'code': 100, 'error_subcode': 33, 'fbtrace_id': 'A08wcg3A-t4i1qpxZjzyBsg'}}
+2026-05-10 13:45:34.766871 - No comments found for AI reply
+2026-05-10 13:45:34.767327 - Scanning post comments: 105834518183309_1550156170454214
+2026-05-10 13:45:34.986940 - No new comments required AI reply
+2026-05-10 13:45:34.987262 - Scanning reel/video comments: 1008953445121737.0
+2026-05-10 13:45:35.120508 - Comment fetch failed: {'error': {'message': "Unsupported get request. Object with ID '1008953445121737.0' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api", 'type': 'GraphMethodException', 'code': 100, 'error_subcode': 33, 'fbtrace_id': 'Ayndq3FRJjnn51t-HuIVZRu'}}
+2026-05-10 13:45:35.121319 - No comments found for AI reply
+2026-05-10 13:45:35.121767 - Scanning post comments: 105834518183309_1550178680451963
+2026-05-10 13:45:35.382188 - No new comments required AI reply
+2026-05-10 13:45:35.382511 - Scanning reel/video comments: 863293589360316.0
+2026-05-10 13:45:35.513085 - Comment fetch failed: {'error': {'message': "Unsupported get request. Object with ID '863293589360316.0' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api", 'type': 'GraphMethodException', 'code': 100, 'error_subcode': 33, 'fbtrace_id': 'AWVeifhsmM4CMDkUbXqB6m_'}}
+2026-05-10 13:45:35.513990 - No comments found for AI reply
+2026-05-10 13:45:35.514098 - AI comment worker completed. Sources scanned: 32
