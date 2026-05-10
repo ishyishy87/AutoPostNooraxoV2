@@ -962,3 +962,67 @@ Order ke liye abhi inbox karein.
 2026-05-10 14:50:13.870413 - Video cleanup completed. Deleted files: 1
 2026-05-10 14:50:13.870462 - Step 6 Completed: Video folder cleaned
 2026-05-10 14:50:13.870500 - Automation finished successfully
+2026-05-10 15:32:10.638379 - AI Analytics worker started
+2026-05-10 15:32:10.642386 - Analytics scanning post: 105834518183309_1548707790599052
+2026-05-10 15:32:11.267083 - Analytics scanning post: 105834518183309_1548951090574722
+2026-05-10 15:32:11.874168 - Analytics scanning post: 105834518183309_1549158777220620
+2026-05-10 15:32:13.312438 - Analytics scanning post: 105834518183309_1549278827208615
+2026-05-10 15:32:14.003262 - Analytics scanning post: 105834518183309_1549290120540819
+2026-05-10 15:32:14.662383 - Analytics scanning post: 105834518183309_1549305133872651
+2026-05-10 15:32:15.118164 - Analytics scanning post: 105834518183309_1549313450538486
+2026-05-10 15:32:15.509480 - Analytics scanning post: 105834518183309_1549390790530752
+2026-05-10 15:32:15.912389 - Analytics scanning reel/video: 1293782798975525
+2026-05-10 15:32:16.165730 - Analytics reactions count failed for 1293782798975525: {'error': {'message': '(#100) Tried accessing nonexisting field (reactions)', 'type': 'OAuthException', 'code': 100, 'fbtrace_id': 'A_Y6hdVAuGCFrgsbfbAlFDJ'}}
+2026-05-10 15:32:16.260393 - Video insights failed for 1293782798975525: {'error': {'message': '(#200) read_insights permission missing (https://developers.facebook.com/docs/permissions/reference/read_insights)', 'type': 'OAuthException', 'code': 200, 'fbtrace_id': 'A9-cYGyGsp3x8DPU8C05iDa'}}
+2026-05-10 15:32:16.261874 - Analytics scanning post: 105834518183309_1549431853859979
+2026-05-10 15:32:16.815711 - Analytics scanning reel/video: 1406852084542635
+2026-05-10 15:32:17.084758 - Analytics reactions count failed for 1406852084542635: {'error': {'message': '(#100) Tried accessing nonexisting field (reactions)', 'type': 'OAuthException', 'code': 100, 'fbtrace_id': 'AqBbEgFnpAlZV-YcambmpBB'}}
+2026-05-10 15:32:17.199837 - Video insights failed for 1406852084542635: {'error': {'message': '(#200) read_insights permission missing (https://developers.facebook.com/docs/permissions/reference/read_insights)', 'type': 'OAuthException', 'code': 200, 'fbtrace_id': 'AzEkDmhQNFIU4f0wpL9RVlM'}}
+2026-05-10 15:32:17.201125 - Analytics scanning post: 105834518183309_1549472983855866
+2026-05-10 15:32:17.581901 - Analytics scanning reel/video: 2032775197631595.2
+2026-05-10 15:32:17.671956 - Analytics comments count failed for 2032775197631595.2: {'error': {'message': "Unsupported get request. Object with ID '2032775197631595.2' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api", 'type': 'GraphMethodException', 'code': 100, 'error_subcode': 33, 'fbtrace_id': 'AcNb0kEPlz7YWcXFh4bUVAZ'}}
+2026-05-10 15:32:17.742523 - Analytics reactions count failed for 2032775197631595.2: {'error': {'message': "Unsupported get request. Object with ID '2032775197631595.2' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api", 'type': 'GraphMethodException', 'code': 100, 'error_subcode': 33, 'fbtrace_id': 'AlEdICzPkE2ed0n3Gb-A0cE'}}
+2026-05-10 15:32:17.815957 - Video insights failed for 2032775197631595.2: {'error': {'message': "Unsupported get request. Object with ID '2032775197631595.2' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api", 'type': 'GraphMethodException', 'code': 100, 'error_subcode': 33, 'fbtrace_id': 'A_KCjKWfCrCi6fY5JWe90Re'}}
+2026-05-10 15:32:17.817093 - Analytics scanning post: 105834518183309_1549489377187560
+2026-05-10 15:32:18.227229 - Analytics scanning reel/video: 1466013008598618
+2026-05-10 15:32:18.450283 - Analytics reactions count failed for 1466013008598618: {'error': {'message': '(#100) Tried accessing nonexisting field (reactions)', 'type': 'OAuthException', 'code': 100, 'fbtrace_id': 'Aab8bRyJGooQt8f5W78Dc7W'}}
+2026-05-10 15:32:18.548447 - Video insights failed for 1466013008598618: {'error': {'message': '(#200) read_insights permission missing (https://developers.facebook.com/docs/permissions/reference/read_insights)', 'type': 'OAuthException', 'code': 200, 'fbtrace_id': 'Ai_fSBjj-nJ73DJBhaTp6LT'}}
+2026-05-10 15:32:18.549965 - Analytics scanning post: 105834518183309_1549500470519784
+2026-05-10 15:32:18.917477 - Analytics scanning reel/video: 2.580952956872409e+16
+2026-05-10 15:32:18.990146 - Analytics comments count failed for 2.580952956872409e+16: {'error': {'message': "Unsupported get request. Object with ID '2.580952956872409e+16' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api", 'type': 'GraphMethodException', 'code': 100, 'error_subcode': 33, 'fbtrace_id': 'AQ_bSIJy462PKVK1SqkgLPS'}}
+2026-05-10 15:32:19.077859 - Analytics reactions count failed for 2.580952956872409e+16: {'error': {'message': "Unsupported get request. Object with ID '2.580952956872409e+16' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api", 'type': 'GraphMethodException', 'code': 100, 'error_subcode': 33, 'fbtrace_id': 'A48S-2RqXUHJE-p3i2eRWob'}}
+2026-05-10 15:32:19.151544 - Video insights failed for 2.580952956872409e+16: {'error': {'message': "Unsupported get request. Object with ID '2.580952956872409e+16' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api", 'type': 'GraphMethodException', 'code': 100, 'error_subcode': 33, 'fbtrace_id': 'Ab-g2D5bPpmect1NWjXUyl9'}}
+2026-05-10 15:32:19.152862 - Analytics scanning post: 105834518183309_1549523633850801
+2026-05-10 15:32:19.537468 - Analytics scanning reel/video: 1476201400961328
+2026-05-10 15:32:19.753624 - Analytics reactions count failed for 1476201400961328: {'error': {'message': '(#100) Tried accessing nonexisting field (reactions)', 'type': 'OAuthException', 'code': 100, 'fbtrace_id': 'ARNGOB0eO1sxB7pUF2Cy0-M'}}
+2026-05-10 15:32:19.852915 - Video insights failed for 1476201400961328: {'error': {'message': '(#200) read_insights permission missing (https://developers.facebook.com/docs/permissions/reference/read_insights)', 'type': 'OAuthException', 'code': 200, 'fbtrace_id': 'AVdvBll3OILPQOfsazNLlMD'}}
+2026-05-10 15:32:19.854458 - Analytics scanning post: 105834518183309_1549591183844046
+2026-05-10 15:32:20.343852 - Analytics scanning reel/video: 977268515021676
+2026-05-10 15:32:20.568231 - Analytics reactions count failed for 977268515021676: {'error': {'message': '(#100) Tried accessing nonexisting field (reactions)', 'type': 'OAuthException', 'code': 100, 'fbtrace_id': 'AexZiYgbh4GC367nwhfFp4t'}}
+2026-05-10 15:32:20.660964 - Video insights failed for 977268515021676: {'error': {'message': '(#200) read_insights permission missing (https://developers.facebook.com/docs/permissions/reference/read_insights)', 'type': 'OAuthException', 'code': 200, 'fbtrace_id': 'ANYfY5cKSg_0fgnZBfAF14o'}}
+2026-05-10 15:32:20.662263 - Analytics scanning post: 105834518183309_1550054067131091
+2026-05-10 15:32:21.060746 - Analytics scanning reel/video: 2152037468894511.2
+2026-05-10 15:32:21.127897 - Analytics comments count failed for 2152037468894511.2: {'error': {'message': "Unsupported get request. Object with ID '2152037468894511.2' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api", 'type': 'GraphMethodException', 'code': 100, 'error_subcode': 33, 'fbtrace_id': 'AaURAcVrFl8j44D5iAA7sOi'}}
+2026-05-10 15:32:21.202272 - Analytics reactions count failed for 2152037468894511.2: {'error': {'message': "Unsupported get request. Object with ID '2152037468894511.2' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api", 'type': 'GraphMethodException', 'code': 100, 'error_subcode': 33, 'fbtrace_id': 'AhmEKGMineObLisYerVX0_k'}}
+2026-05-10 15:32:21.287467 - Video insights failed for 2152037468894511.2: {'error': {'message': "Unsupported get request. Object with ID '2152037468894511.2' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api", 'type': 'GraphMethodException', 'code': 100, 'error_subcode': 33, 'fbtrace_id': 'AJ_LnFqFlF639BQKSKTasgg'}}
+2026-05-10 15:32:21.288795 - Analytics scanning post: 105834518183309_1550136320456199
+2026-05-10 15:32:21.693481 - Analytics scanning reel/video: 1794960628541039
+2026-05-10 15:32:22.019042 - Analytics reactions count failed for 1794960628541039: {'error': {'message': '(#100) Tried accessing nonexisting field (reactions)', 'type': 'OAuthException', 'code': 100, 'fbtrace_id': 'AsOO0RY3fgHh9FXmBNYPyzC'}}
+2026-05-10 15:32:22.115981 - Video insights failed for 1794960628541039: {'error': {'message': '(#200) read_insights permission missing (https://developers.facebook.com/docs/permissions/reference/read_insights)', 'type': 'OAuthException', 'code': 200, 'fbtrace_id': 'ASrPmC2R02lhcgWK9_qr0FM'}}
+2026-05-10 15:32:22.117242 - Analytics scanning post: 105834518183309_1550143470455484
+2026-05-10 15:32:22.519901 - Analytics scanning reel/video: 2477044379409805
+2026-05-10 15:32:22.743187 - Analytics reactions count failed for 2477044379409805: {'error': {'message': '(#100) Tried accessing nonexisting field (reactions)', 'type': 'OAuthException', 'code': 100, 'fbtrace_id': 'AOEq0tMCPtDLlG8atvDJSfL'}}
+2026-05-10 15:32:22.834024 - Video insights failed for 2477044379409805: {'error': {'message': '(#200) read_insights permission missing (https://developers.facebook.com/docs/permissions/reference/read_insights)', 'type': 'OAuthException', 'code': 200, 'fbtrace_id': 'AQ9AOUgFAtwC43k0GYIkHZ6'}}
+2026-05-10 15:32:22.835220 - Analytics scanning post: 105834518183309_1550156170454214
+2026-05-10 15:32:23.583396 - Analytics scanning reel/video: 1008953445121737
+2026-05-10 15:32:23.804667 - Analytics reactions count failed for 1008953445121737: {'error': {'message': '(#100) Tried accessing nonexisting field (reactions)', 'type': 'OAuthException', 'code': 100, 'fbtrace_id': 'AxgXYr6wp9eK7ZgjWnqobov'}}
+2026-05-10 15:32:23.901154 - Video insights failed for 1008953445121737: {'error': {'message': '(#200) read_insights permission missing (https://developers.facebook.com/docs/permissions/reference/read_insights)', 'type': 'OAuthException', 'code': 200, 'fbtrace_id': 'A7mBjZni4ZERkfpqLE8J05I'}}
+2026-05-10 15:32:23.902438 - Analytics scanning post: 105834518183309_1550178680451963
+2026-05-10 15:32:24.277003 - Analytics scanning reel/video: 863293589360316
+2026-05-10 15:32:24.497643 - Analytics reactions count failed for 863293589360316: {'error': {'message': '(#100) Tried accessing nonexisting field (reactions)', 'type': 'OAuthException', 'code': 100, 'fbtrace_id': 'A5AxHoblmLaWaDNAE8UZ7Ig'}}
+2026-05-10 15:32:24.592809 - Video insights failed for 863293589360316: {'error': {'message': '(#200) read_insights permission missing (https://developers.facebook.com/docs/permissions/reference/read_insights)', 'type': 'OAuthException', 'code': 200, 'fbtrace_id': 'Ai-9r83TzvelB9wN5qAEZVn'}}
+2026-05-10 15:32:24.594278 - Analytics scanning post: 105834518183309_1550358787100619
+2026-05-10 15:32:24.999676 - Analytics scanning reel/video: 957591029936055
+2026-05-10 15:32:25.269378 - Analytics reactions count failed for 957591029936055: {'error': {'message': '(#100) Tried accessing nonexisting field (reactions)', 'type': 'OAuthException', 'code': 100, 'fbtrace_id': 'A8CmA_oAsKHjwvWTDN2dbVw'}}
+2026-05-10 15:32:25.369928 - Video insights failed for 957591029936055: {'error': {'message': '(#200) read_insights permission missing (https://developers.facebook.com/docs/permissions/reference/read_insights)', 'type': 'OAuthException', 'code': 200, 'fbtrace_id': 'ARW2M6BnASkL4RPWAa5ULCC'}}
+2026-05-10 15:32:25.372750 - AI Analytics completed. Rows updated: 21
