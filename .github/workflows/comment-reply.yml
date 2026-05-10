@@ -38,6 +38,6 @@ jobs:
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "actions@github.com"
-          git add comment_memory.csv run_log.txt || true
+          git add comment_memory.csv lead_memory.csv run_log.txt || true
           git commit -m "AI comment reply update" || echo "No changes"
           git push || echo "No push needed"
