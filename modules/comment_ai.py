@@ -1,5 +1,5 @@
 import random
-
+from modules.lead_funnel import is_lead_comment, generate_lead_reply
 
 def detect_comment_intent(comment_text):
     text = str(comment_text).lower()
@@ -23,6 +23,9 @@ def detect_comment_intent(comment_text):
 
 
 def generate_comment_reply(comment_text, title="", price=""):
+
+    if is_lead_comment(comment_text):
+        return generate_lead_reply(comment_text, title, price)
     intent = detect_comment_intent(comment_text)
 
     replies = {
