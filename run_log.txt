@@ -1246,3 +1246,51 @@ Cash on Delivery available hai.
 2026-05-10 16:29:27.164898 - Video cleanup completed. Deleted files: 1
 2026-05-10 16:29:27.164942 - Step 6 Completed: Video folder cleaned
 2026-05-10 16:29:27.164984 - Automation finished successfully
+2026-05-10 16:34:16.071602 - AI Analytics worker started
+2026-05-10 16:34:16.075260 - Analytics scanning post: 105834518183309_1548951090574722
+2026-05-10 16:34:16.316986 - Analytics scanning post: 105834518183309_1549158777220620
+2026-05-10 16:34:16.655208 - Analytics scanning post: 105834518183309_1549278827208615
+2026-05-10 16:34:16.934636 - Analytics scanning post: 105834518183309_1549290120540819
+2026-05-10 16:34:17.142534 - Analytics scanning post: 105834518183309_1549305133872651
+2026-05-10 16:34:17.358910 - Analytics scanning post: 105834518183309_1549313450538486
+2026-05-10 16:34:17.582513 - Analytics scanning post: 105834518183309_1549390790530752
+2026-05-10 16:34:17.813220 - Analytics scanning reel/video: 1293782798975525
+2026-05-10 16:34:18.513098 - Video insight metric failed for 1293782798975525 | post_video_views: {'error': {'message': 'An unknown error has occurred.', 'type': 'OAuthException', 'code': 1, 'fbtrace_id': 'AeND2cwkbdVNUjjryfG4Hql'}}
+2026-05-10 16:34:19.683249 - Analytics scanning post: 105834518183309_1549431853859979
+2026-05-10 16:34:20.586662 - Analytics scanning reel/video: 1406852084542635
+2026-05-10 16:34:21.443571 - Video insight metric failed for 1406852084542635 | post_video_views: {'error': {'message': 'An unknown error has occurred.', 'type': 'OAuthException', 'code': 1, 'fbtrace_id': 'AsKUVVcZgyqCgqFfjQXrWFF'}}
+2026-05-10 16:34:21.740302 - Analytics scanning post: 105834518183309_1549472983855866
+2026-05-10 16:34:22.032552 - Analytics scanning reel/video: 2032775197631595
+2026-05-10 16:34:22.825040 - Video insight metric failed for 2032775197631595 | post_video_views: {'error': {'message': 'An unknown error has occurred.', 'type': 'OAuthException', 'code': 1, 'fbtrace_id': 'Aj0spEEo9M_df-NcM5y59Uq'}}
+2026-05-10 16:34:23.076645 - Analytics scanning post: 105834518183309_1549489377187560
+2026-05-10 16:34:23.379910 - Analytics scanning reel/video: 1466013008598618
+2026-05-10 16:34:24.160594 - Video insight metric failed for 1466013008598618 | post_video_views: {'error': {'message': 'An unknown error has occurred.', 'type': 'OAuthException', 'code': 1, 'fbtrace_id': 'Atbg7toUJiMAJkxu3A0qRxS'}}
+2026-05-10 16:34:24.728248 - Analytics scanning post: 105834518183309_1549500470519784
+2026-05-10 16:34:25.043695 - Analytics scanning post: 105834518183309_1549523633850801
+2026-05-10 16:34:25.347513 - Analytics scanning reel/video: 1476201400961328
+2026-05-10 16:34:26.123176 - Video insight metric failed for 1476201400961328 | post_video_views: {'error': {'message': 'An unknown error has occurred.', 'type': 'OAuthException', 'code': 1, 'fbtrace_id': 'A0LcAjTR-ykAu_vY5a7Bncr'}}
+2026-05-10 16:34:26.364301 - Analytics scanning post: 105834518183309_1549591183844046
+2026-05-10 16:34:26.862037 - Analytics scanning reel/video: 977268515021676
+2026-05-10 16:34:27.658757 - Video insight metric failed for 977268515021676 | post_video_views: {'error': {'message': 'An unknown error has occurred.', 'type': 'OAuthException', 'code': 1, 'fbtrace_id': 'AJT8r43pVVLe6_VRQwLDVLf'}}
+2026-05-10 16:34:27.906539 - Analytics scanning post: 105834518183309_1550054067131091
+2026-05-10 16:34:28.167656 - Analytics scanning reel/video: 2152037468894511
+2026-05-10 16:34:28.933653 - Video insight metric failed for 2152037468894511 | post_video_views: {'error': {'message': 'An unknown error has occurred.', 'type': 'OAuthException', 'code': 1, 'fbtrace_id': 'AKSs4rH0V-eTXy1IEtgRYt_'}}
+2026-05-10 16:34:29.198368 - Analytics scanning post: 105834518183309_1550136320456199
+2026-05-10 16:34:29.506784 - Analytics scanning reel/video: 1794960628541039
+2026-05-10 16:34:30.262716 - Video insight metric failed for 1794960628541039 | post_video_views: {'error': {'message': 'An unknown error has occurred.', 'type': 'OAuthException', 'code': 1, 'fbtrace_id': 'Asn5iT69Kt-WWGUY336M9_i'}}
+2026-05-10 16:34:31.064752 - Analytics scanning post: 105834518183309_1550143470455484
+2026-05-10 16:34:31.348197 - Analytics scanning reel/video: 2477044379409805
+2026-05-10 16:34:32.068250 - Video insight metric failed for 2477044379409805 | post_video_views: {'error': {'message': 'An unknown error has occurred.', 'type': 'OAuthException', 'code': 1, 'fbtrace_id': 'ARhb0QmjGTu3xGKs_UMKJe_'}}
+2026-05-10 16:34:32.324601 - Analytics scanning post: 105834518183309_1550156170454214
+2026-05-10 16:34:32.579983 - Analytics scanning reel/video: 1008953445121737
+2026-05-10 16:34:34.343950 - Video insight metric failed for 1008953445121737 | post_video_views: {'error': {'message': 'An unknown error has occurred.', 'type': 'OAuthException', 'code': 1, 'fbtrace_id': 'ApUdh3rImaJX99bbI_21Edl'}}
+2026-05-10 16:34:34.575986 - Analytics scanning post: 105834518183309_1550178680451963
+2026-05-10 16:34:34.878395 - Analytics scanning reel/video: 863293589360316
+2026-05-10 16:34:35.653398 - Video insight metric failed for 863293589360316 | post_video_views: {'error': {'message': 'An unknown error has occurred.', 'type': 'OAuthException', 'code': 1, 'fbtrace_id': 'A4qZTMc01RqyPdc7yilhj6_'}}
+2026-05-10 16:34:35.944361 - Analytics scanning post: 105834518183309_1550358787100619
+2026-05-10 16:34:36.229208 - Analytics scanning reel/video: 957591029936055
+2026-05-10 16:34:36.970283 - Video insight metric failed for 957591029936055 | post_video_views: {'error': {'message': 'An unknown error has occurred.', 'type': 'OAuthException', 'code': 1, 'fbtrace_id': 'A5dKiMZLnRFNZe6NkryO43E'}}
+2026-05-10 16:34:37.203217 - Analytics scanning post: 105834518183309_1550435473759617
+2026-05-10 16:34:37.501252 - Analytics scanning reel/video: 2043720306188402
+2026-05-10 16:34:38.404758 - Video insight metric failed for 2043720306188402 | post_video_views: {'error': {'message': 'An unknown error has occurred.', 'type': 'OAuthException', 'code': 1, 'fbtrace_id': 'AM9SazfebnolYu71My3UPZT'}}
+2026-05-10 16:34:38.670323 - AI Analytics completed. Rows updated: 21
