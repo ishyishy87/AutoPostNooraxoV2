@@ -13,9 +13,17 @@ from modules.logger import log
 from modules.comment_ai import generate_comment_reply
 from modules.lead_funnel import is_lead_comment, build_whatsapp_order_link, save_lead
 
+
 def load_comment_memory():
     if not os.path.exists(COMMENT_MEMORY_FILE):
-        df = pd.DataFrame(columns=["comment_id", "post_id", "reply", "date"])
+        df = pd.DataFrame(columns=[
+            "comment_id",
+            "post_id",
+            "reply",
+            "commenter_name",
+            "commenter_id",
+            "date"
+        ])
         df.to_csv(COMMENT_MEMORY_FILE, index=False)
         return df
 
@@ -50,11 +58,36 @@ def get_post_comments(post_id):
         return []
 
 
-def reply_to_comment(comment_id, reply_text):
+def build_personalized_reply(reply_text, commenter_id=None, commenter_name=None):
+    """
+    Adds commenter mention/name so the reply feels personal.
+    If Facebook allows ID mention, it may render as a tagged mention.
+    If not, it falls back to visible name text.
+    """
+
+    reply_text = str(reply_text).strip()
+
+    if commenter_id:
+        return f"@[{commenter_id}] {reply_text}"
+
+    if commenter_name:
+        first_name = str(commenter_name).split()[0]
+        return f"{first_name}, {reply_text}"
+
+    return reply_text
+
+
+def reply_to_comment(comment_id, reply_text, commenter_id=None, commenter_name=None):
     url = f"https://graph.facebook.com/v20.0/{comment_id}/comments"
 
+    final_reply = build_personalized_reply(
+        reply_text=reply_text,
+        commenter_id=commenter_id,
+        commenter_name=commenter_name
+    )
+
     payload = {
-        "message": reply_text,
+        "message": final_reply,
         "access_token": ACCESS_TOKEN,
     }
 
@@ -64,14 +97,14 @@ def reply_to_comment(comment_id, reply_text):
 
         if "id" in data:
             log(f"AI comment reply sent: {comment_id}")
-            return True
+            return True, final_reply
 
         log(f"AI comment reply failed: {data}")
-        return False
+        return False, final_reply
 
     except Exception as e:
         log(f"AI comment reply error: {e}")
-        return False
+        return False, final_reply
 
 
 def process_post_comments(post_id, title="", price=""):
@@ -98,6 +131,10 @@ def process_post_comments(post_id, title="", price=""):
         comment_id = str(comment.get("id", ""))
         message = str(comment.get("message", "")).strip()
 
+        commenter = comment.get("from", {}) or {}
+        commenter_id = commenter.get("id")
+        commenter_name = commenter.get("name")
+
         if not comment_id or not message:
             continue
 
@@ -110,13 +147,20 @@ def process_post_comments(post_id, title="", price=""):
             wa_link = build_whatsapp_order_link(title, price, "facebook_comment")
             save_lead(comment_id, post_id, title, price, wa_link)
 
-        ok = reply_to_comment(comment_id, reply)
+        ok, final_reply = reply_to_comment(
+            comment_id=comment_id,
+            reply_text=reply,
+            commenter_id=commenter_id,
+            commenter_name=commenter_name
+        )
 
         if ok:
             new_rows.append({
                 "comment_id": comment_id,
                 "post_id": post_id,
-                "reply": reply,
+                "reply": final_reply,
+                "commenter_name": commenter_name or "",
+                "commenter_id": commenter_id or "",
                 "date": str(pd.Timestamp.now()),
             })
 
