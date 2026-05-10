@@ -5,6 +5,27 @@ from modules.logger import log
 from modules.comment_reply import process_post_comments
 
 
+COMMENT_SCAN_LIMIT = 21   # 3 posts daily x 7 days = 21
+
+
+def clean_value(value):
+    value = str(value).strip()
+
+    if value.lower() in ["", "nan", "none", "null"]:
+        return ""
+
+    return value
+
+
+def extract_post_id_from_url(post_url):
+    post_url = clean_value(post_url)
+
+    if "facebook.com/" not in post_url:
+        return ""
+
+    return post_url.split("facebook.com/")[-1].strip()
+
+
 def main():
     log("AI comment worker started")
 
@@ -18,21 +39,34 @@ def main():
         log("Comment worker stopped - memory empty")
         return
 
-    latest_rows = memory.tail(35)
+    latest_rows = memory.tail(COMMENT_SCAN_LIMIT)
+
+    processed_count = 0
 
     for _, row in latest_rows.iterrows():
-        post_url = str(row.get("post_url", ""))
-        title = str(row.get("product_id", ""))
-        price = str(row.get("price", ""))
+        title = clean_value(row.get("product_id", ""))
+        price = clean_value(row.get("price", ""))
 
-        if "facebook.com/" not in post_url:
-            continue
+        # ===== FACEBOOK POST COMMENTS =====
 
-        post_id = post_url.split("facebook.com/")[-1].strip()
+        post_url = clean_value(row.get("post_url", ""))
+        post_id = extract_post_id_from_url(post_url)
 
-        process_post_comments(post_id, title, price)
+        if post_id:
+            log(f"Scanning post comments: {post_id}")
+            process_post_comments(post_id, title, price)
+            processed_count += 1
 
-    log("AI comment worker completed")
+        # ===== FACEBOOK REEL / VIDEO COMMENTS =====
+
+        reel_id = clean_value(row.get("reel_id", ""))
+
+        if reel_id:
+            log(f"Scanning reel/video comments: {reel_id}")
+            process_post_comments(reel_id, title, price)
+            processed_count += 1
+
+    log(f"AI comment worker completed. Sources scanned: {processed_count}")
 
 
 if __name__ == "__main__":
