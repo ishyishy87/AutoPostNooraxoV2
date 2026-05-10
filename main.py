@@ -204,21 +204,21 @@ def main():
         create_comment(post_id, auto_comment_text)
 
     log("Step 4 Completed: Facebook post and reel published successfully")
-
+    
     whatsapp_msg = f"""
-✅ New Facebook content published!
+    ✅ New Facebook content published!
 
-🛍 Product: {title}
-💸 Price: Rs {final_price}
+    🛍 Product: {title}
+    💸 Price: Rs {final_price}
 
-📌 Post:
-{post_url}
+    📌 Post:
+    {post_url}
 
-🎬 Reel:
-https://facebook.com/{reel_id}
-""".strip()
+    🎬 Reel:
+    https://facebook.com/{reel_id}
+    """.strip()
 
-send_whatsapp_message(whatsapp_msg)
+    send_whatsapp_message(whatsapp_msg)
 
     # ===== STEP 5: MEMORY UPDATE =====
 
