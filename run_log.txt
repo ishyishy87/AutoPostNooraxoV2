@@ -1205,3 +1205,44 @@ Order ke liye abhi inbox karein.
 2026-05-10 16:23:12.904103 - Analytics scanning post: 105834518183309_1550358787100619
 2026-05-10 16:23:13.246043 - Analytics scanning reel/video: 957591029936055
 2026-05-10 16:23:13.892917 - AI Analytics completed. Rows updated: 21
+2026-05-10 16:28:02.013902 - Automation started
+2026-05-10 16:28:02.063019 - Found 2 images
+2026-05-10 16:28:04.008033 - Step 1 Completed: Product selected | Product ID: Pe-54-00-00-543 | Title: Bioplex Hair Protein Treatment 100g No Damage Formula for Bleaching and Coloring with Protein Balls | Score: 8
+2026-05-10 16:28:04.008807 - Step 2 Completed: Local AI content generated | Category: beauty | Hook: urgency
+2026-05-10 16:28:05.070818 - Image uploaded successfully: 1550434810426350
+2026-05-10 16:28:06.071138 - Image uploaded successfully: 1550434843759680
+2026-05-10 16:28:06.072028 - Uploaded images: 2
+2026-05-10 16:28:06.072447 - Voiceover skipped - ELEVENLABS_VOICE_ID missing
+2026-05-10 16:28:06.072511 - Voice-aware scene duration selected: 3.20s
+2026-05-10 16:28:06.072549 - Voiceover script: Assalam o Alaikum!
+
+Agar aap quality ke sath value bhi chahte hain,
+to Bioplex Hair Protein Treatment 100g No Damage Formula for Bleaching and Coloring with Protein Balls zaroor check karein.
+
+Is mein milta hai... daily routine ke liye useful.
+Aur sath hi... fresh look and feel.
+
+Price sirf Rs 1099.
+
+Cash on Delivery available hai.
+2026-05-10 16:28:07.434843 - Selected online music: https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3
+2026-05-10 16:28:09.520421 - Music downloaded: /tmp/music_20260510_162807.mp3
+2026-05-10 16:28:09.536219 - Music speed adjustment skipped: module 'moviepy.audio.fx.all' has no attribute 'speedx'
+2026-05-10 16:28:09.536553 - Slow low-volume background music added to reel audio mix
+2026-05-10 16:28:58.945666 - Final reel has audio before upload
+2026-05-10 16:28:58.945798 - Cinematic reel video created: videos/reel_20260510_162807.mp4
+2026-05-10 16:28:58.945858 - Step 3 Completed: Facebook images uploaded and reel created | Reel style: voice_first_product_focused_minimal_text
+2026-05-10 16:29:07.064232 - Carousel post published successfully: 105834518183309_1550435473759617
+2026-05-10 16:29:14.215321 - Reel/video uploaded successfully: 2043720306188402
+2026-05-10 16:29:17.150875 - Auto comment posted: 1550435473759617_1512473176984343
+2026-05-10 16:29:17.151886 - Step 4 Completed: Facebook post and reel published successfully
+2026-05-10 16:29:17.625794 - Lead saved from comment: 1550435473759617_1512473176984343
+2026-05-10 16:29:25.610929 - AI comment reply sent: 1550435473759617_1512473176984343
+2026-05-10 16:29:25.614390 - AI comment replies completed: 1
+2026-05-10 16:29:26.657221 - WhatsApp alert sent successfully: {'messaging_product': 'whatsapp', 'contacts': [{'input': '923169250202', 'wa_id': '923169250202'}], 'messages': [{'id': 'wamid.HBgMOTIzMTY5MjUwMjAyFQIAERgSRUY4N0FENjg5QzhENDdFRDJBAA=='}]}
+2026-05-10 16:29:27.160198 - WhatsApp alert sent successfully: {'messaging_product': 'whatsapp', 'contacts': [{'input': '923169250202', 'wa_id': '923169250202'}], 'messages': [{'id': 'wamid.HBgMOTIzMTY5MjUwMjAyFQIAERgSOEFCNjcyQTQ5RTVCQzI5RThCAA=='}]}
+2026-05-10 16:29:27.164517 - Step 5 Completed: Memory updated and run locked
+2026-05-10 16:29:27.164837 - Deleted video file: videos/reel_20260510_162807.mp4
+2026-05-10 16:29:27.164898 - Video cleanup completed. Deleted files: 1
+2026-05-10 16:29:27.164942 - Step 6 Completed: Video folder cleaned
+2026-05-10 16:29:27.164984 - Automation finished successfully
