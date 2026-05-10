@@ -334,3 +334,42 @@ Cash on Delivery available hai.
 2026-05-10 09:45:24.634493 - Video cleanup completed. Deleted files: 1
 2026-05-10 09:45:24.634522 - Step 6 Completed: Video folder cleaned
 2026-05-10 09:45:24.634555 - Automation finished successfully
+2026-05-10 09:53:56.437567 - Automation started
+2026-05-10 09:53:56.486822 - Found 7 images
+2026-05-10 09:54:02.892461 - Step 1 Completed: Product selected | Product ID: Pe-55-00-12-55 | Title: SUNISA 3-in-1 Air Cushion CC & BB Cream | Waterproof Moisturizing Foundation with Sponge | Score: 8
+2026-05-10 09:54:02.893113 - Step 2 Completed: Local AI content generated | Category: beauty | Hook: budget
+2026-05-10 09:54:05.119262 - Image uploaded successfully: 1550142703788894
+2026-05-10 09:54:06.894636 - Image uploaded successfully: 1550142750455556
+2026-05-10 09:54:08.867223 - Image uploaded successfully: 1550142783788886
+2026-05-10 09:54:10.766231 - Image uploaded successfully: 1550142833788881
+2026-05-10 09:54:10.767410 - Uploaded images: 4
+2026-05-10 09:54:10.767674 - Voiceover skipped - ELEVENLABS_API_KEY missing
+2026-05-10 09:54:10.767739 - Voice-aware scene duration selected: 3.20s
+2026-05-10 09:54:10.767795 - Voiceover script: Yeh product aap ke kaam aa sakta hai.
+
+Agar aap quality ke sath value bhi chahte hain,
+to SUNISA 3-in-1 Air Cushion CC & BB Cream | Waterproof Moisturizing Foundation with Sponge zaroor check karein.
+
+Is mein milta hai... water resistant support.
+Aur sath hi... daily self care support.
+
+Price sirf Rs 1199.
+
+Cash on Delivery available hai.
+2026-05-10 09:54:12.236699 - Selected online music: https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3
+2026-05-10 09:54:15.549922 - Music downloaded: /tmp/music_20260510_095412.mp3
+2026-05-10 09:54:15.564626 - Music speed adjustment skipped: module 'moviepy.audio.fx.all' has no attribute 'speedx'
+2026-05-10 09:54:15.564949 - Slow low-volume background music added to reel audio mix
+2026-05-10 09:55:03.514921 - Final reel has audio before upload
+2026-05-10 09:55:03.515025 - Cinematic reel video created: videos/reel_20260510_095412.mp4
+2026-05-10 09:55:03.515107 - Step 3 Completed: Facebook images uploaded and reel created | Reel style: voice_first_product_focused_minimal_text
+2026-05-10 09:55:07.792034 - Carousel post published successfully: 105834518183309_1550143470455484
+2026-05-10 09:55:16.023421 - Reel/video uploaded successfully: 2477044379409805
+2026-05-10 09:55:19.181976 - Auto comment posted: 1550143470455484_1271381845167689
+2026-05-10 09:55:19.183029 - Step 4 Completed: Facebook post and reel published successfully
+2026-05-10 09:55:19.183140 - WhatsApp alert skipped - WHATSAPP_TOKEN missing
+2026-05-10 09:55:19.186841 - Step 5 Completed: Memory updated and run locked
+2026-05-10 09:55:19.187266 - Deleted video file: videos/reel_20260510_095412.mp4
+2026-05-10 09:55:19.187333 - Video cleanup completed. Deleted files: 1
+2026-05-10 09:55:19.187373 - Step 6 Completed: Video folder cleaned
+2026-05-10 09:55:19.187445 - Automation finished successfully
