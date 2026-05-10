@@ -210,7 +210,7 @@ def main():
 # ===== WHATSAPP SHARE ASSISTANT =====
 
     post_share_msg = f"""
-    🛍 New Product Post is Live!
+    🛍 New Product Post is Live on Nooraxo!
 
     💸 Price: Rs {final_price}
 
@@ -226,7 +226,7 @@ def main():
 
 
     reel_share_msg = f"""
-    🎬 New AI Reel is Live!
+    🎬 New Reel is Live on Nooraxo!
 
     💸 Price: Rs {final_price}
 
