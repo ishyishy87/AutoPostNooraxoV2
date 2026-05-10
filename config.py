@@ -10,6 +10,14 @@ RUN_LOCK_FILE = "run_lock.txt"
 ACCESS_TOKEN = os.getenv("ACCESS_TOKEN")
 PAGE_ID = os.getenv("PAGE_ID")
 
+# ================= WHATSAPP ALERTS =================
+
+WHATSAPP_ALERT_ENABLED = True
+
+WHATSAPP_TOKEN = os.getenv("WHATSAPP_TOKEN")
+WHATSAPP_PHONE_NUMBER_ID = os.getenv("WHATSAPP_PHONE_NUMBER_ID")
+WHATSAPP_TO_NUMBER = os.getenv("WHATSAPP_TO_NUMBER")
+
 # ================= AUTOMATION =================
 
 POST_ONCE_PER_DAY = True
