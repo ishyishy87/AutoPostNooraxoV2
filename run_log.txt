@@ -410,3 +410,39 @@ Cash on Delivery available hai.
 2026-05-10 10:13:43.908883 - Video cleanup completed. Deleted files: 1
 2026-05-10 10:13:43.908931 - Step 6 Completed: Video folder cleaned
 2026-05-10 10:13:43.908968 - Automation finished successfully
+2026-05-10 10:47:10.605195 - Automation started
+2026-05-10 10:47:10.654833 - Found 1 images
+2026-05-10 10:47:11.719255 - Step 1 Completed: Product selected | Product ID: Pe-59-00-00-599 | Title: Pack of 2 | O’Mayln 24K Gold Firming Essence Mask 30ml | Skin Firming & Anti-Aging Treatment | Score: 8
+2026-05-10 10:47:11.720002 - Step 2 Completed: Local AI content generated | Category: beauty | Hook: budget
+2026-05-10 10:47:13.786900 - Image uploaded successfully: 1550178140452017
+2026-05-10 10:47:13.788103 - Uploaded images: 1
+2026-05-10 10:47:13.788352 - Voiceover skipped - ELEVENLABS_VOICE_ID missing
+2026-05-10 10:47:13.788426 - Voice-aware scene duration selected: 3.20s
+2026-05-10 10:47:13.788486 - Voiceover script: Yeh product aap ke kaam aa sakta hai.
+
+Agar aap daily use ke liye smart choice chahte hain,
+to yeh Pack of 2 | O’Mayln 24K Gold Firming Essence Mask 30ml | Skin Firming & Anti-Aging Treatment aap ki routine ko easy bana sakta hai.
+
+Is mein milta hai... daily self care support.
+Aur sath hi... daily routine ke liye useful.
+
+Price sirf Rs 499.
+
+Cash on Delivery available hai.
+2026-05-10 10:47:15.180210 - Selected online music: https://www.soundhelix.com/examples/mp3/SoundHelix-Song-11.mp3
+2026-05-10 10:47:18.526691 - Music downloaded: /tmp/music_20260510_104715.mp3
+2026-05-10 10:47:18.541805 - Music speed adjustment skipped: module 'moviepy.audio.fx.all' has no attribute 'speedx'
+2026-05-10 10:47:18.542182 - Slow low-volume background music added to reel audio mix
+2026-05-10 10:48:08.272534 - Final reel has audio before upload
+2026-05-10 10:48:08.272644 - Cinematic reel video created: videos/reel_20260510_104715.mp4
+2026-05-10 10:48:08.272747 - Step 3 Completed: Facebook images uploaded and reel created | Reel style: voice_first_product_focused_minimal_text
+2026-05-10 10:48:11.867642 - Carousel post published successfully: 105834518183309_1550178680451963
+2026-05-10 10:48:20.387150 - Reel/video uploaded successfully: 863293589360316
+2026-05-10 10:48:24.189348 - Auto comment posted: 1550178680451963_2209412476555394
+2026-05-10 10:48:24.190487 - Step 4 Completed: Facebook post and reel published successfully
+2026-05-10 10:48:25.138173 - WhatsApp alert sent successfully: {'messaging_product': 'whatsapp', 'contacts': [{'input': '923169250202', 'wa_id': '923169250202'}], 'messages': [{'id': 'wamid.HBgMOTIzMTY5MjUwMjAyFQIAERgSMEU2RkFDMUQwQUVBQkMwRDBCAA=='}]}
+2026-05-10 10:48:25.143153 - Step 5 Completed: Memory updated and run locked
+2026-05-10 10:48:25.143563 - Deleted video file: videos/reel_20260510_104715.mp4
+2026-05-10 10:48:25.143631 - Video cleanup completed. Deleted files: 1
+2026-05-10 10:48:25.143680 - Step 6 Completed: Video folder cleaned
+2026-05-10 10:48:25.143743 - Automation finished successfully
