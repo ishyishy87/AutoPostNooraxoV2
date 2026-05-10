@@ -15,13 +15,16 @@ def clean_value(value):
     if value.lower() in ["", "nan", "none", "null"]:
         return ""
 
-    # Fix pandas converting Facebook IDs into float-like / decimal-like strings
-    # Example: 1293782798975525.0 → 1293782798975525
-    # Example: 2152037468894511.2 → 2152037468894511
-    if "." in value:
+    # Remove float ending: 12345.0 -> 12345
+    if "." in value and "e+" not in value.lower():
         left, right = value.split(".", 1)
         if left.isdigit() and right.isdigit():
-            value = left
+            return left
+
+    # Reject scientific notation IDs because precision may be lost
+    if "e+" in value.lower() or "e-" in value.lower():
+        log(f"Invalid Facebook ID detected in scientific notation: {value}")
+        return ""
 
     return value
 
@@ -61,7 +64,7 @@ def main():
         return
 
     try:
-        memory = pd.read_csv(ANALYTICS_MEMORY_FILE, dtype=str)
+        memory = pd.read_csv(ANALYTICS_MEMORY_FILE, dtype=str, keep_default_na=False)
     except Exception as e:
         log(f"AI Analytics failed to read memory: {e}")
         raise SystemExit(1)
