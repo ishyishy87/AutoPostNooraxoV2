@@ -207,20 +207,38 @@ def main():
 
     process_post_comments(post_id, title, final_price)
     
-    whatsapp_msg = f"""
-    ✅ New Facebook content published!
+# ===== WHATSAPP SHARE ASSISTANT =====
 
-    🛍 Product: {title}
-    💸 Price: Rs {final_price}
+post_share_msg = f"""
+🛍 New Product Post is Live!
 
-    📌 Post:
-    {post_url}
+💸 Price: Rs {final_price}
 
-    🎬 Reel:
-    https://facebook.com/{reel_id}
-    """.strip()
+{cap}
 
-    send_whatsapp_message(whatsapp_msg)
+📌 View Facebook Post:
+{post_url}
+
+📲 Share to WhatsApp Status, Groups & Channel
+""".strip()
+
+send_whatsapp_message(post_share_msg)
+
+
+reel_share_msg = f"""
+🎬 New AI Reel is Live!
+
+💸 Price: Rs {final_price}
+
+{reel_caption}
+
+▶️ Watch Reel:
+https://facebook.com/{reel_id}
+
+📲 Share to WhatsApp Status, Groups & Channel
+""".strip()
+
+send_whatsapp_message(reel_share_msg)
 
     # ===== STEP 5: MEMORY UPDATE =====
 
