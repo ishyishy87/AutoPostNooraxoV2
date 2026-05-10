@@ -532,6 +532,17 @@ function App() {
 
   const totalReels = memoryRows.filter((r) => r.reel_id).length;
 
+  const toNumber = (v) => Number(v || 0) || 0;
+
+  const totalLikes = memoryRows.reduce((sum, r) => sum + toNumber(r.likes) + toNumber(r.reel_likes), 0);
+  const totalComments = memoryRows.reduce((sum, r) => sum + toNumber(r.comments) + toNumber(r.reel_comments), 0);
+  const totalShares = memoryRows.reduce((sum, r) => sum + toNumber(r.shares), 0);
+  const totalViews = memoryRows.reduce((sum, r) => sum + toNumber(r.reel_views), 0);
+
+  const bestPost = [...memoryRows].sort(
+    (a, b) => toNumber(b.engagement_score) - toNumber(a.engagement_score)
+  )[0] || {};
+  
   const lastLogLines = useMemo(
     () => logs.split(/\r?\n/).filter(Boolean).slice(-90).reverse(),
     [logs]
