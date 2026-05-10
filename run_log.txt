@@ -919,3 +919,46 @@ Cash on Delivery available hai.
 2026-05-10 14:35:19.305376 - Scanning reel/video comments: 863293589360316
 2026-05-10 14:35:19.819545 - No new comments required AI reply
 2026-05-10 14:35:19.819853 - AI comment worker completed. Sources scanned: 32
+2026-05-10 14:48:45.933076 - Automation started
+2026-05-10 14:48:45.980464 - Found 5 images
+2026-05-10 14:48:49.990534 - Step 1 Completed: Product selected | Product ID: Ho-96-00-00-96 | Title: White & Dark Grey | Marble Sheet Sticker 60x200cm | Waterproof Self-Adhesive PVC Wallpaper for Furniture Walls | Score: 8
+2026-05-10 14:48:49.991092 - Step 2 Completed: Local AI content generated | Category: general | Hook: discovery
+2026-05-10 14:48:51.682082 - Image uploaded successfully: 1550357947100703
+2026-05-10 14:48:53.079644 - Image uploaded successfully: 1550357980434033
+2026-05-10 14:48:54.431246 - Image uploaded successfully: 1550358020434029
+2026-05-10 14:48:55.728161 - Image uploaded successfully: 1550358070434024
+2026-05-10 14:48:55.729075 - Uploaded images: 4
+2026-05-10 14:48:55.729331 - Voiceover skipped - ELEVENLABS_VOICE_ID missing
+2026-05-10 14:48:55.729397 - Voice-aware scene duration selected: 3.20s
+2026-05-10 14:48:55.729425 - Voiceover script: Assalam o Alaikum!
+
+Agar aap kuch useful aur stylish dhoond rahe hain,
+to yeh White & Dark Grey | Marble Sheet Sticker 60x200cm | Waterproof Self-Adhesive PVC Wallpaper for Furniture Walls aap ki routine ko easy bana sakta hai.
+
+Is mein milta hai... water resistant support.
+Aur sath hi... daily use ke liye practical.
+
+Price sirf Rs 599.
+
+Order ke liye abhi inbox karein.
+2026-05-10 14:48:57.006332 - Selected online music: https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3
+2026-05-10 14:49:00.027930 - Music downloaded: /tmp/music_20260510_144857.mp3
+2026-05-10 14:49:00.043524 - Music speed adjustment skipped: module 'moviepy.audio.fx.all' has no attribute 'speedx'
+2026-05-10 14:49:00.043932 - Slow low-volume background music added to reel audio mix
+2026-05-10 14:49:49.369323 - Final reel has audio before upload
+2026-05-10 14:49:49.369419 - Cinematic reel video created: videos/reel_20260510_144857.mp4
+2026-05-10 14:49:49.369492 - Step 3 Completed: Facebook images uploaded and reel created | Reel style: voice_first_product_focused_minimal_text
+2026-05-10 14:49:53.409508 - Carousel post published successfully: 105834518183309_1550358787100619
+2026-05-10 14:50:02.570872 - Reel/video uploaded successfully: 957591029936055
+2026-05-10 14:50:04.811771 - Auto comment posted: 1550358787100619_1544403217243990
+2026-05-10 14:50:04.812717 - Step 4 Completed: Facebook post and reel published successfully
+2026-05-10 14:50:05.067396 - Lead saved from comment: 1550358787100619_1544403217243990
+2026-05-10 14:50:11.543921 - AI comment reply sent: 1550358787100619_1544403217243990
+2026-05-10 14:50:11.547262 - AI comment replies completed: 1
+2026-05-10 14:50:13.279990 - WhatsApp alert sent successfully: {'messaging_product': 'whatsapp', 'contacts': [{'input': '923169250202', 'wa_id': '923169250202'}], 'messages': [{'id': 'wamid.HBgMOTIzMTY5MjUwMjAyFQIAERgSNDIyNEU0REEwQkY3RjhDQkYwAA=='}]}
+2026-05-10 14:50:13.865762 - WhatsApp alert sent successfully: {'messaging_product': 'whatsapp', 'contacts': [{'input': '923169250202', 'wa_id': '923169250202'}], 'messages': [{'id': 'wamid.HBgMOTIzMTY5MjUwMjAyFQIAERgSM0Y0QzNGRkQ5ODM5OTFCQTdFAA=='}]}
+2026-05-10 14:50:13.869983 - Step 5 Completed: Memory updated and run locked
+2026-05-10 14:50:13.870349 - Deleted video file: videos/reel_20260510_144857.mp4
+2026-05-10 14:50:13.870413 - Video cleanup completed. Deleted files: 1
+2026-05-10 14:50:13.870462 - Step 6 Completed: Video folder cleaned
+2026-05-10 14:50:13.870500 - Automation finished successfully
