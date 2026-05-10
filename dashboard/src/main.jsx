@@ -666,6 +666,33 @@ function App() {
               value={runLock || "—"}
               hint="automation run state"
             />
+            <MetricCard
+              icon={Activity}
+              label="Total Likes"
+              value={totalLikes}
+              hint="post + reel reactions"
+            />
+
+          <MetricCard
+            icon={FileText}
+            label="Total Comments"
+            value={totalComments}
+            hint="post + reel comments"
+          />
+
+          <MetricCard
+            icon={ExternalLink}
+            label="Total Shares"
+            value={totalShares}
+            hint="Facebook share count"
+          />
+
+          <MetricCard
+            icon={Video}
+            label="Reel Views"
+            value={totalViews}
+            hint="from analytics worker"
+          />
           </section>
 
           <section className="content-grid">
