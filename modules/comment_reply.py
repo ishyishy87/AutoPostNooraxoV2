@@ -11,7 +11,7 @@ from config import (
 
 from modules.logger import log
 from modules.comment_ai import generate_comment_reply
-
+from modules.lead_funnel import is_lead_comment, build_whatsapp_order_link, save_lead
 
 def load_comment_memory():
     if not os.path.exists(COMMENT_MEMORY_FILE):
@@ -105,6 +105,10 @@ def process_post_comments(post_id, title="", price=""):
             continue
 
         reply = generate_comment_reply(message, title, price)
+
+        if is_lead_comment(message):
+            wa_link = build_whatsapp_order_link(title, price, "facebook_comment")
+            save_lead(comment_id, post_id, title, price, wa_link)
 
         ok = reply_to_comment(comment_id, reply)
 
