@@ -209,36 +209,36 @@ def main():
     
 # ===== WHATSAPP SHARE ASSISTANT =====
 
-post_share_msg = f"""
-🛍 New Product Post is Live!
+    post_share_msg = f"""
+    🛍 New Product Post is Live!
 
-💸 Price: Rs {final_price}
+    💸 Price: Rs {final_price}
 
-{cap}
+    {cap}
 
-📌 View Facebook Post:
-{post_url}
+    📌 View Facebook Post:
+    {post_url}
 
-📲 Share to WhatsApp Status, Groups & Channel
-""".strip()
+    📲 Share to WhatsApp Status, Groups & Channel
+    """.strip()
 
-send_whatsapp_message(post_share_msg)
+    send_whatsapp_message(post_share_msg)
 
 
-reel_share_msg = f"""
-🎬 New AI Reel is Live!
+    reel_share_msg = f"""
+    🎬 New AI Reel is Live!
 
-💸 Price: Rs {final_price}
+    💸 Price: Rs {final_price}
 
-{reel_caption}
+    {reel_caption}
 
-▶️ Watch Reel:
-https://facebook.com/{reel_id}
+    ▶️ Watch Reel:
+    https://facebook.com/{reel_id}
 
-📲 Share to WhatsApp Status, Groups & Channel
-""".strip()
+    📲 Share to WhatsApp Status, Groups & Channel
+    """.strip()
 
-send_whatsapp_message(reel_share_msg)
+    send_whatsapp_message(reel_share_msg)
 
     # ===== STEP 5: MEMORY UPDATE =====
 
