@@ -43,6 +43,12 @@ LEAD_TRIGGER_WORDS = [
     "cod", "cash", "delivery", "inbox", "want", "chahiye"
 ]
 
+# ================= AI ANALYTICS =================
+
+ANALYTICS_ENABLED = True
+ANALYTICS_SCAN_LIMIT = 21
+ANALYTICS_MEMORY_FILE = "memory.csv"
+
 # ================= AUTOMATION =================
 
 POST_ONCE_PER_DAY = True
