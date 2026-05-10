@@ -373,3 +373,40 @@ Cash on Delivery available hai.
 2026-05-10 09:55:19.187333 - Video cleanup completed. Deleted files: 1
 2026-05-10 09:55:19.187373 - Step 6 Completed: Video folder cleaned
 2026-05-10 09:55:19.187445 - Automation finished successfully
+2026-05-10 10:12:26.509336 - Automation started
+2026-05-10 10:12:26.558847 - Found 2 images
+2026-05-10 10:12:28.533915 - Step 1 Completed: Product selected | Product ID: Ho-61-00-00-61 | Title: Multi-Purpose Woven Plastic Storage Basket with Handles Organizer Bin for Office, Pantry, and Home | Score: 8
+2026-05-10 10:12:28.534637 - Step 2 Completed: Local AI content generated | Category: kitchen | Hook: urgency
+2026-05-10 10:12:30.411152 - Image uploaded successfully: 1550155417120956
+2026-05-10 10:12:31.850648 - Image uploaded successfully: 1550155457120952
+2026-05-10 10:12:31.851546 - Uploaded images: 2
+2026-05-10 10:12:31.851970 - Voiceover skipped - ELEVENLABS_VOICE_ID missing
+2026-05-10 10:12:31.852035 - Voice-aware scene duration selected: 3.20s
+2026-05-10 10:12:31.852075 - Voiceover script: Yeh product aap ke kaam aa sakta hai.
+
+Agar aap kuch useful aur stylish dhoond rahe hain,
+to yeh Multi-Purpose Woven Plastic Storage Basket with Handles Organizer Bin for Office, Pantry, and Home aap ke liye acha option ho sakta hai.
+
+Is mein milta hai... clean organized setup.
+Aur sath hi... kitchen work ko easy banaye.
+
+Price sirf Rs 899.
+
+Cash on Delivery available hai.
+2026-05-10 10:12:33.235487 - Selected online music: https://www.soundhelix.com/examples/mp3/SoundHelix-Song-15.mp3
+2026-05-10 10:12:35.479321 - Music downloaded: /tmp/music_20260510_101233.mp3
+2026-05-10 10:12:35.495460 - Music speed adjustment skipped: module 'moviepy.audio.fx.all' has no attribute 'speedx'
+2026-05-10 10:12:35.495818 - Slow low-volume background music added to reel audio mix
+2026-05-10 10:13:25.912999 - Final reel has audio before upload
+2026-05-10 10:13:25.913116 - Cinematic reel video created: videos/reel_20260510_101233.mp4
+2026-05-10 10:13:25.913184 - Step 3 Completed: Facebook images uploaded and reel created | Reel style: voice_first_product_focused_minimal_text
+2026-05-10 10:13:29.736633 - Carousel post published successfully: 105834518183309_1550156170454214
+2026-05-10 10:13:39.897984 - Reel/video uploaded successfully: 1008953445121737
+2026-05-10 10:13:42.866307 - Auto comment posted: 1550156170454214_911705055214670
+2026-05-10 10:13:42.867484 - Step 4 Completed: Facebook post and reel published successfully
+2026-05-10 10:13:43.903478 - WhatsApp alert sent successfully: {'messaging_product': 'whatsapp', 'contacts': [{'input': '923169250202', 'wa_id': '923169250202'}], 'messages': [{'id': 'wamid.HBgMOTIzMTY5MjUwMjAyFQIAERgSNzQyMzk5Q0VBQkRENTUxNDdEAA=='}]}
+2026-05-10 10:13:43.908477 - Step 5 Completed: Memory updated and run locked
+2026-05-10 10:13:43.908816 - Deleted video file: videos/reel_20260510_101233.mp4
+2026-05-10 10:13:43.908883 - Video cleanup completed. Deleted files: 1
+2026-05-10 10:13:43.908931 - Step 6 Completed: Video folder cleaned
+2026-05-10 10:13:43.908968 - Automation finished successfully
