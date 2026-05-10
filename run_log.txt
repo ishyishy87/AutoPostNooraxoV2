@@ -1026,3 +1026,76 @@ Order ke liye abhi inbox karein.
 2026-05-10 15:32:25.269378 - Analytics reactions count failed for 957591029936055: {'error': {'message': '(#100) Tried accessing nonexisting field (reactions)', 'type': 'OAuthException', 'code': 100, 'fbtrace_id': 'A8CmA_oAsKHjwvWTDN2dbVw'}}
 2026-05-10 15:32:25.369928 - Video insights failed for 957591029936055: {'error': {'message': '(#200) read_insights permission missing (https://developers.facebook.com/docs/permissions/reference/read_insights)', 'type': 'OAuthException', 'code': 200, 'fbtrace_id': 'ARW2M6BnASkL4RPWAa5ULCC'}}
 2026-05-10 15:32:25.372750 - AI Analytics completed. Rows updated: 21
+2026-05-10 15:46:02.053236 - AI comment worker started
+2026-05-10 15:46:02.056838 - Scanning post comments: 105834518183309_1548707790599052
+2026-05-10 15:46:02.390899 - No comments found for AI reply
+2026-05-10 15:46:02.391442 - Scanning post comments: 105834518183309_1548951090574722
+2026-05-10 15:46:02.632620 - No comments found for AI reply
+2026-05-10 15:46:02.633204 - Scanning post comments: 105834518183309_1549158777220620
+2026-05-10 15:46:02.912578 - No comments found for AI reply
+2026-05-10 15:46:02.913126 - Scanning post comments: 105834518183309_1549278827208615
+2026-05-10 15:46:03.178623 - No comments found for AI reply
+2026-05-10 15:46:03.179204 - Scanning post comments: 105834518183309_1549290120540819
+2026-05-10 15:46:03.429946 - No comments found for AI reply
+2026-05-10 15:46:03.430304 - Scanning post comments: 105834518183309_1549305133872651
+2026-05-10 15:46:03.725564 - No comments found for AI reply
+2026-05-10 15:46:03.726099 - Scanning post comments: 105834518183309_1549313450538486
+2026-05-10 15:46:03.973622 - No comments found for AI reply
+2026-05-10 15:46:03.974194 - Scanning post comments: 105834518183309_1549390790530752
+2026-05-10 15:46:04.270445 - No new comments required AI reply
+2026-05-10 15:46:04.270833 - Scanning reel/video comments: 1293782798975525
+2026-05-10 15:46:04.482804 - No comments found for AI reply
+2026-05-10 15:46:04.483357 - Scanning post comments: 105834518183309_1549431853859979
+2026-05-10 15:46:04.870548 - No new comments required AI reply
+2026-05-10 15:46:04.870946 - Scanning reel/video comments: 1406852084542635
+2026-05-10 15:46:05.057010 - No comments found for AI reply
+2026-05-10 15:46:05.057518 - Scanning post comments: 105834518183309_1549472983855866
+2026-05-10 15:46:05.397185 - No new comments required AI reply
+2026-05-10 15:46:05.397551 - Scanning reel/video comments: 2032775197631595.2
+2026-05-10 15:46:05.565483 - Comment fetch failed: {'error': {'message': "Unsupported get request. Object with ID '2032775197631595.2' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api", 'type': 'GraphMethodException', 'code': 100, 'error_subcode': 33, 'fbtrace_id': 'A_gH2cqBbY1YZlVnEmQ68w1'}}
+2026-05-10 15:46:05.566231 - No comments found for AI reply
+2026-05-10 15:46:05.566647 - Scanning post comments: 105834518183309_1549489377187560
+2026-05-10 15:46:05.855398 - No new comments required AI reply
+2026-05-10 15:46:05.855748 - Scanning reel/video comments: 1466013008598618
+2026-05-10 15:46:06.077593 - No comments found for AI reply
+2026-05-10 15:46:06.078006 - Scanning post comments: 105834518183309_1549500470519784
+2026-05-10 15:46:06.411382 - No new comments required AI reply
+2026-05-10 15:46:06.411591 - Scanning reel/video comments: 2.580952956872409e+16
+2026-05-10 15:46:06.668414 - Comment fetch failed: {'error': {'message': "Unsupported get request. Object with ID '2.580952956872409e+16' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api", 'type': 'GraphMethodException', 'code': 100, 'error_subcode': 33, 'fbtrace_id': 'AA1Q7u-cGYYCAAteyi4Gy1b'}}
+2026-05-10 15:46:06.669063 - No comments found for AI reply
+2026-05-10 15:46:06.669497 - Scanning post comments: 105834518183309_1549523633850801
+2026-05-10 15:46:06.972214 - No new comments required AI reply
+2026-05-10 15:46:06.972614 - Scanning reel/video comments: 1476201400961328
+2026-05-10 15:46:07.181843 - No comments found for AI reply
+2026-05-10 15:46:07.182433 - Scanning post comments: 105834518183309_1549591183844046
+2026-05-10 15:46:07.464113 - No new comments required AI reply
+2026-05-10 15:46:07.464501 - Scanning reel/video comments: 977268515021676
+2026-05-10 15:46:07.652436 - No comments found for AI reply
+2026-05-10 15:46:07.652947 - Scanning post comments: 105834518183309_1550054067131091
+2026-05-10 15:46:08.303343 - No new comments required AI reply
+2026-05-10 15:46:08.303666 - Scanning reel/video comments: 2152037468894511.2
+2026-05-10 15:46:08.466722 - Comment fetch failed: {'error': {'message': "Unsupported get request. Object with ID '2152037468894511.2' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api", 'type': 'GraphMethodException', 'code': 100, 'error_subcode': 33, 'fbtrace_id': 'Ap1NmGcVonRk8znGdrFvMOI'}}
+2026-05-10 15:46:08.467598 - No comments found for AI reply
+2026-05-10 15:46:08.468065 - Scanning post comments: 105834518183309_1550136320456199
+2026-05-10 15:46:08.753178 - No new comments required AI reply
+2026-05-10 15:46:08.753565 - Scanning reel/video comments: 1794960628541039
+2026-05-10 15:46:09.056805 - No new comments required AI reply
+2026-05-10 15:46:09.057384 - Scanning post comments: 105834518183309_1550143470455484
+2026-05-10 15:46:09.372807 - No new comments required AI reply
+2026-05-10 15:46:09.373004 - Scanning reel/video comments: 2477044379409805
+2026-05-10 15:46:09.692657 - No new comments required AI reply
+2026-05-10 15:46:09.693233 - Scanning post comments: 105834518183309_1550156170454214
+2026-05-10 15:46:10.049832 - No new comments required AI reply
+2026-05-10 15:46:10.050033 - Scanning reel/video comments: 1008953445121737
+2026-05-10 15:46:10.379487 - No new comments required AI reply
+2026-05-10 15:46:10.380033 - Scanning post comments: 105834518183309_1550178680451963
+2026-05-10 15:46:10.767050 - No new comments required AI reply
+2026-05-10 15:46:10.767313 - Scanning reel/video comments: 863293589360316
+2026-05-10 15:46:11.098268 - No new comments required AI reply
+2026-05-10 15:46:11.098791 - Scanning post comments: 105834518183309_1550358787100619
+2026-05-10 15:46:11.455677 - Lead saved from comment: 1550358787100619_1544403217243990
+2026-05-10 15:46:29.135821 - AI comment reply sent: 1550358787100619_1544403217243990
+2026-05-10 15:46:29.139121 - AI comment replies completed: 1
+2026-05-10 15:46:29.139224 - Scanning reel/video comments: 957591029936055
+2026-05-10 15:46:29.427328 - No comments found for AI reply
+2026-05-10 15:46:29.427721 - AI comment worker completed. Sources scanned: 33
