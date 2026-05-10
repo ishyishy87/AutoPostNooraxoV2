@@ -1,5 +1,6 @@
 import os
 import pandas as pd
+from modules.whatsapp_api import send_whatsapp_message
 
 from config import PRODUCTS_FILE, POST_ONCE_PER_DAY, ROLLBACK_IF_REEL_FAILS, AUTO_COMMENT_ENABLED, ACCESS_TOKEN, PAGE_ID
 from modules.logger import log
@@ -203,6 +204,21 @@ def main():
         create_comment(post_id, auto_comment_text)
 
     log("Step 4 Completed: Facebook post and reel published successfully")
+
+    whatsapp_msg = f"""
+✅ New Facebook content published!
+
+🛍 Product: {title}
+💸 Price: Rs {final_price}
+
+📌 Post:
+{post_url}
+
+🎬 Reel:
+https://facebook.com/{reel_id}
+""".strip()
+
+send_whatsapp_message(whatsapp_msg)
 
     # ===== STEP 5: MEMORY UPDATE =====
 
