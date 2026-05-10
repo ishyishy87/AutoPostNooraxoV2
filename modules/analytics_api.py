@@ -80,38 +80,40 @@ def get_post_basic_metrics(post_id):
 
 
 def get_video_views(video_id):
-    """
-    Try to fetch video/reel views.
-    Some metrics may not be available depending on permissions/object type.
-    """
+    metrics_to_try = [
+        "total_video_views",
+        "post_video_views",
+        "total_video_impressions",
+    ]
 
-    url = f"https://graph.facebook.com/{GRAPH_VERSION}/{video_id}/video_insights"
+    for metric in metrics_to_try:
+        url = f"https://graph.facebook.com/{GRAPH_VERSION}/{video_id}/video_insights"
 
-    params = {
-        "metric": "total_video_views",
-        "access_token": ACCESS_TOKEN,
-    }
+        params = {
+            "metric": metric,
+            "access_token": ACCESS_TOKEN,
+        }
 
-    try:
-        r = requests.get(url, params=params, timeout=30)
-        data = r.json()
+        try:
+            r = requests.get(url, params=params, timeout=30)
+            data = r.json()
 
-        if "data" not in data:
-            log(f"Video insights failed for {video_id}: {data}")
-            return 0
+            if "data" not in data:
+                log(f"Video insight metric failed for {video_id} | {metric}: {data}")
+                continue
 
-        for item in data.get("data", []):
-            if item.get("name") == "total_video_views":
+            for item in data.get("data", []):
                 values = item.get("values", [])
                 if values:
-                    return safe_int(values[0].get("value", 0))
+                    value = safe_int(values[0].get("value", 0))
+                    if value > 0:
+                        log(f"Video views found using metric {metric}: {value}")
+                        return value
 
-        return 0
+        except Exception as e:
+            log(f"Video insight error for {video_id} | {metric}: {e}")
 
-    except Exception as e:
-        log(f"Video insights error for {video_id}: {e}")
-        return 0
-
+    return 0
 
 def get_reel_basic_metrics(reel_id):
     metrics = {
