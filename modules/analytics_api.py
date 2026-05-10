@@ -81,9 +81,9 @@ def get_post_basic_metrics(post_id):
 
 def get_video_views(video_id):
     metrics_to_try = [
-        "total_video_views",
-        "post_video_views",
-        "total_video_impressions",
+        "fb_reels_total_plays",
+        "blue_reels_play_count",
+        "post_impressions_unique",
     ]
 
     for metric in metrics_to_try:
@@ -99,7 +99,7 @@ def get_video_views(video_id):
             data = r.json()
 
             if "data" not in data:
-                log(f"Video insight metric failed for {video_id} | {metric}: {data}")
+                log(f"Video insight metric unavailable for {video_id} | {metric}")
                 continue
 
             for item in data.get("data", []):
@@ -107,11 +107,11 @@ def get_video_views(video_id):
                 if values:
                     value = safe_int(values[0].get("value", 0))
                     if value > 0:
-                        log(f"Video views found using metric {metric}: {value}")
+                        log(f"Reel views/plays found using metric {metric}: {value}")
                         return value
 
         except Exception as e:
-            log(f"Video insight error for {video_id} | {metric}: {e}")
+            log(f"Video insight skipped for {video_id} | {metric}: {e}")
 
     return 0
 
