@@ -1,7 +1,7 @@
 import os
 import pandas as pd
 from modules.whatsapp_api import send_whatsapp_message
-
+from modules.comment_reply import process_post_comments
 from config import PRODUCTS_FILE, POST_ONCE_PER_DAY, ROLLBACK_IF_REEL_FAILS, AUTO_COMMENT_ENABLED, ACCESS_TOKEN, PAGE_ID
 from modules.logger import log
 from modules.storage import already_ran_today, mark_run, load_memory, save_memory
