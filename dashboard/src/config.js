@@ -6,7 +6,7 @@
 // WORKFLOW_FILE: "run.yml" or "autopost.yml"
 
 export const GITHUB_CONFIG = {
-  OWNER: "YOUR_GITHUB_USERNAME",
+  OWNER: "ishyishy87",
   REPO: "AutoPostNooraxoV2",
   BRANCH: "main",
   WORKFLOW_FILE: "run.yml",
