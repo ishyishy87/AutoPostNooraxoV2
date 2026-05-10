@@ -28,6 +28,21 @@ COMMENT_MEMORY_FILE = "comment_memory.csv"
 
 COMMENT_REPLY_SIGNATURE = "😊"
 
+# ================= WHATSAPP LEAD FUNNEL =================
+
+WHATSAPP_LEAD_FUNNEL_ENABLED = True
+
+# Use international format without +, spaces, or dashes
+BUSINESS_WHATSAPP_NUMBER = "923169250202"
+
+LEAD_MEMORY_FILE = "lead_memory.csv"
+
+LEAD_TRIGGER_WORDS = [
+    "price", "rate", "kitna", "available", "stock",
+    "order", "book", "buy", "interested", "details",
+    "cod", "cash", "delivery", "inbox", "want", "chahiye"
+]
+
 # ================= AUTOMATION =================
 
 POST_ONCE_PER_DAY = True
