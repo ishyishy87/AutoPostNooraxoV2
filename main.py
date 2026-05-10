@@ -204,6 +204,8 @@ def main():
         create_comment(post_id, auto_comment_text)
 
     log("Step 4 Completed: Facebook post and reel published successfully")
+
+    process_post_comments(post_id, title, final_price)
     
     whatsapp_msg = f"""
     ✅ New Facebook content published!
