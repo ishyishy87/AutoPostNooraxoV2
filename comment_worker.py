@@ -18,7 +18,7 @@ def main():
         log("Comment worker stopped - memory empty")
         return
 
-    latest_rows = memory.tail(5)
+    latest_rows = memory.tail(35)
 
     for _, row in latest_rows.iterrows():
         post_url = str(row.get("post_url", ""))
