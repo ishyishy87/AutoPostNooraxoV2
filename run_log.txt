@@ -2741,3 +2741,46 @@ Cash on Delivery available hai.
 2026-05-11 18:02:31.872867 - Scanning reel/video comments: 1532295394928715
 2026-05-11 18:02:32.242910 - No comments found for AI reply
 2026-05-11 18:02:32.243287 - AI comment worker completed. Sources scanned: 38
+2026-05-11 18:49:25.655393 - Automation started
+2026-05-11 18:49:25.706673 - Found 4 images
+2026-05-11 18:49:30.464894 - Step 1 Completed: Product selected | Product ID: Pe-33-00-00-339 | Title: Haya Glutathione Skin Whitening Serum 30ml | Brightening, Anti-Aging & Dark Spot Remover | Score: 8
+2026-05-11 18:49:30.465630 - Step 2 Completed: Local AI content generated | Category: beauty | Hook: budget
+2026-05-11 18:49:33.468213 - Image uploaded successfully: 1551440213659143
+2026-05-11 18:49:34.936271 - Image uploaded successfully: 1551440250325806
+2026-05-11 18:49:36.582525 - Image uploaded successfully: 1551440300325801
+2026-05-11 18:49:38.233913 - Image uploaded successfully: 1551440330325798
+2026-05-11 18:49:38.235028 - Uploaded images: 4
+2026-05-11 18:49:38.235302 - Voiceover skipped - ELEVENLABS_VOICE_ID missing
+2026-05-11 18:49:38.235380 - Voice-aware scene duration selected: 3.20s
+2026-05-11 18:49:38.235423 - Voiceover script: Yeh product aap ke kaam aa sakta hai.
+
+Agar aap kuch useful aur stylish dhoond rahe hain,
+to yeh Haya Glutathione Skin Whitening Serum 30ml | Brightening, Anti-Aging & Dark Spot Remover aap ke liye acha option ho sakta hai.
+
+Is mein milta hai... daily self care support.
+Aur sath hi... daily routine ke liye useful.
+
+Price sirf Rs 1099.
+
+Cash on Delivery available hai.
+2026-05-11 18:49:39.576051 - Selected online music: https://www.soundhelix.com/examples/mp3/SoundHelix-Song-6.mp3
+2026-05-11 18:49:41.917858 - Music downloaded: /tmp/music_20260511_184940.mp3
+2026-05-11 18:49:41.934334 - Music speed adjustment skipped: module 'moviepy.audio.fx.all' has no attribute 'speedx'
+2026-05-11 18:49:41.934698 - Slow low-volume background music added to reel audio mix
+2026-05-11 18:50:31.550390 - Final reel has audio before upload
+2026-05-11 18:50:31.550505 - Cinematic reel video created: videos/reel_20260511_184939.mp4
+2026-05-11 18:50:31.550569 - Step 3 Completed: Facebook images uploaded and reel created | Reel style: voice_first_product_focused_minimal_text
+2026-05-11 18:50:34.910728 - Carousel post published successfully: 105834518183309_1551440906992407
+2026-05-11 18:50:43.583412 - Reel/video uploaded successfully: 730056413495205
+2026-05-11 18:50:46.303328 - Auto comment posted: 1551440906992407_1292586135744811
+2026-05-11 18:50:46.304467 - Step 4 Completed: Facebook post and reel published successfully
+2026-05-11 18:50:46.620267 - Lead saved from comment: 1551440906992407_1292586135744811
+2026-05-11 18:50:52.580080 - AI comment reply sent: 1551440906992407_1292586135744811
+2026-05-11 18:50:52.583448 - AI comment replies completed: 1
+2026-05-11 18:50:53.711399 - WhatsApp alert sent successfully: {'messaging_product': 'whatsapp', 'contacts': [{'input': '923169250202', 'wa_id': '923169250202'}], 'messages': [{'id': 'wamid.HBgMOTIzMTY5MjUwMjAyFQIAERgSNDUzNjgxNDUxOEVENjkxMTcxAA=='}]}
+2026-05-11 18:50:54.864465 - WhatsApp alert sent successfully: {'messaging_product': 'whatsapp', 'contacts': [{'input': '923169250202', 'wa_id': '923169250202'}], 'messages': [{'id': 'wamid.HBgMOTIzMTY5MjUwMjAyFQIAERgSMzVBMzE1OTM1Qzc5MDAxQThEAA=='}]}
+2026-05-11 18:50:54.869110 - Step 5 Completed: Memory updated and run locked
+2026-05-11 18:50:54.869489 - Deleted video file: videos/reel_20260511_184939.mp4
+2026-05-11 18:50:54.869551 - Video cleanup completed. Deleted files: 1
+2026-05-11 18:50:54.869588 - Step 6 Completed: Video folder cleaned
+2026-05-11 18:50:54.869641 - Automation finished successfully
