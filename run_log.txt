@@ -2618,3 +2618,46 @@ Order ke liye abhi inbox karein.
 2026-05-11 17:16:32.822208 - Analytics scanning reel/video: 2013746262847884
 2026-05-11 17:16:34.091257 - Reel views/plays found using metric fb_reels_total_plays: 8
 2026-05-11 17:16:34.094885 - AI Analytics completed. Rows updated: 21
+2026-05-11 17:33:03.880310 - Automation started
+2026-05-11 17:33:03.929239 - Found 8 images
+2026-05-11 17:33:07.815572 - Step 1 Completed: Product selected | Product ID: Ho-80-00-00-808 | Title: LED Temperature Display Water Bottle Stars Design  | Smart Stainless Steel Vacuum 500ml Flask | Random Color | Score: 18
+2026-05-11 17:33:07.816508 - Step 2 Completed: Local AI content generated | Category: tech | Hook: budget
+2026-05-11 17:33:11.799343 - Image uploaded successfully: 1551392293663935
+2026-05-11 17:33:13.483312 - Image uploaded successfully: 1551392356997262
+2026-05-11 17:33:15.096037 - Image uploaded successfully: 1551392396997258
+2026-05-11 17:33:16.655406 - Image uploaded successfully: 1551392420330589
+2026-05-11 17:33:16.656814 - Uploaded images: 4
+2026-05-11 17:33:16.657160 - Voiceover skipped - ELEVENLABS_VOICE_ID missing
+2026-05-11 17:33:16.657227 - Voice-aware scene duration selected: 3.20s
+2026-05-11 17:33:16.657262 - Voiceover script: Yeh product aap ke kaam aa sakta hai.
+
+Agar aap quality ke sath value bhi chahte hain,
+to yeh LED Temperature Display Water Bottle Stars Design  | Smart Stainless Steel Vacuum 500ml Flask | Random Color aap ke liye acha option ho sakta hai.
+
+Is mein milta hai... bright stylish look.
+Aur sath hi... strong build quality.
+
+Price sirf Rs 1899.
+
+Cash on Delivery available hai.
+2026-05-11 17:33:18.458367 - Selected online music: https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3
+2026-05-11 17:33:20.841484 - Music downloaded: /tmp/music_20260511_173319.mp3
+2026-05-11 17:33:20.860586 - Music speed adjustment skipped: module 'moviepy.audio.fx.all' has no attribute 'speedx'
+2026-05-11 17:33:20.861025 - Slow low-volume background music added to reel audio mix
+2026-05-11 17:34:49.008180 - Final reel has audio before upload
+2026-05-11 17:34:49.008311 - Cinematic reel video created: videos/reel_20260511_173318.mp4
+2026-05-11 17:34:49.008367 - Step 3 Completed: Facebook images uploaded and reel created | Reel style: voice_first_product_focused_minimal_text
+2026-05-11 17:34:52.691855 - Carousel post published successfully: 105834518183309_1551394263663738
+2026-05-11 17:35:00.106228 - Reel/video uploaded successfully: 1532295394928715
+2026-05-11 17:35:02.909024 - Auto comment posted: 1551394263663738_1711188646582837
+2026-05-11 17:35:02.910270 - Step 4 Completed: Facebook post and reel published successfully
+2026-05-11 17:35:03.230712 - Lead saved from comment: 1551394263663738_1711188646582837
+2026-05-11 17:35:10.730854 - AI comment reply sent: 1551394263663738_1711188646582837
+2026-05-11 17:35:10.735037 - AI comment replies completed: 1
+2026-05-11 17:35:12.049217 - WhatsApp alert sent successfully: {'messaging_product': 'whatsapp', 'contacts': [{'input': '923169250202', 'wa_id': '923169250202'}], 'messages': [{'id': 'wamid.HBgMOTIzMTY5MjUwMjAyFQIAERgSNTVEM0JGQUQwQjIwQUMxQzM4AA=='}]}
+2026-05-11 17:35:12.873430 - WhatsApp alert sent successfully: {'messaging_product': 'whatsapp', 'contacts': [{'input': '923169250202', 'wa_id': '923169250202'}], 'messages': [{'id': 'wamid.HBgMOTIzMTY5MjUwMjAyFQIAERgSNDcwRDM1QTk1Q0Q3NTI0NjlDAA=='}]}
+2026-05-11 17:35:12.880785 - Step 5 Completed: Memory updated and run locked
+2026-05-11 17:35:12.881233 - Deleted video file: videos/reel_20260511_173318.mp4
+2026-05-11 17:35:12.881295 - Video cleanup completed. Deleted files: 1
+2026-05-11 17:35:12.881322 - Step 6 Completed: Video folder cleaned
+2026-05-11 17:35:12.881349 - Automation finished successfully
