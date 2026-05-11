@@ -3,7 +3,6 @@ name: AutoPostNooraxoV2
 on:
   schedule:
     - cron: "30 5 * * *"    # 10:30 AM Pakistan
-    - cron: "30 9 * * *"    # 02:30 PM Pakistan
     - cron: "30 15 * * *"   # 08:30 PM Pakistan
   workflow_dispatch:
 
