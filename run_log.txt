@@ -2192,3 +2192,46 @@ Order ke liye abhi inbox karein.
 2026-05-11 08:39:36.390078 - Video cleanup completed. Deleted files: 1
 2026-05-11 08:39:36.390113 - Step 6 Completed: Video folder cleaned
 2026-05-11 08:39:36.390154 - Automation finished successfully
+2026-05-11 08:40:54.060241 - Automation started
+2026-05-11 08:40:54.102437 - Found 7 images
+2026-05-11 08:40:58.261463 - Step 1 Completed: Product selected | Product ID: Sm-79-00-00-799 | Title: USB Mosquito Trap Lamp | UV LED Insect Killer with Suction Fan | Chemical-Free Fly & Bug Repellent | Score: 8
+2026-05-11 08:40:58.262205 - Step 2 Completed: Local AI content generated | Category: tech | Hook: discovery
+2026-05-11 08:40:59.998538 - Image uploaded successfully: 1551016537034844
+2026-05-11 08:41:01.326811 - Image uploaded successfully: 1551016583701506
+2026-05-11 08:41:02.767038 - Image uploaded successfully: 1551016677034830
+2026-05-11 08:41:04.134317 - Image uploaded successfully: 1551016737034824
+2026-05-11 08:41:04.135258 - Uploaded images: 4
+2026-05-11 08:41:04.135498 - Voiceover skipped - ELEVENLABS_VOICE_ID missing
+2026-05-11 08:41:04.135548 - Voice-aware scene duration selected: 3.20s
+2026-05-11 08:41:04.135578 - Voiceover script: Aaj ki smart pick dekhein.
+
+Agar aap kuch useful aur stylish dhoond rahe hain,
+to USB Mosquito Trap Lamp | UV LED Insect Killer with Suction Fan | Chemical-Free Fly & Bug Repellent zaroor check karein.
+
+Is mein milta hai... bright stylish look.
+Aur sath hi... charging routine easy.
+
+Price sirf Rs 1899.
+
+Cash on Delivery available hai.
+2026-05-11 08:41:05.651038 - Selected online music: https://www.soundhelix.com/examples/mp3/SoundHelix-Song-7.mp3
+2026-05-11 08:41:08.675879 - Music downloaded: /tmp/music_20260511_084106.mp3
+2026-05-11 08:41:08.692305 - Music speed adjustment skipped: module 'moviepy.audio.fx.all' has no attribute 'speedx'
+2026-05-11 08:41:08.692631 - Slow low-volume background music added to reel audio mix
+2026-05-11 08:42:25.500107 - Final reel has audio before upload
+2026-05-11 08:42:25.500222 - Cinematic reel video created: videos/reel_20260511_084105.mp4
+2026-05-11 08:42:25.500306 - Step 3 Completed: Facebook images uploaded and reel created | Reel style: voice_first_product_focused_minimal_text
+2026-05-11 08:42:29.835821 - Carousel post published successfully: 105834518183309_1551018103701354
+2026-05-11 08:42:36.501872 - Reel/video uploaded successfully: 1484426343149214
+2026-05-11 08:42:39.513502 - Auto comment posted: 1551018103701354_914535281611562
+2026-05-11 08:42:39.514434 - Step 4 Completed: Facebook post and reel published successfully
+2026-05-11 08:42:39.836240 - Lead saved from comment: 1551018103701354_914535281611562
+2026-05-11 08:42:44.954115 - AI comment reply sent: 1551018103701354_914535281611562
+2026-05-11 08:42:44.958027 - AI comment replies completed: 1
+2026-05-11 08:42:46.335575 - WhatsApp alert sent successfully: {'messaging_product': 'whatsapp', 'contacts': [{'input': '923169250202', 'wa_id': '923169250202'}], 'messages': [{'id': 'wamid.HBgMOTIzMTY5MjUwMjAyFQIAERgSREYzNkE3NUY2QUU3MTI4NTcyAA=='}]}
+2026-05-11 08:42:47.139429 - WhatsApp alert sent successfully: {'messaging_product': 'whatsapp', 'contacts': [{'input': '923169250202', 'wa_id': '923169250202'}], 'messages': [{'id': 'wamid.HBgMOTIzMTY5MjUwMjAyFQIAERgSMjYxNzk0OTU0RjkxM0ZEODc2AA=='}]}
+2026-05-11 08:42:47.143735 - Step 5 Completed: Memory updated and run locked
+2026-05-11 08:42:47.143987 - Deleted video file: videos/reel_20260511_084105.mp4
+2026-05-11 08:42:47.144023 - Video cleanup completed. Deleted files: 1
+2026-05-11 08:42:47.144043 - Step 6 Completed: Video folder cleaned
+2026-05-11 08:42:47.144066 - Automation finished successfully
