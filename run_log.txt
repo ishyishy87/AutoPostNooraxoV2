@@ -2149,3 +2149,46 @@ Cash on Delivery available hai.
 2026-05-11 06:26:24.844489 - Analytics scanning reel/video: 2043720306188402
 2026-05-11 06:26:25.470246 - Reel views/plays found using metric fb_reels_total_plays: 2
 2026-05-11 06:26:25.473645 - AI Analytics completed. Rows updated: 21
+2026-05-11 08:38:10.643325 - Automation started
+2026-05-11 08:38:10.692517 - Found 6 images
+2026-05-11 08:38:15.904754 - Step 1 Completed: Product selected | Product ID: Pe-68-00-00-683 | Title: DermaSmooth Skin Tag Remover Patch |  Fast, Safe & Painless Skin Tag & Mole Removal | Nano-Microneedle Technology | 72 Patches | Score: 8
+2026-05-11 08:38:15.905454 - Step 2 Completed: Local AI content generated | Category: beauty | Hook: budget
+2026-05-11 08:38:17.237353 - Image uploaded successfully: 1551012423701922
+2026-05-11 08:38:18.701991 - Image uploaded successfully: 1551012483701916
+2026-05-11 08:38:19.899647 - Image uploaded successfully: 1551012520368579
+2026-05-11 08:38:21.252747 - Image uploaded successfully: 1551012563701908
+2026-05-11 08:38:21.253742 - Uploaded images: 4
+2026-05-11 08:38:21.253988 - Voiceover skipped - ELEVENLABS_VOICE_ID missing
+2026-05-11 08:38:21.254055 - Voice-aware scene duration selected: 3.20s
+2026-05-11 08:38:21.254099 - Voiceover script: Aaj ki smart pick dekhein.
+
+Agar aap daily use ke liye smart choice chahte hain,
+to DermaSmooth Skin Tag Remover Patch |  Fast, Safe & Painless Skin Tag & Mole Removal | Nano-Microneedle Technology | 72 Patches zaroor check karein.
+
+Is mein milta hai... fast performance.
+Aur sath hi... daily self care support.
+
+Price sirf Rs 299.
+
+Order ke liye abhi inbox karein.
+2026-05-11 08:38:22.862180 - Selected online music: https://www.soundhelix.com/examples/mp3/SoundHelix-Song-15.mp3
+2026-05-11 08:38:25.066043 - Music downloaded: /tmp/music_20260511_083823.mp3
+2026-05-11 08:38:25.081399 - Music speed adjustment skipped: module 'moviepy.audio.fx.all' has no attribute 'speedx'
+2026-05-11 08:38:25.081707 - Slow low-volume background music added to reel audio mix
+2026-05-11 08:39:14.706392 - Final reel has audio before upload
+2026-05-11 08:39:14.706515 - Cinematic reel video created: videos/reel_20260511_083822.mp4
+2026-05-11 08:39:14.706576 - Step 3 Completed: Facebook images uploaded and reel created | Reel style: voice_first_product_focused_minimal_text
+2026-05-11 08:39:18.299393 - Carousel post published successfully: 105834518183309_1551013547035143
+2026-05-11 08:39:26.872243 - Reel/video uploaded successfully: 1353156736678160
+2026-05-11 08:39:29.765680 - Auto comment posted: 1551013547035143_1871623110879463
+2026-05-11 08:39:29.766822 - Step 4 Completed: Facebook post and reel published successfully
+2026-05-11 08:39:30.058049 - Lead saved from comment: 1551013547035143_1871623110879463
+2026-05-11 08:39:34.407913 - AI comment reply sent: 1551013547035143_1871623110879463
+2026-05-11 08:39:34.411477 - AI comment replies completed: 1
+2026-05-11 08:39:35.809056 - WhatsApp alert sent successfully: {'messaging_product': 'whatsapp', 'contacts': [{'input': '923169250202', 'wa_id': '923169250202'}], 'messages': [{'id': 'wamid.HBgMOTIzMTY5MjUwMjAyFQIAERgSNUY4OTYwNzY4MEI0QzI3RjUzAA=='}]}
+2026-05-11 08:39:36.385275 - WhatsApp alert sent successfully: {'messaging_product': 'whatsapp', 'contacts': [{'input': '923169250202', 'wa_id': '923169250202'}], 'messages': [{'id': 'wamid.HBgMOTIzMTY5MjUwMjAyFQIAERgSREVGMDMwN0I0ODUyMTJENTUxAA=='}]}
+2026-05-11 08:39:36.389685 - Step 5 Completed: Memory updated and run locked
+2026-05-11 08:39:36.390020 - Deleted video file: videos/reel_20260511_083822.mp4
+2026-05-11 08:39:36.390078 - Video cleanup completed. Deleted files: 1
+2026-05-11 08:39:36.390113 - Step 6 Completed: Video folder cleaned
+2026-05-11 08:39:36.390154 - Automation finished successfully
