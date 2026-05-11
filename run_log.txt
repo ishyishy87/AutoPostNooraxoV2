@@ -2366,3 +2366,46 @@ Cash on Delivery available hai.
 2026-05-11 11:54:45.635429 - Analytics scanning reel/video: 1484426343149214
 2026-05-11 11:54:46.125384 - Reel views/plays found using metric fb_reels_total_plays: 1
 2026-05-11 11:54:46.129185 - AI Analytics completed. Rows updated: 21
+2026-05-11 12:30:54.124671 - Automation started
+2026-05-11 12:30:54.174384 - Found 5 images
+2026-05-11 12:30:58.129975 - Step 1 Completed: Product selected | Product ID: Ap-57-00-00-579 | Title: LION Printed White Tracksuit Sweatshirt & Trouser  | Warm & Comfortable Winter Wear | XL | Score: 5
+2026-05-11 12:30:58.130693 - Step 2 Completed: Local AI content generated | Category: fashion | Hook: budget
+2026-05-11 12:30:59.284061 - Image uploaded successfully: 1551164113686753
+2026-05-11 12:31:00.348564 - Image uploaded successfully: 1551164147020083
+2026-05-11 12:31:03.211790 - Image uploaded successfully: 1551164190353412
+2026-05-11 12:31:04.312344 - Image uploaded successfully: 1551164233686741
+2026-05-11 12:31:04.313336 - Uploaded images: 4
+2026-05-11 12:31:04.313579 - Voiceover skipped - ELEVENLABS_VOICE_ID missing
+2026-05-11 12:31:04.313639 - Voice-aware scene duration selected: 3.20s
+2026-05-11 12:31:04.313693 - Voiceover script: Assalam o Alaikum!
+
+Agar aap quality ke sath value bhi chahte hain,
+to yeh LION Printed White Tracksuit Sweatshirt & Trouser  | Warm & Comfortable Winter Wear | XL aap ke liye acha option ho sakta hai.
+
+Is mein milta hai... clean organized setup.
+Aur sath hi... style ko upgrade kare.
+
+Price sirf Rs 2499.
+
+Order ke liye abhi inbox karein.
+2026-05-11 12:31:05.611180 - Selected online music: https://www.soundhelix.com/examples/mp3/SoundHelix-Song-10.mp3
+2026-05-11 12:31:07.833454 - Music downloaded: /tmp/music_20260511_123106.mp3
+2026-05-11 12:31:07.848372 - Music speed adjustment skipped: module 'moviepy.audio.fx.all' has no attribute 'speedx'
+2026-05-11 12:31:07.848666 - Slow low-volume background music added to reel audio mix
+2026-05-11 12:31:56.752500 - Final reel has audio before upload
+2026-05-11 12:31:56.752600 - Cinematic reel video created: videos/reel_20260511_123105.mp4
+2026-05-11 12:31:56.752671 - Step 3 Completed: Facebook images uploaded and reel created | Reel style: voice_first_product_focused_minimal_text
+2026-05-11 12:32:01.434116 - Carousel post published successfully: 105834518183309_1551164890353342
+2026-05-11 12:32:08.652225 - Reel/video uploaded successfully: 2013746262847884
+2026-05-11 12:32:10.931794 - Auto comment posted: 1551164890353342_1511826720593408
+2026-05-11 12:32:10.932732 - Step 4 Completed: Facebook post and reel published successfully
+2026-05-11 12:32:11.310277 - Lead saved from comment: 1551164890353342_1511826720593408
+2026-05-11 12:32:17.017057 - AI comment reply sent: 1551164890353342_1511826720593408
+2026-05-11 12:32:17.020487 - AI comment replies completed: 1
+2026-05-11 12:32:18.037022 - WhatsApp alert sent successfully: {'messaging_product': 'whatsapp', 'contacts': [{'input': '923169250202', 'wa_id': '923169250202'}], 'messages': [{'id': 'wamid.HBgMOTIzMTY5MjUwMjAyFQIAERgSREUwNzYxOThDMkE4Q0MzNjUxAA=='}]}
+2026-05-11 12:32:18.531117 - WhatsApp alert sent successfully: {'messaging_product': 'whatsapp', 'contacts': [{'input': '923169250202', 'wa_id': '923169250202'}], 'messages': [{'id': 'wamid.HBgMOTIzMTY5MjUwMjAyFQIAERgSNzhGQUVCNjE1MjNCOUFENDk4AA=='}]}
+2026-05-11 12:32:18.535723 - Step 5 Completed: Memory updated and run locked
+2026-05-11 12:32:18.536077 - Deleted video file: videos/reel_20260511_123105.mp4
+2026-05-11 12:32:18.536137 - Video cleanup completed. Deleted files: 1
+2026-05-11 12:32:18.536185 - Step 6 Completed: Video folder cleaned
+2026-05-11 12:32:18.536221 - Automation finished successfully
