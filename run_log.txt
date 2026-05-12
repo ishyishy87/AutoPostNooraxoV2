@@ -4235,3 +4235,46 @@ Stock limited hai, is liye jaldi message karein.
 2026-05-12 17:01:42.620196 - Analytics scanning reel/video: 1579057693191051
 2026-05-12 17:01:43.126889 - Reel views/plays found using metric fb_reels_total_plays: 15
 2026-05-12 17:01:43.130432 - AI Analytics completed. Rows updated: 21
+2026-05-12 17:31:36.747739 - Automation started
+2026-05-12 17:31:36.796446 - Found 4 images
+2026-05-12 17:31:40.435977 - Step 1 Completed: Product selected | Product ID: Ho-70-00-00-701 | Title: White  WiFi Router Storage Box & Wall Mount Shelf  Universal Cable Organizer | Space-Saving Holder for Modem, Set-Top Box & Smart Devices | Home & Office Use | Score: 18
+2026-05-12 17:31:40.436748 - Step 2 Completed: Local AI content generated | Category: tech | Hook: budget
+2026-05-12 17:31:42.782056 - Image uploaded successfully: 1552305933572571
+2026-05-12 17:31:45.379539 - Image uploaded successfully: 1552305976905900
+2026-05-12 17:31:47.195813 - Image uploaded successfully: 1552306023572562
+2026-05-12 17:31:49.128962 - Image uploaded successfully: 1552306076905890
+2026-05-12 17:31:49.129939 - Uploaded images: 4
+2026-05-12 17:31:49.130344 - Voiceover skipped - ELEVENLABS_VOICE_ID missing
+2026-05-12 17:31:49.130424 - Voice-aware scene duration selected: 3.20s
+2026-05-12 17:31:49.130471 - Voiceover script: Yeh product aap ke kaam aa sakta hai.
+
+Agar aap kuch useful aur stylish dhoond rahe hain,
+to White  WiFi Router Storage Box & Wall Mount Shelf  Universal Cable Organizer | Space-Saving Holder for Modem, Set-Top Box & Smart Devices | Home & Office Use zaroor check karein.
+
+Is mein milta hai... clean organized setup.
+Aur sath hi... charging routine easy.
+
+Price sirf Rs 799.
+
+Cash on Delivery available hai.
+2026-05-12 17:31:50.509232 - Selected online music: https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3
+2026-05-12 17:31:52.550851 - Music downloaded: /tmp/music_20260512_173150.mp3
+2026-05-12 17:31:52.566975 - Music speed adjustment skipped: module 'moviepy.audio.fx.all' has no attribute 'speedx'
+2026-05-12 17:31:52.567291 - Slow low-volume background music added to reel audio mix
+2026-05-12 17:32:43.581276 - Final reel has audio before upload
+2026-05-12 17:32:43.581393 - Cinematic reel video created: videos/reel_20260512_173150.mp4
+2026-05-12 17:32:43.581454 - Step 3 Completed: Facebook images uploaded and reel created | Reel style: voice_first_product_focused_minimal_text
+2026-05-12 17:32:49.418951 - Carousel post published successfully: 105834518183309_1552306696905828
+2026-05-12 17:32:59.171882 - Reel/video uploaded successfully: 2206723540145873
+2026-05-12 17:33:02.113316 - Auto comment posted: 1552306696905828_2215266999290344
+2026-05-12 17:33:02.114410 - Step 4 Completed: Facebook post and reel published successfully
+2026-05-12 17:33:03.282383 - Lead saved from comment: 1552306696905828_2215266999290344
+2026-05-12 17:33:10.315206 - AI comment reply sent: 1552306696905828_2215266999290344
+2026-05-12 17:33:10.318719 - AI comment replies completed: 1
+2026-05-12 17:33:12.194044 - WhatsApp alert sent successfully: {'messaging_product': 'whatsapp', 'contacts': [{'input': '923169250202', 'wa_id': '923169250202'}], 'messages': [{'id': 'wamid.HBgMOTIzMTY5MjUwMjAyFQIAERgSOEFDRUQ5OTk5MTI2QzUzQ0YwAA=='}]}
+2026-05-12 17:33:12.902010 - WhatsApp alert sent successfully: {'messaging_product': 'whatsapp', 'contacts': [{'input': '923169250202', 'wa_id': '923169250202'}], 'messages': [{'id': 'wamid.HBgMOTIzMTY5MjUwMjAyFQIAERgSRDZGQkYyOTFENzAxOEVDN0IyAA=='}]}
+2026-05-12 17:33:12.906637 - Step 5 Completed: Memory updated and run locked
+2026-05-12 17:33:12.906996 - Deleted video file: videos/reel_20260512_173150.mp4
+2026-05-12 17:33:12.907063 - Video cleanup completed. Deleted files: 1
+2026-05-12 17:33:12.907100 - Step 6 Completed: Video folder cleaned
+2026-05-12 17:33:12.907130 - Automation finished successfully
