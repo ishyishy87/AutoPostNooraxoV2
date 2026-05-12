@@ -3700,3 +3700,46 @@ Cash on Delivery available hai.
 2026-05-12 07:51:48.999755 - Scanning reel/video comments: 730056413495205
 2026-05-12 07:51:49.171981 - No comments found for AI reply
 2026-05-12 07:51:49.172323 - AI comment worker completed. Sources scanned: 39
+2026-05-12 08:07:43.879140 - Automation started
+2026-05-12 08:07:43.922881 - Found 7 images
+2026-05-12 08:07:55.494058 - Step 1 Completed: Product selected | Product ID: Pe-53-00-00-532 | Title: Behave | NARS Afterglow Liquid Blush 7ml Buildable Hydrating Blush with Sodium Hyaluronate and Vegan Protein | Score: 8
+2026-05-12 08:07:55.494770 - Step 2 Completed: Local AI content generated | Category: fitness | Hook: urgency
+2026-05-12 08:07:57.693888 - Image uploaded successfully: 1551900483613116
+2026-05-12 08:07:59.225834 - Image uploaded successfully: 1551900550279776
+2026-05-12 08:08:00.706322 - Image uploaded successfully: 1551900580279773
+2026-05-12 08:08:02.232964 - Image uploaded successfully: 1551900616946436
+2026-05-12 08:08:02.233946 - Uploaded images: 4
+2026-05-12 08:08:02.234233 - Voiceover skipped - ELEVENLABS_VOICE_ID missing
+2026-05-12 08:08:02.234292 - Voice-aware scene duration selected: 3.20s
+2026-05-12 08:08:02.234326 - Voiceover script: Aaj ki smart pick dekhein.
+
+Agar aap daily use ke liye smart choice chahte hain,
+to yeh Behave | NARS Afterglow Liquid Blush 7ml Buildable Hydrating Blush with Sodium Hyaluronate and Vegan Protein aap ke liye acha option ho sakta hai.
+
+Is mein milta hai... active lifestyle support.
+Aur sath hi... workout routine ke liye useful.
+
+Price sirf Rs 1199.
+
+Stock limited hai, is liye jaldi message karein.
+2026-05-12 08:08:03.785529 - Selected online music: https://www.soundhelix.com/examples/mp3/SoundHelix-Song-9.mp3
+2026-05-12 08:08:06.802958 - Music downloaded: /tmp/music_20260512_080804.mp3
+2026-05-12 08:08:06.818823 - Music speed adjustment skipped: module 'moviepy.audio.fx.all' has no attribute 'speedx'
+2026-05-12 08:08:06.819116 - Slow low-volume background music added to reel audio mix
+2026-05-12 08:09:17.378194 - Final reel has audio before upload
+2026-05-12 08:09:17.378295 - Cinematic reel video created: videos/reel_20260512_080803.mp4
+2026-05-12 08:09:17.378348 - Step 3 Completed: Facebook images uploaded and reel created | Reel style: voice_first_product_focused_minimal_text
+2026-05-12 08:09:21.988383 - Carousel post published successfully: 105834518183309_1551901433613021
+2026-05-12 08:09:30.617171 - Reel/video uploaded successfully: 1579057693191051
+2026-05-12 08:09:34.321144 - Auto comment posted: 1551901433613021_1881407865885083
+2026-05-12 08:09:34.322250 - Step 4 Completed: Facebook post and reel published successfully
+2026-05-12 08:09:34.538415 - Lead saved from comment: 1551901433613021_1881407865885083
+2026-05-12 08:09:41.431734 - AI comment reply sent: 1551901433613021_1881407865885083
+2026-05-12 08:09:41.434922 - AI comment replies completed: 1
+2026-05-12 08:09:42.969839 - WhatsApp alert sent successfully: {'messaging_product': 'whatsapp', 'contacts': [{'input': '923169250202', 'wa_id': '923169250202'}], 'messages': [{'id': 'wamid.HBgMOTIzMTY5MjUwMjAyFQIAERgSRUY5MTNDMTRCRDBBN0VGMzJFAA=='}]}
+2026-05-12 08:09:43.575526 - WhatsApp alert sent successfully: {'messaging_product': 'whatsapp', 'contacts': [{'input': '923169250202', 'wa_id': '923169250202'}], 'messages': [{'id': 'wamid.HBgMOTIzMTY5MjUwMjAyFQIAERgSQkE0RjA3NTI3RDVBODU1M0E3AA=='}]}
+2026-05-12 08:09:43.580228 - Step 5 Completed: Memory updated and run locked
+2026-05-12 08:09:43.580498 - Deleted video file: videos/reel_20260512_080803.mp4
+2026-05-12 08:09:43.580540 - Video cleanup completed. Deleted files: 1
+2026-05-12 08:09:43.580568 - Step 6 Completed: Video folder cleaned
+2026-05-12 08:09:43.580588 - Automation finished successfully
