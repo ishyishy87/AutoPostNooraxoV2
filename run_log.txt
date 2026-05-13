@@ -5120,3 +5120,46 @@ Cash on Delivery available hai.
 2026-05-13 07:38:10.093689 - Scanning reel/video comments: 2206723540145873
 2026-05-13 07:38:10.376790 - No comments found for AI reply
 2026-05-13 07:38:10.377043 - AI comment worker completed. Sources scanned: 41
+2026-05-13 08:14:56.873869 - Automation started
+2026-05-13 08:14:56.922196 - Found 5 images
+2026-05-13 08:15:01.229818 - Step 1 Completed: Product selected | Product ID: Pe-52-00-00-521 | Title: Pixi Overnight Retinol Oil 30ml Youth-Preserving Night Treatment with Peptides and Ceramides | Score: 8
+2026-05-13 08:15:01.230567 - Step 2 Completed: Local AI content generated | Category: general | Hook: urgency
+2026-05-13 08:15:02.770505 - Image uploaded successfully: 1552812093521955
+2026-05-13 08:15:04.258993 - Image uploaded successfully: 1552812116855286
+2026-05-13 08:15:05.463467 - Image uploaded successfully: 1552812156855282
+2026-05-13 08:15:06.882848 - Image uploaded successfully: 1552812186855279
+2026-05-13 08:15:06.883860 - Uploaded images: 4
+2026-05-13 08:15:06.884101 - Voiceover skipped - ELEVENLABS_VOICE_ID missing
+2026-05-13 08:15:06.884171 - Voice-aware scene duration selected: 3.20s
+2026-05-13 08:15:06.884218 - Voiceover script: Aaj ki smart pick dekhein.
+
+Agar aap kuch useful aur stylish dhoond rahe hain,
+to Pixi Overnight Retinol Oil 30ml Youth-Preserving Night Treatment with Peptides and Ceramides zaroor check karein.
+
+Is mein milta hai... daily use ke liye practical.
+Aur sath hi... affordable smart pick.
+
+Price sirf Rs 1299.
+
+Order ke liye abhi inbox karein.
+2026-05-13 08:15:08.561991 - Selected online music: https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3
+2026-05-13 08:15:10.362163 - Music downloaded: /tmp/music_20260513_081508.mp3
+2026-05-13 08:15:10.377458 - Music speed adjustment skipped: module 'moviepy.audio.fx.all' has no attribute 'speedx'
+2026-05-13 08:15:10.377802 - Slow low-volume background music added to reel audio mix
+2026-05-13 08:15:59.660603 - Final reel has audio before upload
+2026-05-13 08:15:59.660719 - Cinematic reel video created: videos/reel_20260513_081508.mp4
+2026-05-13 08:15:59.660782 - Step 3 Completed: Facebook images uploaded and reel created | Reel style: voice_first_product_focused_minimal_text
+2026-05-13 08:16:04.780649 - Carousel post published successfully: 105834518183309_1552812710188560
+2026-05-13 08:16:10.964741 - Reel/video uploaded successfully: 988707307043439
+2026-05-13 08:16:13.537861 - Auto comment posted: 1552812710188560_1537761247920765
+2026-05-13 08:16:13.538988 - Step 4 Completed: Facebook post and reel published successfully
+2026-05-13 08:16:13.870530 - Lead saved from comment: 1552812710188560_1537761247920765
+2026-05-13 08:16:20.768806 - AI comment reply sent: 1552812710188560_1537761247920765
+2026-05-13 08:16:20.772279 - AI comment replies completed: 1
+2026-05-13 08:16:21.870031 - WhatsApp alert sent successfully: {'messaging_product': 'whatsapp', 'contacts': [{'input': '923169250202', 'wa_id': '923169250202'}], 'messages': [{'id': 'wamid.HBgMOTIzMTY5MjUwMjAyFQIAERgSOUJCNTJFNUM4NkVDODc5MEM3AA=='}]}
+2026-05-13 08:16:22.395190 - WhatsApp alert sent successfully: {'messaging_product': 'whatsapp', 'contacts': [{'input': '923169250202', 'wa_id': '923169250202'}], 'messages': [{'id': 'wamid.HBgMOTIzMTY5MjUwMjAyFQIAERgSODIxMTk1NTlDMkMyNjUzQTY3AA=='}]}
+2026-05-13 08:16:22.399724 - Step 5 Completed: Memory updated and run locked
+2026-05-13 08:16:22.400054 - Deleted video file: videos/reel_20260513_081508.mp4
+2026-05-13 08:16:22.400116 - Video cleanup completed. Deleted files: 1
+2026-05-13 08:16:22.400155 - Step 6 Completed: Video folder cleaned
+2026-05-13 08:16:22.400205 - Automation finished successfully
