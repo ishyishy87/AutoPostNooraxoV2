@@ -6489,3 +6489,46 @@ Cash on Delivery available hai.
 2026-05-14 07:30:39.926210 - Scanning reel/video comments: 945414828326986
 2026-05-14 07:30:40.310120 - No comments found for AI reply
 2026-05-14 07:30:40.310303 - AI comment worker completed. Sources scanned: 41
+2026-05-14 08:06:39.099910 - Automation started
+2026-05-14 08:06:39.149282 - Found 6 images
+2026-05-14 08:06:47.475320 - Step 1 Completed: Product selected | Product ID: Ho-10-00-00-100 | Title: Portable Toothbrush & Toothpaste Holder Case | Travel Storage Box with Cup Function | Score: 8
+2026-05-14 08:06:47.476059 - Step 2 Completed: Local AI content generated | Category: kitchen | Hook: discovery
+2026-05-14 08:06:50.104436 - Image uploaded successfully: 1553773650092466
+2026-05-14 08:06:52.182707 - Image uploaded successfully: 1553773693425795
+2026-05-14 08:06:54.041789 - Image uploaded successfully: 1553773766759121
+2026-05-14 08:06:55.882801 - Image uploaded successfully: 1553773806759117
+2026-05-14 08:06:55.884134 - Uploaded images: 4
+2026-05-14 08:06:55.884389 - Voiceover skipped - ELEVENLABS_VOICE_ID missing
+2026-05-14 08:06:55.884470 - Voice-aware scene duration selected: 3.20s
+2026-05-14 08:06:55.884510 - Voiceover script: Yeh product aap ke kaam aa sakta hai.
+
+Agar aap quality ke sath value bhi chahte hain,
+to yeh Portable Toothbrush & Toothpaste Holder Case | Travel Storage Box with Cup Function aap ke liye acha option ho sakta hai.
+
+Is mein milta hai... easy carry design.
+Aur sath hi... clean organized setup.
+
+Price sirf Rs 299.
+
+Cash on Delivery available hai.
+2026-05-14 08:06:57.455470 - Selected online music: https://www.soundhelix.com/examples/mp3/SoundHelix-Song-16.mp3
+2026-05-14 08:06:59.997262 - Music downloaded: /tmp/music_20260514_080657.mp3
+2026-05-14 08:07:00.013060 - Music speed adjustment skipped: module 'moviepy.audio.fx.all' has no attribute 'speedx'
+2026-05-14 08:07:00.013390 - Slow low-volume background music added to reel audio mix
+2026-05-14 08:07:49.577938 - Final reel has audio before upload
+2026-05-14 08:07:49.578054 - Cinematic reel video created: videos/reel_20260514_080657.mp4
+2026-05-14 08:07:49.578120 - Step 3 Completed: Facebook images uploaded and reel created | Reel style: voice_first_product_focused_minimal_text
+2026-05-14 08:07:54.739384 - Carousel post published successfully: 105834518183309_1553774353425729
+2026-05-14 08:08:02.004964 - Reel/video uploaded successfully: 1529560772083662
+2026-05-14 08:08:08.015652 - Auto comment posted: 1553774353425729_1683947583029392
+2026-05-14 08:08:08.016661 - Step 4 Completed: Facebook post and reel published successfully
+2026-05-14 08:08:08.270249 - Lead saved from comment: 1553774353425729_1683947583029392
+2026-05-14 08:08:13.697315 - AI comment reply sent: 1553774353425729_1683947583029392
+2026-05-14 08:08:13.700780 - AI comment replies completed: 1
+2026-05-14 08:08:14.712979 - WhatsApp alert sent successfully: {'messaging_product': 'whatsapp', 'contacts': [{'input': '923169250202', 'wa_id': '923169250202'}], 'messages': [{'id': 'wamid.HBgMOTIzMTY5MjUwMjAyFQIAERgSNDBFN0M4MDVGOTQyRTE2MDY4AA=='}]}
+2026-05-14 08:08:15.157243 - WhatsApp alert sent successfully: {'messaging_product': 'whatsapp', 'contacts': [{'input': '923169250202', 'wa_id': '923169250202'}], 'messages': [{'id': 'wamid.HBgMOTIzMTY5MjUwMjAyFQIAERgSN0VCMDdGQkRGQUEzQkIxOEJBAA=='}]}
+2026-05-14 08:08:15.161702 - Step 5 Completed: Memory updated and run locked
+2026-05-14 08:08:15.162079 - Deleted video file: videos/reel_20260514_080657.mp4
+2026-05-14 08:08:15.162143 - Video cleanup completed. Deleted files: 1
+2026-05-14 08:08:15.162183 - Step 6 Completed: Video folder cleaned
+2026-05-14 08:08:15.162213 - Automation finished successfully
