@@ -8526,3 +8526,46 @@ Cash on Delivery available hai.
 2026-05-15 16:54:45.536419 - Scanning reel/video comments: 1294261759583165
 2026-05-15 16:54:45.853932 - No comments found for AI reply
 2026-05-15 16:54:45.854259 - AI comment worker completed. Sources scanned: 42
+2026-05-15 17:08:09.391843 - Automation started
+2026-05-15 17:08:09.442962 - Found 5 images
+2026-05-15 17:08:12.983462 - Step 1 Completed: Product selected | Product ID: Ap-59-00-00-593 | Title: KING Printed Yellow Tracksuit Sweatshirt & Trouser | Warm & Comfortable Winter Wear | XL | Score: 5
+2026-05-15 17:08:12.984166 - Step 2 Completed: Local AI content generated | Category: fashion | Hook: urgency
+2026-05-15 17:08:14.921186 - Image uploaded successfully: 1555129796623518
+2026-05-15 17:08:16.327120 - Image uploaded successfully: 1555129833290181
+2026-05-15 17:08:17.881167 - Image uploaded successfully: 1555129879956843
+2026-05-15 17:08:19.529735 - Image uploaded successfully: 1555129936623504
+2026-05-15 17:08:19.530762 - Uploaded images: 4
+2026-05-15 17:08:19.530995 - Voiceover skipped - ELEVENLABS_VOICE_ID missing
+2026-05-15 17:08:19.531060 - Voice-aware scene duration selected: 3.20s
+2026-05-15 17:08:19.531100 - Voiceover script: Assalam o Alaikum!
+
+Agar aap kuch useful aur stylish dhoond rahe hain,
+to yeh KING Printed Yellow Tracksuit Sweatshirt & Trouser | Warm & Comfortable Winter Wear | XL aap ke liye acha option ho sakta hai.
+
+Is mein milta hai... clean organized setup.
+Aur sath hi... style ko upgrade kare.
+
+Price sirf Rs 2499.
+
+Stock limited hai, is liye jaldi message karein.
+2026-05-15 17:08:20.868091 - Selected online music: https://www.soundhelix.com/examples/mp3/SoundHelix-Song-9.mp3
+2026-05-15 17:08:24.028926 - Music downloaded: /tmp/music_20260515_170821.mp3
+2026-05-15 17:08:24.085702 - Music speed adjustment skipped: module 'moviepy.audio.fx.all' has no attribute 'speedx'
+2026-05-15 17:08:24.086027 - Slow low-volume background music added to reel audio mix
+2026-05-15 17:09:13.378299 - Final reel has audio before upload
+2026-05-15 17:09:13.378404 - Cinematic reel video created: videos/reel_20260515_170820.mp4
+2026-05-15 17:09:13.378466 - Step 3 Completed: Facebook images uploaded and reel created | Reel style: voice_first_product_focused_minimal_text
+2026-05-15 17:09:18.341820 - Carousel post published successfully: 105834518183309_1555130676623430
+2026-05-15 17:09:27.581508 - Reel/video uploaded successfully: 2824787231207136
+2026-05-15 17:09:31.188012 - Auto comment posted: 1555130676623430_4440572609519524
+2026-05-15 17:09:31.189138 - Step 4 Completed: Facebook post and reel published successfully
+2026-05-15 17:09:31.547238 - Lead saved from comment: 1555130676623430_4440572609519524
+2026-05-15 17:09:37.435281 - AI comment reply sent: 1555130676623430_4440572609519524
+2026-05-15 17:09:37.438670 - AI comment replies completed: 1
+2026-05-15 17:09:38.901908 - WhatsApp alert sent successfully: {'messaging_product': 'whatsapp', 'contacts': [{'input': '923169250202', 'wa_id': '923169250202'}], 'messages': [{'id': 'wamid.HBgMOTIzMTY5MjUwMjAyFQIAERgSODBGRkE5NEU3OTY3NUYwNkMyAA=='}]}
+2026-05-15 17:09:39.812884 - WhatsApp alert sent successfully: {'messaging_product': 'whatsapp', 'contacts': [{'input': '923169250202', 'wa_id': '923169250202'}], 'messages': [{'id': 'wamid.HBgMOTIzMTY5MjUwMjAyFQIAERgSQTlFOTc5QjQ5NkEzMkVCMUE4AA=='}]}
+2026-05-15 17:09:39.817299 - Step 5 Completed: Memory updated and run locked
+2026-05-15 17:09:39.817633 - Deleted video file: videos/reel_20260515_170820.mp4
+2026-05-15 17:09:39.817691 - Video cleanup completed. Deleted files: 1
+2026-05-15 17:09:39.817731 - Step 6 Completed: Video folder cleaned
+2026-05-15 17:09:39.817765 - Automation finished successfully
