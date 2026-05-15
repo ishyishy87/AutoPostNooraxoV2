@@ -7943,3 +7943,46 @@ Stock limited hai, is liye jaldi message karein.
 2026-05-15 07:42:50.265770 - Scanning reel/video comments: 1867915810833416
 2026-05-15 07:42:50.656307 - No comments found for AI reply
 2026-05-15 07:42:50.656671 - AI comment worker completed. Sources scanned: 41
+2026-05-15 08:20:54.747626 - Automation started
+2026-05-15 08:20:54.796149 - Found 4 images
+2026-05-15 08:21:00.381360 - Step 1 Completed: Product selected | Product ID: Sm-43-00-00-430 | Title: Gold | Apple Watch Milanese Magnetic Loop Strap | Stainless Steel Band  | 42mm / 44mm / 45mm | Score: 8
+2026-05-15 08:21:00.381868 - Step 2 Completed: Local AI content generated | Category: tech | Hook: budget
+2026-05-15 08:21:01.883542 - Image uploaded successfully: 1554743599995471
+2026-05-15 08:21:03.303473 - Image uploaded successfully: 1554743629995468
+2026-05-15 08:21:05.947071 - Image uploaded successfully: 1554743666662131
+2026-05-15 08:21:07.526045 - Image uploaded successfully: 1554743713328793
+2026-05-15 08:21:07.527037 - Uploaded images: 4
+2026-05-15 08:21:07.527302 - Voiceover skipped - ELEVENLABS_VOICE_ID missing
+2026-05-15 08:21:07.527359 - Voice-aware scene duration selected: 3.20s
+2026-05-15 08:21:07.527409 - Voiceover script: Yeh product aap ke kaam aa sakta hai.
+
+Agar aap daily use ke liye smart choice chahte hain,
+to yeh Gold | Apple Watch Milanese Magnetic Loop Strap | Stainless Steel Band  | 42mm / 44mm / 45mm aap ki routine ko easy bana sakta hai.
+
+Is mein milta hai... strong build quality.
+Aur sath hi... daily use ke liye smart choice.
+
+Price sirf Rs 899.
+
+Cash on Delivery available hai.
+2026-05-15 08:21:09.036664 - Selected online music: https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3
+2026-05-15 08:21:11.412648 - Music downloaded: /tmp/music_20260515_082109.mp3
+2026-05-15 08:21:11.542622 - Music speed adjustment skipped: module 'moviepy.audio.fx.all' has no attribute 'speedx'
+2026-05-15 08:21:11.543015 - Slow low-volume background music added to reel audio mix
+2026-05-15 08:22:00.925738 - Final reel has audio before upload
+2026-05-15 08:22:00.925851 - Cinematic reel video created: videos/reel_20260515_082109.mp4
+2026-05-15 08:22:00.925996 - Step 3 Completed: Facebook images uploaded and reel created | Reel style: voice_first_product_focused_minimal_text
+2026-05-15 08:22:03.798497 - Carousel post published successfully: 105834518183309_1554744299995401
+2026-05-15 08:22:11.433622 - Reel/video uploaded successfully: 1294261759583165
+2026-05-15 08:22:14.790491 - Auto comment posted: 1554744299995401_1376836220902736
+2026-05-15 08:22:14.791659 - Step 4 Completed: Facebook post and reel published successfully
+2026-05-15 08:22:15.136156 - Lead saved from comment: 1554744299995401_1376836220902736
+2026-05-15 08:22:20.826470 - AI comment reply sent: 1554744299995401_1376836220902736
+2026-05-15 08:22:20.829722 - AI comment replies completed: 1
+2026-05-15 08:22:22.258419 - WhatsApp alert sent successfully: {'messaging_product': 'whatsapp', 'contacts': [{'input': '923169250202', 'wa_id': '923169250202'}], 'messages': [{'id': 'wamid.HBgMOTIzMTY5MjUwMjAyFQIAERgSNDQ5QUI3REU1NDY2NEI1NTAzAA=='}]}
+2026-05-15 08:22:22.979406 - WhatsApp alert sent successfully: {'messaging_product': 'whatsapp', 'contacts': [{'input': '923169250202', 'wa_id': '923169250202'}], 'messages': [{'id': 'wamid.HBgMOTIzMTY5MjUwMjAyFQIAERgSQ0RFQTJFM0U0NEY5RkREM0M2AA=='}]}
+2026-05-15 08:22:22.983869 - Step 5 Completed: Memory updated and run locked
+2026-05-15 08:22:22.984219 - Deleted video file: videos/reel_20260515_082109.mp4
+2026-05-15 08:22:22.984268 - Video cleanup completed. Deleted files: 1
+2026-05-15 08:22:22.984304 - Step 6 Completed: Video folder cleaned
+2026-05-15 08:22:22.984344 - Automation finished successfully
