@@ -10841,3 +10841,13 @@ Order ke liye abhi inbox karein.
 2026-05-16 16:01:53.801774 - Comment fetch failed: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'AUDiCdpk4ft0bvO9AtjEtO2'}}
 2026-05-16 16:01:53.802503 - No comments found for AI reply
 2026-05-16 16:01:53.802798 - AI comment worker completed. Sources scanned: 42
+2026-05-16 16:28:08.008635 - Automation started
+2026-05-16 16:28:08.058448 - Found 5 images
+2026-05-16 16:28:12.920555 - Step 1 Completed: Product selected | Product ID: Sm-20-00-12-203 | Title: Rechargeable Tactical LED Flashlight | Power Bank with Safety Hammer | Score: 8
+2026-05-16 16:28:12.921373 - Step 2 Completed: Local AI content generated | Category: tech | Hook: budget
+2026-05-16 16:28:13.125592 - Image upload failed | HTTP 400: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'AGphERPDPcSXHaFg6-tO2CJ'}}
+2026-05-16 16:28:13.318324 - Image upload failed | HTTP 400: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'A_NyrYQMnx2_1DJ7E91blcq'}}
+2026-05-16 16:28:13.532428 - Image upload failed | HTTP 400: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'ANJztQh8ztL7YCm4IJumV7X'}}
+2026-05-16 16:28:13.706241 - Image upload failed | HTTP 400: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'ARiUCJuUaP5VpQEJ2PCgBl3'}}
+2026-05-16 16:28:13.707281 - Uploaded images: 0
+2026-05-16 16:28:13.707344 - Failed: No images uploaded to Facebook. Check ACCESS_TOKEN, PAGE_ID, and app permissions.
