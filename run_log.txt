@@ -9903,3 +9903,131 @@ Order ke liye abhi inbox karein.
 2026-05-16 10:06:52.941778 - Video insight metric unavailable for 1706378577444766 | blue_reels_play_count
 2026-05-16 10:06:53.023632 - Video insight metric unavailable for 1706378577444766 | post_impressions_unique
 2026-05-16 10:06:53.026866 - AI Analytics completed. Rows updated: 21
+2026-05-16 10:46:31.593391 - AI comment worker started
+2026-05-16 10:46:31.597030 - Scanning post comments: 105834518183309_1550054067131091
+2026-05-16 10:46:31.783952 - Comment fetch failed: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'A7NZKS9kWnv9dR6tpAxMZoM'}}
+2026-05-16 10:46:31.784774 - No comments found for AI reply
+2026-05-16 10:46:31.785061 - Scanning reel/video comments: 2152037468894511
+2026-05-16 10:46:31.937349 - Comment fetch failed: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'AAn41iLKZH_kikm-AmGaDNz'}}
+2026-05-16 10:46:31.938190 - No comments found for AI reply
+2026-05-16 10:46:31.938725 - Scanning post comments: 105834518183309_1550136320456199
+2026-05-16 10:46:32.084692 - Comment fetch failed: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'AesXTUvZ228Bn-ZwhXVmQ1Z'}}
+2026-05-16 10:46:32.085622 - No comments found for AI reply
+2026-05-16 10:46:32.085950 - Scanning reel/video comments: 1794960628541039
+2026-05-16 10:46:32.239488 - Comment fetch failed: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'Atv1ukenq6v_oOaxm4-qpT3'}}
+2026-05-16 10:46:32.240404 - No comments found for AI reply
+2026-05-16 10:46:32.240907 - Scanning post comments: 105834518183309_1550143470455484
+2026-05-16 10:46:32.412339 - Comment fetch failed: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'AjplTALwnZzKG4yQvPviCFv'}}
+2026-05-16 10:46:32.413279 - No comments found for AI reply
+2026-05-16 10:46:32.413616 - Scanning reel/video comments: 2477044379409805
+2026-05-16 10:46:32.555994 - Comment fetch failed: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'A3JF2Zrq-E0LSXiIfhdjkF0'}}
+2026-05-16 10:46:32.556892 - No comments found for AI reply
+2026-05-16 10:46:32.557412 - Scanning post comments: 105834518183309_1550156170454214
+2026-05-16 10:46:32.708620 - Comment fetch failed: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'AzDEixL_Kn5vSSF0ONMaEmR'}}
+2026-05-16 10:46:32.709528 - No comments found for AI reply
+2026-05-16 10:46:32.709857 - Scanning reel/video comments: 1008953445121737
+2026-05-16 10:46:32.851121 - Comment fetch failed: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'AiecKNCl9PJV5L2xMhm5TsQ'}}
+2026-05-16 10:46:32.852036 - No comments found for AI reply
+2026-05-16 10:46:32.852570 - Scanning post comments: 105834518183309_1550178680451963
+2026-05-16 10:46:32.998995 - Comment fetch failed: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'ATgePwLnW2N2Ym4iQe39HAF'}}
+2026-05-16 10:46:32.999807 - No comments found for AI reply
+2026-05-16 10:46:33.000111 - Scanning reel/video comments: 863293589360316
+2026-05-16 10:46:33.139153 - Comment fetch failed: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'AhNkBLbqmQzIfPCUFm-A0pT'}}
+2026-05-16 10:46:33.139969 - No comments found for AI reply
+2026-05-16 10:46:33.140462 - Scanning post comments: 105834518183309_1550358787100619
+2026-05-16 10:46:33.294495 - Comment fetch failed: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'AOBG086cmkWyuUOVaW3jqhj'}}
+2026-05-16 10:46:33.295360 - No comments found for AI reply
+2026-05-16 10:46:33.295666 - Scanning reel/video comments: 957591029936055
+2026-05-16 10:46:33.444381 - Comment fetch failed: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'Aie2-THoPYTCgjiE29PCtcv'}}
+2026-05-16 10:46:33.445270 - No comments found for AI reply
+2026-05-16 10:46:33.445766 - Scanning post comments: 105834518183309_1550435473759617
+2026-05-16 10:46:33.589507 - Comment fetch failed: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'AMcXsek-reJx7aU8Hfjz3Ve'}}
+2026-05-16 10:46:33.590317 - No comments found for AI reply
+2026-05-16 10:46:33.590621 - Scanning reel/video comments: 2043720306188402
+2026-05-16 10:46:33.736606 - Comment fetch failed: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'AcTDiiEHV-aWn9ObtriZ99o'}}
+2026-05-16 10:46:33.737408 - No comments found for AI reply
+2026-05-16 10:46:33.737887 - Scanning post comments: 105834518183309_1551013547035143
+2026-05-16 10:46:33.911511 - Comment fetch failed: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'A4emhjzqUqp5Z2zdXBNx2rs'}}
+2026-05-16 10:46:33.912398 - No comments found for AI reply
+2026-05-16 10:46:33.912701 - Scanning reel/video comments: 1353156736678160
+2026-05-16 10:46:34.063664 - Comment fetch failed: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'Ak4mGwOKB1cky7ok-fl_A4G'}}
+2026-05-16 10:46:34.064533 - No comments found for AI reply
+2026-05-16 10:46:34.065019 - Scanning post comments: 105834518183309_1551018103701354
+2026-05-16 10:46:34.208622 - Comment fetch failed: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'Av1R8e9rXR63ScUzIFRQqtp'}}
+2026-05-16 10:46:34.209433 - No comments found for AI reply
+2026-05-16 10:46:34.209743 - Scanning reel/video comments: 1484426343149214
+2026-05-16 10:46:34.356819 - Comment fetch failed: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'A0SrxaMz01stAbyV4g9cFXW'}}
+2026-05-16 10:46:34.357644 - No comments found for AI reply
+2026-05-16 10:46:34.358119 - Scanning post comments: 105834518183309_1551164890353342
+2026-05-16 10:46:34.678801 - Comment fetch failed: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'ArCxHidJ1fPKtHGnhhR9FUX'}}
+2026-05-16 10:46:34.679913 - No comments found for AI reply
+2026-05-16 10:46:34.680078 - Scanning reel/video comments: 2013746262847884
+2026-05-16 10:46:35.165413 - Comment fetch failed: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'A2-ExYVOedcQmyFafYx3BCc'}}
+2026-05-16 10:46:35.166533 - No comments found for AI reply
+2026-05-16 10:46:35.166887 - Scanning post comments: 105834518183309_1551394263663738
+2026-05-16 10:46:35.312656 - Comment fetch failed: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'AU2Xo81pMujmWvEbtgGGwt6'}}
+2026-05-16 10:46:35.313645 - No comments found for AI reply
+2026-05-16 10:46:35.313793 - Scanning reel/video comments: 1532295394928715
+2026-05-16 10:46:35.489303 - Comment fetch failed: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'AdB6-UvKmd8i4Au4QJry7Dz'}}
+2026-05-16 10:46:35.490160 - No comments found for AI reply
+2026-05-16 10:46:35.490670 - Scanning post comments: 105834518183309_1551440906992407
+2026-05-16 10:46:35.640260 - Comment fetch failed: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'AqkeSxqS5Vxz1jZH_nJjL1W'}}
+2026-05-16 10:46:35.641102 - No comments found for AI reply
+2026-05-16 10:46:35.641435 - Scanning reel/video comments: 730056413495205
+2026-05-16 10:46:35.963075 - Comment fetch failed: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'AykM5C3pnVmJkiFeYYDM7kS'}}
+2026-05-16 10:46:35.964033 - No comments found for AI reply
+2026-05-16 10:46:35.964574 - Scanning post comments: 105834518183309_1551901433613021
+2026-05-16 10:46:36.586305 - Comment fetch failed: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'ALrvgdCjkoY9Pm0BpvtJySw'}}
+2026-05-16 10:46:36.587290 - No comments found for AI reply
+2026-05-16 10:46:36.587612 - Scanning reel/video comments: 1579057693191051
+2026-05-16 10:46:36.732656 - Comment fetch failed: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'ASEQ77TAp5mtQYxDaxy9GDL'}}
+2026-05-16 10:46:36.733491 - No comments found for AI reply
+2026-05-16 10:46:36.733983 - Scanning post comments: 105834518183309_1552306696905828
+2026-05-16 10:46:36.881594 - Comment fetch failed: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'AKcMo-9RHOc8xRUZ6ht7is-'}}
+2026-05-16 10:46:36.882492 - No comments found for AI reply
+2026-05-16 10:46:36.882784 - Scanning reel/video comments: 2206723540145873
+2026-05-16 10:46:37.026306 - Comment fetch failed: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'Ak16UHzlSyg4gqZo2JcToIN'}}
+2026-05-16 10:46:37.027113 - No comments found for AI reply
+2026-05-16 10:46:37.027619 - Scanning post comments: 105834518183309_1552812710188560
+2026-05-16 10:46:37.174037 - Comment fetch failed: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'Au2K79zmOArU0ZnvfnOjh2N'}}
+2026-05-16 10:46:37.174876 - No comments found for AI reply
+2026-05-16 10:46:37.175190 - Scanning reel/video comments: 988707307043439
+2026-05-16 10:46:37.314690 - Comment fetch failed: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'ArX6-PtvnKpELaJZOpHQhw3'}}
+2026-05-16 10:46:37.315526 - No comments found for AI reply
+2026-05-16 10:46:37.316011 - Scanning post comments: 105834518183309_1553238263479338
+2026-05-16 10:46:37.470827 - Comment fetch failed: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'AwHWc4pQcmO9VGLNaOsYqJC'}}
+2026-05-16 10:46:37.471815 - No comments found for AI reply
+2026-05-16 10:46:37.472163 - Scanning reel/video comments: 945414828326986
+2026-05-16 10:46:37.629872 - Comment fetch failed: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'AUVj41va9m1GH1jBSzzgZZY'}}
+2026-05-16 10:46:37.630935 - No comments found for AI reply
+2026-05-16 10:46:37.631497 - Scanning post comments: 105834518183309_1553774353425729
+2026-05-16 10:46:37.783103 - Comment fetch failed: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'AeiIrOEPXCzchyTxWMMUxwa'}}
+2026-05-16 10:46:37.784142 - No comments found for AI reply
+2026-05-16 10:46:37.784504 - Scanning reel/video comments: 1529560772083662
+2026-05-16 10:46:37.926273 - Comment fetch failed: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'AcFN77nVcxFgGyyDUsQ4i0q'}}
+2026-05-16 10:46:37.927302 - No comments found for AI reply
+2026-05-16 10:46:37.927844 - Scanning post comments: 105834518183309_1554209600048871
+2026-05-16 10:46:38.209185 - Comment fetch failed: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'AJMtzqC2HieFYKE0F-_2X2r'}}
+2026-05-16 10:46:38.210265 - No comments found for AI reply
+2026-05-16 10:46:38.210615 - Scanning reel/video comments: 1867915810833416
+2026-05-16 10:46:38.352531 - Comment fetch failed: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'ASAIeFwKoZhwFQbDHWIqbG1'}}
+2026-05-16 10:46:38.353500 - No comments found for AI reply
+2026-05-16 10:46:38.353836 - Scanning post comments: 105834518183309_1554744299995401
+2026-05-16 10:46:38.502184 - Comment fetch failed: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'AbdqtOZjhcUR1SlPat2xmQV'}}
+2026-05-16 10:46:38.503269 - No comments found for AI reply
+2026-05-16 10:46:38.503415 - Scanning reel/video comments: 1294261759583165
+2026-05-16 10:46:39.157150 - Comment fetch failed: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'A1r6WxRJ36ubeCtQUC4pE_i'}}
+2026-05-16 10:46:39.158241 - No comments found for AI reply
+2026-05-16 10:46:39.158798 - Scanning post comments: 105834518183309_1555130676623430
+2026-05-16 10:46:39.308628 - Comment fetch failed: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'ArTuMfaoMbtvAJkxd_nF74v'}}
+2026-05-16 10:46:39.309468 - No comments found for AI reply
+2026-05-16 10:46:39.309782 - Scanning reel/video comments: 2824787231207136
+2026-05-16 10:46:39.448484 - Comment fetch failed: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'Ah5gThV7ZJklqUues34mz5u'}}
+2026-05-16 10:46:39.449369 - No comments found for AI reply
+2026-05-16 10:46:39.449849 - Scanning post comments: 105834518183309_1555663103236854
+2026-05-16 10:46:39.599011 - Comment fetch failed: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'AoacunburPQ1I845jjkq3aX'}}
+2026-05-16 10:46:39.599981 - No comments found for AI reply
+2026-05-16 10:46:39.600363 - Scanning reel/video comments: 1706378577444766
+2026-05-16 10:46:39.755970 - Comment fetch failed: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'A_C4Pmcot5GyQfKXhrYn_f2'}}
+2026-05-16 10:46:39.756826 - No comments found for AI reply
+2026-05-16 10:46:39.757109 - AI comment worker completed. Sources scanned: 42
