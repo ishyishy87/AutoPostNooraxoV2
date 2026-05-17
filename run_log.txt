@@ -12599,3 +12599,13 @@ Order ke liye abhi inbox karein.
 2026-05-17 06:11:23.521229 - Video insight metric unavailable for 1706378577444766 | blue_reels_play_count
 2026-05-17 06:11:23.701298 - Video insight metric unavailable for 1706378577444766 | post_impressions_unique
 2026-05-17 06:11:23.705122 - AI Analytics completed. Rows updated: 21
+2026-05-17 07:54:36.301122 - Automation started
+2026-05-17 07:54:36.351432 - Found 7 images
+2026-05-17 07:54:40.069457 - Step 1 Completed: Product selected | Product ID: Sm-74-00-00-748 | Title: Permanent Match Striker Flint Stone Lighter with Keychain | Waterproof Survival Matchstick for Smoking & Outdoor Use | Score: 8
+2026-05-17 07:54:40.070198 - Step 2 Completed: Local AI content generated | Category: home | Hook: urgency
+2026-05-17 07:54:40.238919 - Image upload failed | HTTP 400: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'AaqLc1PYGvB6QfkZ901j1y_'}}
+2026-05-17 07:54:40.339630 - Image upload failed | HTTP 400: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'ABLMkQbfgExehnH6d970ZHy'}}
+2026-05-17 07:54:40.444245 - Image upload failed | HTTP 400: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'AUms60HG2ERomNe0sP9Ktt0'}}
+2026-05-17 07:54:40.546158 - Image upload failed | HTTP 400: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'A04yhVbHrYO3Ezv8ipzMAuz'}}
+2026-05-17 07:54:40.547031 - Uploaded images: 0
+2026-05-17 07:54:40.547273 - Failed: No images uploaded to Facebook. Check ACCESS_TOKEN, PAGE_ID, and app permissions.
