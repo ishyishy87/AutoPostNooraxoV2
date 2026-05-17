@@ -13824,3 +13824,13 @@ Order ke liye abhi inbox karein.
 2026-05-17 15:48:23.369728 - Video insight metric unavailable for 1706378577444766 | blue_reels_play_count
 2026-05-17 15:48:23.481805 - Video insight metric unavailable for 1706378577444766 | post_impressions_unique
 2026-05-17 15:48:23.486422 - AI Analytics completed. Rows updated: 21
+2026-05-17 16:30:38.940831 - Automation started
+2026-05-17 16:30:38.984015 - Found 4 images
+2026-05-17 16:30:43.392808 - Step 1 Completed: Product selected | Product ID: Pe-39-00-00-398 | Title: Wiki Special Anti Acne Serum 30ml | Clears Acne & Soothes Skin | Score: 8
+2026-05-17 16:30:43.393581 - Step 2 Completed: Local AI content generated | Category: beauty | Hook: discovery
+2026-05-17 16:30:43.638632 - Image upload failed | HTTP 400: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'AJ8RSP3nP9a-xoVd0Goae6T'}}
+2026-05-17 16:30:43.886092 - Image upload failed | HTTP 400: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'ABrJTD86YOjuSlVdFSL4FgC'}}
+2026-05-17 16:30:44.124151 - Image upload failed | HTTP 400: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'AuyPfYa2EMsRXjj1szGiy4r'}}
+2026-05-17 16:30:44.278432 - Image upload failed | HTTP 400: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'AmOXu-q2MAE3RcfpnNYmzel'}}
+2026-05-17 16:30:44.279380 - Uploaded images: 0
+2026-05-17 16:30:44.279452 - Failed: No images uploaded to Facebook. Check ACCESS_TOKEN, PAGE_ID, and app permissions.
