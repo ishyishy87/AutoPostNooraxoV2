@@ -15582,3 +15582,13 @@ Order ke liye abhi inbox karein.
 2026-05-18 08:32:51.469267 - Comment fetch failed: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'AMeR07kTW5E5gKeFT3bmlO4'}}
 2026-05-18 08:32:51.470259 - No comments found for AI reply
 2026-05-18 08:32:51.470378 - AI comment worker completed. Sources scanned: 42
+2026-05-18 08:55:53.421907 - Automation started
+2026-05-18 08:55:53.471618 - Found 4 images
+2026-05-18 08:55:57.095089 - Step 1 Completed: Product selected | Product ID: Ho-70-00-00-702 | Title: Black WiFi Router Storage Box & Wall Mount Shelf  Universal Cable Organizer | Space-Saving Holder for Modem, Set-Top Box & Smart Devices | Home & Office Use | Score: 18
+2026-05-18 08:55:57.095665 - Step 2 Completed: Local AI content generated | Category: tech | Hook: urgency
+2026-05-18 08:55:57.339705 - Image upload failed | HTTP 400: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'AqzaYd4xaYmUhjeq3fRfRpX'}}
+2026-05-18 08:55:57.555062 - Image upload failed | HTTP 400: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'AwMt04vF_Z2R07kli-gE6pX'}}
+2026-05-18 08:55:57.789530 - Image upload failed | HTTP 400: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'A25CMdUrsmMONDbE-YHQdu_'}}
+2026-05-18 08:55:58.004307 - Image upload failed | HTTP 400: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'Am-dFDUSarUXkHGz5ILrGhi'}}
+2026-05-18 08:55:58.005270 - Uploaded images: 0
+2026-05-18 08:55:58.005330 - Failed: No images uploaded to Facebook. Check ACCESS_TOKEN, PAGE_ID, and app permissions.
