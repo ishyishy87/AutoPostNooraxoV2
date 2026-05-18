@@ -16146,3 +16146,13 @@ Order ke liye abhi inbox karein.
 2026-05-18 17:23:19.928988 - Video insight metric unavailable for 1706378577444766 | blue_reels_play_count
 2026-05-18 17:23:20.055474 - Video insight metric unavailable for 1706378577444766 | post_impressions_unique
 2026-05-18 17:23:20.059147 - AI Analytics completed. Rows updated: 21
+2026-05-18 17:38:56.527568 - Automation started
+2026-05-18 17:38:56.577230 - Found 4 images
+2026-05-18 17:39:09.125633 - Image download error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-05-18 17:39:16.677323 - Step 1 Completed: Product selected | Product ID: Ho-67-00-00-674 | Title: 5 Shelf Clothes Hanging Organizer | Foldable Wardrobe Section Storage | Durable Fabric & Plastic | Score: 8
+2026-05-18 17:39:16.678022 - Step 2 Completed: Local AI content generated | Category: home | Hook: budget
+2026-05-18 17:39:16.820561 - Image upload failed | HTTP 400: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'AmJSIXltXxBKIhlhtLxdLtg'}}
+2026-05-18 17:39:16.977635 - Image upload failed | HTTP 400: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'AivhdUWNkt2HfF_VsEyOqxj'}}
+2026-05-18 17:39:17.137192 - Image upload failed | HTTP 400: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'AMkFQH-TysJrlXoFLQ9otKJ'}}
+2026-05-18 17:39:17.138154 - Uploaded images: 0
+2026-05-18 17:39:17.138217 - Failed: No images uploaded to Facebook. Check ACCESS_TOKEN, PAGE_ID, and app permissions.
