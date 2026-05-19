@@ -17648,3 +17648,13 @@ Order ke liye abhi inbox karein.
 2026-05-19 07:54:48.524934 - Comment fetch failed: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'AraUWL4oj1LLERrlEAshgOa'}}
 2026-05-19 07:54:48.525954 - No comments found for AI reply
 2026-05-19 07:54:48.526193 - AI comment worker completed. Sources scanned: 42
+2026-05-19 08:42:22.807141 - Automation started
+2026-05-19 08:42:22.856245 - Found 5 images
+2026-05-19 08:42:30.634573 - Step 1 Completed: Product selected | Product ID: Ho-59-00-00-590 | Title: Bamboo Joint Glass Cup with Lid & Straw | 13oz Can-Shaped Tumbler with Leather Sleeve | Score: 8
+2026-05-19 08:42:30.635422 - Step 2 Completed: Local AI content generated | Category: general | Hook: budget
+2026-05-19 08:42:30.863303 - Image upload failed | HTTP 400: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'AZiNexUTXIqLqdXcLgUEpFB'}}
+2026-05-19 08:42:31.054187 - Image upload failed | HTTP 400: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'A9swtNaCj8Fc3HtNt7ot7gG'}}
+2026-05-19 08:42:31.248094 - Image upload failed | HTTP 400: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'Aw5xxkYQSLCNQPXm4zgFrrs'}}
+2026-05-19 08:42:31.426748 - Image upload failed | HTTP 400: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'Arvru03kxZo_qx4UDR-ksx2'}}
+2026-05-19 08:42:31.427816 - Uploaded images: 0
+2026-05-19 08:42:31.427895 - Failed: No images uploaded to Facebook. Check ACCESS_TOKEN, PAGE_ID, and app permissions.
