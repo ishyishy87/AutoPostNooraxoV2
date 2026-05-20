@@ -20703,3 +20703,13 @@ Order ke liye abhi inbox karein.
 2026-05-20 17:48:55.940532 - Video insight metric unavailable for 1706378577444766 | blue_reels_play_count
 2026-05-20 17:48:56.147546 - Video insight metric unavailable for 1706378577444766 | post_impressions_unique
 2026-05-20 17:48:56.151970 - AI Analytics completed. Rows updated: 21
+2026-05-20 18:03:36.164795 - Automation started
+2026-05-20 18:03:36.213602 - Found 5 images
+2026-05-20 18:03:39.913819 - Step 1 Completed: Product selected | Product ID: Pe-51-00-00-519 | Title: Pixi Botanical Collagen and Retinol Serum 30ml Concentrated Volumizing Anti-Aging Serum for All Skin Types | Score: 8
+2026-05-20 18:03:39.914500 - Step 2 Completed: Local AI content generated | Category: beauty | Hook: budget
+2026-05-20 18:03:40.158555 - Image upload failed | HTTP 400: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'ACxr1edvBAZhvKI-o-5UXdd'}}
+2026-05-20 18:03:40.386988 - Image upload failed | HTTP 400: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'AnT7VFqa7rJztUFtDnI0PFO'}}
+2026-05-20 18:03:40.536159 - Image upload failed | HTTP 400: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'Ab7bGGkiHK4QRviJ9GdhGJN'}}
+2026-05-20 18:03:40.720951 - Image upload failed | HTTP 400: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'AuDkGCHEd3zI--CyXzTdLhf'}}
+2026-05-20 18:03:40.721510 - Uploaded images: 0
+2026-05-20 18:03:40.721748 - Failed: No images uploaded to Facebook. Check ACCESS_TOKEN, PAGE_ID, and app permissions.
