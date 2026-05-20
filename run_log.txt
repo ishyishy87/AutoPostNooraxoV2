@@ -19862,3 +19862,13 @@ Order ke liye abhi inbox karein.
 2026-05-20 07:54:23.287515 - Comment fetch failed: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'A_I7A2OwQqzeHd9I8t-a3r_'}}
 2026-05-20 07:54:23.288476 - No comments found for AI reply
 2026-05-20 07:54:23.288799 - AI comment worker completed. Sources scanned: 42
+2026-05-20 08:39:21.595193 - Automation started
+2026-05-20 08:39:21.644499 - Found 9 images
+2026-05-20 08:39:26.371986 - Step 1 Completed: Product selected | Product ID: Pe-56-00-00-567 | Title: Dr. Rashel White Skin Fade Spots NIGHT Cream | Brightening & Hydrating Night Formula with Arbutin & Niacinamide | Imported | Score: 8
+2026-05-20 08:39:26.372699 - Step 2 Completed: Local AI content generated | Category: beauty | Hook: discovery
+2026-05-20 08:39:26.575873 - Image upload failed | HTTP 400: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'AgbNP7LjtGOgq_UQTUFGQfE'}}
+2026-05-20 08:39:26.713214 - Image upload failed | HTTP 400: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'Ah-oERUHh5FcZpFMwzdoHjD'}}
+2026-05-20 08:39:26.903648 - Image upload failed | HTTP 400: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'AKCUCgm-vm7WX-MROUrwN4V'}}
+2026-05-20 08:39:27.101336 - Image upload failed | HTTP 400: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'AV9G4oEl6_q9q9BGaHJi6oG'}}
+2026-05-20 08:39:27.102301 - Uploaded images: 0
+2026-05-20 08:39:27.102368 - Failed: No images uploaded to Facebook. Check ACCESS_TOKEN, PAGE_ID, and app permissions.
