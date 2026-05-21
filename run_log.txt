@@ -22077,3 +22077,13 @@ Order ke liye abhi inbox karein.
 2026-05-21 08:37:31.013751 - Comment fetch failed: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'AFp4RQDxaeR7OJHlsUkUlCc'}}
 2026-05-21 08:37:31.014680 - No comments found for AI reply
 2026-05-21 08:37:31.014975 - AI comment worker completed. Sources scanned: 42
+2026-05-21 08:45:50.906133 - Automation started
+2026-05-21 08:45:50.956558 - Found 4 images
+2026-05-21 08:45:55.039256 - Step 1 Completed: Product selected | Product ID: Pe-59-00-00-597 | Title: Pack of 2 | O’Mayln Rice Facial Mask | Anti-Wrinkle, Brightening & Hydrating Sheet Mask | Score: 8
+2026-05-21 08:45:55.040019 - Step 2 Completed: Local AI content generated | Category: beauty | Hook: urgency
+2026-05-21 08:45:55.325835 - Image upload failed | HTTP 400: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'AY404wT07hi8FLe_MjHfgRm'}}
+2026-05-21 08:45:55.512890 - Image upload failed | HTTP 400: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'AS2GDRolegabY3BIZLWLTrk'}}
+2026-05-21 08:45:55.704325 - Image upload failed | HTTP 400: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'Ag3ipGKD5Wae3aWK4KG0RlP'}}
+2026-05-21 08:45:55.871188 - Image upload failed | HTTP 400: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'ARtXRdP4eEBE6dPC7A42x9S'}}
+2026-05-21 08:45:55.872266 - Uploaded images: 0
+2026-05-21 08:45:55.872334 - Failed: No images uploaded to Facebook. Check ACCESS_TOKEN, PAGE_ID, and app permissions.
