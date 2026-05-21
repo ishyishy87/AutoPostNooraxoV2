@@ -22641,3 +22641,13 @@ Order ke liye abhi inbox karein.
 2026-05-21 15:58:43.457167 - Comment fetch failed: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'AoZ8ZtS8PQ5Lw9QlZBW4D5X'}}
 2026-05-21 15:58:43.458092 - No comments found for AI reply
 2026-05-21 15:58:43.458408 - AI comment worker completed. Sources scanned: 42
+2026-05-21 17:37:00.702600 - Automation started
+2026-05-21 17:37:00.751089 - Found 9 images
+2026-05-21 17:37:05.546462 - Step 1 Completed: Product selected | Product ID: Pe-65-00-00-654 | Title: 4 Layer Height Increase Insoles – Adjustable 3 cm to 9 cm | Soft, Comfortable & Shock-Absorbing | Elevator Shoe Inserts for Men & Women | Score: 5
+2026-05-21 17:37:05.547303 - Step 2 Completed: Local AI content generated | Category: general | Hook: budget
+2026-05-21 17:37:05.760082 - Image upload failed | HTTP 400: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'A9m6S8qcLOl2uKf1xA8fM2o'}}
+2026-05-21 17:37:06.134850 - Image upload failed | HTTP 400: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'ACgDkT-tZ5q3gKs5rQ7KqCO'}}
+2026-05-21 17:37:06.335029 - Image upload failed | HTTP 400: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'ALQ1BWLlPXhtpRPq3JhqU8F'}}
+2026-05-21 17:37:06.541366 - Image upload failed | HTTP 400: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'AyzDyv98SLesk24vQQda8A4'}}
+2026-05-21 17:37:06.542305 - Uploaded images: 0
+2026-05-21 17:37:06.542362 - Failed: No images uploaded to Facebook. Check ACCESS_TOKEN, PAGE_ID, and app permissions.
