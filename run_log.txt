@@ -24707,3 +24707,152 @@ Order ke liye abhi inbox karein.
 2026-05-22 15:36:49.133904 - Comment fetch failed: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'AevSmVkyVrM3bubyvn25K65'}}
 2026-05-22 15:36:49.134921 - No comments found for AI reply
 2026-05-22 15:36:49.135230 - AI comment worker completed. Sources scanned: 42
+2026-05-22 17:01:10.083004 - AI Analytics worker started
+2026-05-22 17:01:10.086545 - Analytics scanning post: 105834518183309_1550054067131091
+2026-05-22 17:01:10.230420 - Post metrics fetch failed for 105834518183309_1550054067131091: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'AOcEPvXnlH-7wo5U5bkfTGk'}}
+2026-05-22 17:01:10.231650 - Analytics scanning reel/video: 2152037468894511
+2026-05-22 17:01:10.384895 - Reel metrics fetch failed for 2152037468894511: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'ALCi41Yky2Z2qE6T7g71OEy'}}
+2026-05-22 17:01:10.501422 - Video insight metric unavailable for 2152037468894511 | fb_reels_total_plays
+2026-05-22 17:01:10.617000 - Video insight metric unavailable for 2152037468894511 | blue_reels_play_count
+2026-05-22 17:01:10.728946 - Video insight metric unavailable for 2152037468894511 | post_impressions_unique
+2026-05-22 17:01:10.731088 - Analytics scanning post: 105834518183309_1550136320456199
+2026-05-22 17:01:10.848810 - Post metrics fetch failed for 105834518183309_1550136320456199: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'AUmamhMGiZ6iGyHV8gLbggZ'}}
+2026-05-22 17:01:10.850052 - Analytics scanning reel/video: 1794960628541039
+2026-05-22 17:01:10.965289 - Reel metrics fetch failed for 1794960628541039: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'AJGBRI33jUbZxCiElB9ZcR5'}}
+2026-05-22 17:01:11.077866 - Video insight metric unavailable for 1794960628541039 | fb_reels_total_plays
+2026-05-22 17:01:11.193697 - Video insight metric unavailable for 1794960628541039 | blue_reels_play_count
+2026-05-22 17:01:11.309965 - Video insight metric unavailable for 1794960628541039 | post_impressions_unique
+2026-05-22 17:01:11.312216 - Analytics scanning post: 105834518183309_1550143470455484
+2026-05-22 17:01:11.433446 - Post metrics fetch failed for 105834518183309_1550143470455484: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'AHTKey6KC-iU0svFLaK5Dxf'}}
+2026-05-22 17:01:11.434650 - Analytics scanning reel/video: 2477044379409805
+2026-05-22 17:01:11.547666 - Reel metrics fetch failed for 2477044379409805: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'AZix_avyuaFhcmcQmYIxqLy'}}
+2026-05-22 17:01:11.660505 - Video insight metric unavailable for 2477044379409805 | fb_reels_total_plays
+2026-05-22 17:01:11.790280 - Video insight metric unavailable for 2477044379409805 | blue_reels_play_count
+2026-05-22 17:01:11.909191 - Video insight metric unavailable for 2477044379409805 | post_impressions_unique
+2026-05-22 17:01:11.911259 - Analytics scanning post: 105834518183309_1550156170454214
+2026-05-22 17:01:12.035555 - Post metrics fetch failed for 105834518183309_1550156170454214: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'A82BOmHUDuya2VBHsZABCOV'}}
+2026-05-22 17:01:12.036751 - Analytics scanning reel/video: 1008953445121737
+2026-05-22 17:01:12.152734 - Reel metrics fetch failed for 1008953445121737: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'AVb1Div0V4Bw7Bx7We15uSr'}}
+2026-05-22 17:01:12.271295 - Video insight metric unavailable for 1008953445121737 | fb_reels_total_plays
+2026-05-22 17:01:12.388355 - Video insight metric unavailable for 1008953445121737 | blue_reels_play_count
+2026-05-22 17:01:12.506911 - Video insight metric unavailable for 1008953445121737 | post_impressions_unique
+2026-05-22 17:01:12.509352 - Analytics scanning post: 105834518183309_1550178680451963
+2026-05-22 17:01:12.629218 - Post metrics fetch failed for 105834518183309_1550178680451963: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'AgpdxCQ0cK3vCyGLL8_ju5g'}}
+2026-05-22 17:01:12.630580 - Analytics scanning reel/video: 863293589360316
+2026-05-22 17:01:12.742491 - Reel metrics fetch failed for 863293589360316: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'AmqEXZD0a_s75IyTkJOKz_G'}}
+2026-05-22 17:01:12.859057 - Video insight metric unavailable for 863293589360316 | fb_reels_total_plays
+2026-05-22 17:01:12.981373 - Video insight metric unavailable for 863293589360316 | blue_reels_play_count
+2026-05-22 17:01:13.098235 - Video insight metric unavailable for 863293589360316 | post_impressions_unique
+2026-05-22 17:01:13.100349 - Analytics scanning post: 105834518183309_1550358787100619
+2026-05-22 17:01:13.215943 - Post metrics fetch failed for 105834518183309_1550358787100619: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'AhV6Fc89cQmUbmxYLLbTA94'}}
+2026-05-22 17:01:13.217176 - Analytics scanning reel/video: 957591029936055
+2026-05-22 17:01:13.324903 - Reel metrics fetch failed for 957591029936055: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'APpvj4rTyeolFHkcdP5bEB1'}}
+2026-05-22 17:01:13.441541 - Video insight metric unavailable for 957591029936055 | fb_reels_total_plays
+2026-05-22 17:01:13.566480 - Video insight metric unavailable for 957591029936055 | blue_reels_play_count
+2026-05-22 17:01:13.682259 - Video insight metric unavailable for 957591029936055 | post_impressions_unique
+2026-05-22 17:01:13.684298 - Analytics scanning post: 105834518183309_1550435473759617
+2026-05-22 17:01:13.803428 - Post metrics fetch failed for 105834518183309_1550435473759617: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'AH0jyVRcGKcEfFsk-HQ0qA3'}}
+2026-05-22 17:01:13.804584 - Analytics scanning reel/video: 2043720306188402
+2026-05-22 17:01:13.913427 - Reel metrics fetch failed for 2043720306188402: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'AWi22aKCo2qhiYOcvR6kEGb'}}
+2026-05-22 17:01:14.023772 - Video insight metric unavailable for 2043720306188402 | fb_reels_total_plays
+2026-05-22 17:01:14.168465 - Video insight metric unavailable for 2043720306188402 | blue_reels_play_count
+2026-05-22 17:01:14.284402 - Video insight metric unavailable for 2043720306188402 | post_impressions_unique
+2026-05-22 17:01:14.286846 - Analytics scanning post: 105834518183309_1551013547035143
+2026-05-22 17:01:14.402265 - Post metrics fetch failed for 105834518183309_1551013547035143: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'AbyXnNUJ-KSk3VRxwRZ3cQm'}}
+2026-05-22 17:01:14.403448 - Analytics scanning reel/video: 1353156736678160
+2026-05-22 17:01:14.512646 - Reel metrics fetch failed for 1353156736678160: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'AGxOe3haM_yMlU5AlNhHAYk'}}
+2026-05-22 17:01:14.622029 - Video insight metric unavailable for 1353156736678160 | fb_reels_total_plays
+2026-05-22 17:01:14.743419 - Video insight metric unavailable for 1353156736678160 | blue_reels_play_count
+2026-05-22 17:01:14.864982 - Video insight metric unavailable for 1353156736678160 | post_impressions_unique
+2026-05-22 17:01:14.867190 - Analytics scanning post: 105834518183309_1551018103701354
+2026-05-22 17:01:14.988622 - Post metrics fetch failed for 105834518183309_1551018103701354: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'ARRTrHbs6KpYdgCQQ9d04QA'}}
+2026-05-22 17:01:14.989910 - Analytics scanning reel/video: 1484426343149214
+2026-05-22 17:01:15.104608 - Reel metrics fetch failed for 1484426343149214: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'Ay4wg8kCpyqG9Lv_gevElhS'}}
+2026-05-22 17:01:15.227528 - Video insight metric unavailable for 1484426343149214 | fb_reels_total_plays
+2026-05-22 17:01:15.355027 - Video insight metric unavailable for 1484426343149214 | blue_reels_play_count
+2026-05-22 17:01:15.473349 - Video insight metric unavailable for 1484426343149214 | post_impressions_unique
+2026-05-22 17:01:15.475660 - Analytics scanning post: 105834518183309_1551164890353342
+2026-05-22 17:01:15.587666 - Post metrics fetch failed for 105834518183309_1551164890353342: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'A8gVaGbc92CbSbvUuXIW7Ap'}}
+2026-05-22 17:01:15.588816 - Analytics scanning reel/video: 2013746262847884
+2026-05-22 17:01:15.708784 - Reel metrics fetch failed for 2013746262847884: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'A0RMdJ3jHSUwvg1g6EMGSI6'}}
+2026-05-22 17:01:15.823411 - Video insight metric unavailable for 2013746262847884 | fb_reels_total_plays
+2026-05-22 17:01:15.946652 - Video insight metric unavailable for 2013746262847884 | blue_reels_play_count
+2026-05-22 17:01:16.127587 - Video insight metric unavailable for 2013746262847884 | post_impressions_unique
+2026-05-22 17:01:16.129687 - Analytics scanning post: 105834518183309_1551394263663738
+2026-05-22 17:01:16.243284 - Post metrics fetch failed for 105834518183309_1551394263663738: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'A7y5zgb_h5GCh_OT-UeUUcq'}}
+2026-05-22 17:01:16.244480 - Analytics scanning reel/video: 1532295394928715
+2026-05-22 17:01:16.353886 - Reel metrics fetch failed for 1532295394928715: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'A3l2ZsrGQMfED9dfhabOHhp'}}
+2026-05-22 17:01:16.475647 - Video insight metric unavailable for 1532295394928715 | fb_reels_total_plays
+2026-05-22 17:01:16.594120 - Video insight metric unavailable for 1532295394928715 | blue_reels_play_count
+2026-05-22 17:01:16.705864 - Video insight metric unavailable for 1532295394928715 | post_impressions_unique
+2026-05-22 17:01:16.707964 - Analytics scanning post: 105834518183309_1551440906992407
+2026-05-22 17:01:16.823960 - Post metrics fetch failed for 105834518183309_1551440906992407: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'AGDEnS6XGg4j0C49q_mw4TB'}}
+2026-05-22 17:01:16.825262 - Analytics scanning reel/video: 730056413495205
+2026-05-22 17:01:16.935904 - Reel metrics fetch failed for 730056413495205: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'Argne6zbX4CG3XNcxuarLJ_'}}
+2026-05-22 17:01:17.058928 - Video insight metric unavailable for 730056413495205 | fb_reels_total_plays
+2026-05-22 17:01:17.174633 - Video insight metric unavailable for 730056413495205 | blue_reels_play_count
+2026-05-22 17:01:17.293486 - Video insight metric unavailable for 730056413495205 | post_impressions_unique
+2026-05-22 17:01:17.295606 - Analytics scanning post: 105834518183309_1551901433613021
+2026-05-22 17:01:17.417259 - Post metrics fetch failed for 105834518183309_1551901433613021: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'AXtYY3kxkaJYBFHBZvUO4hu'}}
+2026-05-22 17:01:17.418441 - Analytics scanning reel/video: 1579057693191051
+2026-05-22 17:01:17.536009 - Reel metrics fetch failed for 1579057693191051: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'Ab4GEHA2fRbLg6M7IBrqPH8'}}
+2026-05-22 17:01:17.648673 - Video insight metric unavailable for 1579057693191051 | fb_reels_total_plays
+2026-05-22 17:01:17.770149 - Video insight metric unavailable for 1579057693191051 | blue_reels_play_count
+2026-05-22 17:01:17.887870 - Video insight metric unavailable for 1579057693191051 | post_impressions_unique
+2026-05-22 17:01:17.889990 - Analytics scanning post: 105834518183309_1552306696905828
+2026-05-22 17:01:18.015169 - Post metrics fetch failed for 105834518183309_1552306696905828: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'AHVe9WOPI7D6KDAFnYU2bU7'}}
+2026-05-22 17:01:18.016437 - Analytics scanning reel/video: 2206723540145873
+2026-05-22 17:01:18.126250 - Reel metrics fetch failed for 2206723540145873: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'As3kNbrMYOCVVJ2qXVBQyB9'}}
+2026-05-22 17:01:18.238928 - Video insight metric unavailable for 2206723540145873 | fb_reels_total_plays
+2026-05-22 17:01:18.357691 - Video insight metric unavailable for 2206723540145873 | blue_reels_play_count
+2026-05-22 17:01:18.473326 - Video insight metric unavailable for 2206723540145873 | post_impressions_unique
+2026-05-22 17:01:18.475401 - Analytics scanning post: 105834518183309_1552812710188560
+2026-05-22 17:01:18.594988 - Post metrics fetch failed for 105834518183309_1552812710188560: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'AmJQdKxy3EvPeDm5g1UgrJl'}}
+2026-05-22 17:01:18.596187 - Analytics scanning reel/video: 988707307043439
+2026-05-22 17:01:18.708726 - Reel metrics fetch failed for 988707307043439: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'AyIx7bMFRSzgCDtf0fOUPz7'}}
+2026-05-22 17:01:18.818824 - Video insight metric unavailable for 988707307043439 | fb_reels_total_plays
+2026-05-22 17:01:18.933618 - Video insight metric unavailable for 988707307043439 | blue_reels_play_count
+2026-05-22 17:01:19.048845 - Video insight metric unavailable for 988707307043439 | post_impressions_unique
+2026-05-22 17:01:19.050962 - Analytics scanning post: 105834518183309_1553238263479338
+2026-05-22 17:01:19.171510 - Post metrics fetch failed for 105834518183309_1553238263479338: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'AwDHDKI_HAJSp3hRP6PrS4_'}}
+2026-05-22 17:01:19.172721 - Analytics scanning reel/video: 945414828326986
+2026-05-22 17:01:19.283679 - Reel metrics fetch failed for 945414828326986: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'ABQcarIdKXFx9-MNKcUA0sN'}}
+2026-05-22 17:01:19.401576 - Video insight metric unavailable for 945414828326986 | fb_reels_total_plays
+2026-05-22 17:01:19.524353 - Video insight metric unavailable for 945414828326986 | blue_reels_play_count
+2026-05-22 17:01:19.650574 - Video insight metric unavailable for 945414828326986 | post_impressions_unique
+2026-05-22 17:01:19.653063 - Analytics scanning post: 105834518183309_1553774353425729
+2026-05-22 17:01:19.765453 - Post metrics fetch failed for 105834518183309_1553774353425729: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'Ae3_rU8BW2kydAUu6C9ovx8'}}
+2026-05-22 17:01:19.766630 - Analytics scanning reel/video: 1529560772083662
+2026-05-22 17:01:19.875237 - Reel metrics fetch failed for 1529560772083662: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'AJenUoAjjmSRJepJY3-1Y8J'}}
+2026-05-22 17:01:19.987222 - Video insight metric unavailable for 1529560772083662 | fb_reels_total_plays
+2026-05-22 17:01:20.099899 - Video insight metric unavailable for 1529560772083662 | blue_reels_play_count
+2026-05-22 17:01:20.218182 - Video insight metric unavailable for 1529560772083662 | post_impressions_unique
+2026-05-22 17:01:20.220307 - Analytics scanning post: 105834518183309_1554209600048871
+2026-05-22 17:01:20.342168 - Post metrics fetch failed for 105834518183309_1554209600048871: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'ARALdvGiuUJ_qTmq-bAglje'}}
+2026-05-22 17:01:20.343384 - Analytics scanning reel/video: 1867915810833416
+2026-05-22 17:01:20.459462 - Reel metrics fetch failed for 1867915810833416: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'AhxWekW-ZNJE-Qy6gUC3nz1'}}
+2026-05-22 17:01:20.575962 - Video insight metric unavailable for 1867915810833416 | fb_reels_total_plays
+2026-05-22 17:01:20.694111 - Video insight metric unavailable for 1867915810833416 | blue_reels_play_count
+2026-05-22 17:01:20.810328 - Video insight metric unavailable for 1867915810833416 | post_impressions_unique
+2026-05-22 17:01:20.812460 - Analytics scanning post: 105834518183309_1554744299995401
+2026-05-22 17:01:20.926990 - Post metrics fetch failed for 105834518183309_1554744299995401: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'Ak1Y09mXMq9otypvPRg03jx'}}
+2026-05-22 17:01:20.928226 - Analytics scanning reel/video: 1294261759583165
+2026-05-22 17:01:21.049810 - Reel metrics fetch failed for 1294261759583165: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'AEuH891EwoClnFnziivt351'}}
+2026-05-22 17:01:21.179319 - Video insight metric unavailable for 1294261759583165 | fb_reels_total_plays
+2026-05-22 17:01:21.294579 - Video insight metric unavailable for 1294261759583165 | blue_reels_play_count
+2026-05-22 17:01:21.418542 - Video insight metric unavailable for 1294261759583165 | post_impressions_unique
+2026-05-22 17:01:21.420628 - Analytics scanning post: 105834518183309_1555130676623430
+2026-05-22 17:01:21.541267 - Post metrics fetch failed for 105834518183309_1555130676623430: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'AF9rpL2Dmlc9bGr_aTda7nW'}}
+2026-05-22 17:01:21.542481 - Analytics scanning reel/video: 2824787231207136
+2026-05-22 17:01:21.662198 - Reel metrics fetch failed for 2824787231207136: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'Azu-xrTLYUSFQm86RMebpc3'}}
+2026-05-22 17:01:21.779259 - Video insight metric unavailable for 2824787231207136 | fb_reels_total_plays
+2026-05-22 17:01:21.900270 - Video insight metric unavailable for 2824787231207136 | blue_reels_play_count
+2026-05-22 17:01:22.028039 - Video insight metric unavailable for 2824787231207136 | post_impressions_unique
+2026-05-22 17:01:22.030156 - Analytics scanning post: 105834518183309_1555663103236854
+2026-05-22 17:01:22.154291 - Post metrics fetch failed for 105834518183309_1555663103236854: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'AR48gO7Lv4iopUvNW6hz8xU'}}
+2026-05-22 17:01:22.155474 - Analytics scanning reel/video: 1706378577444766
+2026-05-22 17:01:22.275693 - Reel metrics fetch failed for 1706378577444766: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'A1rDXL3Lo1SmIC9RU05Ei6z'}}
+2026-05-22 17:01:22.409533 - Video insight metric unavailable for 1706378577444766 | fb_reels_total_plays
+2026-05-22 17:01:22.529853 - Video insight metric unavailable for 1706378577444766 | blue_reels_play_count
+2026-05-22 17:01:22.643319 - Video insight metric unavailable for 1706378577444766 | post_impressions_unique
+2026-05-22 17:01:22.647560 - AI Analytics completed. Rows updated: 21
