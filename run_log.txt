@@ -24856,3 +24856,13 @@ Order ke liye abhi inbox karein.
 2026-05-22 17:01:22.529853 - Video insight metric unavailable for 1706378577444766 | blue_reels_play_count
 2026-05-22 17:01:22.643319 - Video insight metric unavailable for 1706378577444766 | post_impressions_unique
 2026-05-22 17:01:22.647560 - AI Analytics completed. Rows updated: 21
+2026-05-22 17:21:44.731387 - Automation started
+2026-05-22 17:21:44.780632 - Found 6 images
+2026-05-22 17:21:49.668920 - Step 1 Completed: Product selected | Product ID: Ki-78-00-00-785 | Title: Premium RC Fighter Jet Plane 2.4 | Remote Control Foam Airplane Toy with Lights & 3D Stunt Glider | Score: 15
+2026-05-22 17:21:49.669541 - Step 2 Completed: Local AI content generated | Category: home | Hook: budget
+2026-05-22 17:21:49.832178 - Image upload failed | HTTP 400: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'AN9Xm2uwKuaXnJKrWaDknXK'}}
+2026-05-22 17:21:49.950846 - Image upload failed | HTTP 400: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'AZxX7RWmX_5qJQ2xNe2gkKW'}}
+2026-05-22 17:21:50.061931 - Image upload failed | HTTP 400: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'AB0_smuc-IusCgpvG9gRwz_'}}
+2026-05-22 17:21:50.174233 - Image upload failed | HTTP 400: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'Ak39xeHtpTmad1FNu0cGa1N'}}
+2026-05-22 17:21:50.175405 - Uploaded images: 0
+2026-05-22 17:21:50.175497 - Failed: No images uploaded to Facebook. Check ACCESS_TOKEN, PAGE_ID, and app permissions.
