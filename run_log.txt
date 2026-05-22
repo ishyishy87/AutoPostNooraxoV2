@@ -24015,3 +24015,13 @@ Order ke liye abhi inbox karein.
 2026-05-22 06:37:16.484668 - Video insight metric unavailable for 1706378577444766 | blue_reels_play_count
 2026-05-22 06:37:16.720574 - Video insight metric unavailable for 1706378577444766 | post_impressions_unique
 2026-05-22 06:37:16.724081 - AI Analytics completed. Rows updated: 21
+2026-05-22 08:35:53.914769 - Automation started
+2026-05-22 08:35:53.956837 - Found 5 images
+2026-05-22 08:35:58.138649 - Step 1 Completed: Product selected | Product ID: Mi-38-00-00-385 | Title: K9 Wireless Lavalier Microphone | Plug & Play Type-C & iOS Mic with Noise Reduction | Score: 15
+2026-05-22 08:35:58.139322 - Step 2 Completed: Local AI content generated | Category: tech | Hook: budget
+2026-05-22 08:35:58.457096 - Image upload failed | HTTP 400: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'ATJqiRkD-XR6O0kNCrcV__v'}}
+2026-05-22 08:35:58.641304 - Image upload failed | HTTP 400: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'AvsxSJuozifHY3JFEF0b9gH'}}
+2026-05-22 08:35:58.817687 - Image upload failed | HTTP 400: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'AHhJ4fX_i2bM1uKtwUgdNKd'}}
+2026-05-22 08:35:58.992317 - Image upload failed | HTTP 400: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'A_4egJDBSfvdZWyaTn8flNw'}}
+2026-05-22 08:35:58.993212 - Uploaded images: 0
+2026-05-22 08:35:58.993278 - Failed: No images uploaded to Facebook. Check ACCESS_TOKEN, PAGE_ID, and app permissions.
