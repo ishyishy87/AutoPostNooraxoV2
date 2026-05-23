@@ -26358,3 +26358,13 @@ Order ke liye abhi inbox karein.
 2026-05-23 06:38:24.271136 - Comment fetch failed: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'Akm2-oP1t15_S1Eahg7gA07'}}
 2026-05-23 06:38:24.271923 - No comments found for AI reply
 2026-05-23 06:38:24.272210 - AI comment worker completed. Sources scanned: 42
+2026-05-23 07:53:08.763122 - Automation started
+2026-05-23 07:53:08.812771 - Found 4 images
+2026-05-23 07:53:12.932662 - Step 1 Completed: Product selected | Product ID: Ba-68-00-00-680 | Title: Black Elegant Cat Handle Handbag for Girls & Ladies | Stylish Shoulder & Crossbody Bag with Gold Accents | Adjustable Strap | Score: 8
+2026-05-23 07:53:12.933489 - Step 2 Completed: Local AI content generated | Category: fashion | Hook: budget
+2026-05-23 07:53:13.249763 - Image upload failed | HTTP 400: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'AUp7qOFC35uLkOqERNQnpMZ'}}
+2026-05-23 07:53:13.534200 - Image upload failed | HTTP 400: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'Aw-j0dBXBqzdGvxCpECWtDd'}}
+2026-05-23 07:53:13.874405 - Image upload failed | HTTP 400: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'AAG5aDHQgR6SCIrmTHS9uqd'}}
+2026-05-23 07:53:14.161733 - Image upload failed | HTTP 400: {'error': {'message': 'This Page access token belongs to a Page that is not accessible.', 'type': 'OAuthException', 'code': 190, 'fbtrace_id': 'Anb_gM9bQEKWL5xwFIZyFGj'}}
+2026-05-23 07:53:14.162729 - Uploaded images: 0
+2026-05-23 07:53:14.162813 - Failed: No images uploaded to Facebook. Check ACCESS_TOKEN, PAGE_ID, and app permissions.
