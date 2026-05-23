@@ -27732,3 +27732,13 @@ Order ke liye abhi inbox karein.
 2026-05-23 16:09:34.105415 - Comment fetch failed: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'AnwKC8X82wYnjdpXutxxFDJ'}}
 2026-05-23 16:09:34.106254 - No comments found for AI reply
 2026-05-23 16:09:34.106586 - AI comment worker completed. Sources scanned: 42
+2026-05-23 16:30:57.235175 - Automation started
+2026-05-23 16:30:57.278860 - Found 14 images
+2026-05-23 16:31:01.427671 - Step 1 Completed: Product selected | Product ID: Pe-20-00-00-207 | Title: Mini Portable Ceramic Hair Straightener & Curler | Frizz-Free Smooth Hair | Random Color | Score: 8
+2026-05-23 16:31:01.428349 - Step 2 Completed: Local AI content generated | Category: beauty | Hook: budget
+2026-05-23 16:31:01.697698 - Image upload failed | HTTP 400: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'AonvgAK6Ps9xJ_GGrMghe7n'}}
+2026-05-23 16:31:02.287290 - Image upload failed | HTTP 400: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'Ag7DCr0g0OabM7fm17ZIq0D'}}
+2026-05-23 16:31:02.579637 - Image upload failed | HTTP 400: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'AzLG4Y6-F2IbHCr4_R-3RwO'}}
+2026-05-23 16:31:02.871683 - Image upload failed | HTTP 400: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'A_sLxemmE-85g7gpBTGkFEf'}}
+2026-05-23 16:31:02.872563 - Uploaded images: 0
+2026-05-23 16:31:02.872635 - Failed: No images uploaded to Facebook. Check ACCESS_TOKEN, PAGE_ID, and app permissions.
