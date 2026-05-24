@@ -29490,3 +29490,13 @@ Order ke liye abhi inbox karein.
 2026-05-24 07:38:16.518682 - Comment fetch failed: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'AItR_e9CHJ5-FqURKEm9bNr'}}
 2026-05-24 07:38:16.519651 - No comments found for AI reply
 2026-05-24 07:38:16.519784 - AI comment worker completed. Sources scanned: 42
+2026-05-24 08:02:52.062723 - Automation started
+2026-05-24 08:02:52.112556 - Found 8 images
+2026-05-24 08:02:56.880679 - Step 1 Completed: Product selected | Product ID: Sm-25-00-00-250 | Title: Universal Car Rearview Mirror Phone Holder | Hands-Free Adjustable Mount for Smartphones & GPS | Score: 18
+2026-05-24 08:02:56.881383 - Step 2 Completed: Local AI content generated | Category: tech | Hook: budget
+2026-05-24 08:02:57.225415 - Image upload failed | HTTP 400: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'A3UH-6VPLjVZBgSNpdb3-R2'}}
+2026-05-24 08:02:57.507879 - Image upload failed | HTTP 400: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'ADhSbuINrlo8FPcUrk9lg8x'}}
+2026-05-24 08:02:57.757469 - Image upload failed | HTTP 400: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'AKTj2NQCfug7M8bsBpuOi_r'}}
+2026-05-24 08:02:57.982287 - Image upload failed | HTTP 400: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'AmcFqqF3l82AjvANduPGsVK'}}
+2026-05-24 08:02:57.983291 - Uploaded images: 0
+2026-05-24 08:02:57.983363 - Failed: No images uploaded to Facebook. Check ACCESS_TOKEN, PAGE_ID, and app permissions.
