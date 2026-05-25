@@ -32906,3 +32906,13 @@ Order ke liye abhi inbox karein.
 2026-05-25 16:56:41.499437 - Video insight metric unavailable for 1706378577444766 | blue_reels_play_count
 2026-05-25 16:56:41.615694 - Video insight metric unavailable for 1706378577444766 | post_impressions_unique
 2026-05-25 16:56:41.619367 - AI Analytics completed. Rows updated: 21
+2026-05-25 17:18:46.833806 - Automation started
+2026-05-25 17:18:46.881519 - Found 5 images
+2026-05-25 17:18:51.296792 - Step 1 Completed: Product selected | Product ID: Ho-59-00-00-59 | Title: 360° Twist Rotatable Triangle Mop with Long Handle Auto Squeeze Design for Floor, Wall, and Ceiling Cleaning | Score: 5
+2026-05-25 17:18:51.297589 - Step 2 Completed: Local AI content generated | Category: general | Hook: urgency
+2026-05-25 17:18:51.460059 - Image upload failed | HTTP 400: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'AhbBFl3BXQFC8-aXaCyBx5Q'}}
+2026-05-25 17:18:51.593480 - Image upload failed | HTTP 400: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'Ag4S5PF4uey0hP0WJ5Rz4fc'}}
+2026-05-25 17:18:51.697845 - Image upload failed | HTTP 400: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'A8c_7y9vPqJC53tAzKGcmk8'}}
+2026-05-25 17:18:51.830723 - Image upload failed | HTTP 400: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'A53BKJO9mhzbGIb9I9XPRdK'}}
+2026-05-25 17:18:51.831584 - Uploaded images: 0
+2026-05-25 17:18:51.831653 - Failed: No images uploaded to Facebook. Check ACCESS_TOKEN, PAGE_ID, and app permissions.
