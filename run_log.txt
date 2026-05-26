@@ -34280,3 +34280,11 @@ Order ke liye abhi inbox karein.
 2026-05-26 06:36:01.661340 - Video insight metric unavailable for 1706378577444766 | blue_reels_play_count
 2026-05-26 06:36:01.893915 - Video insight metric unavailable for 1706378577444766 | post_impressions_unique
 2026-05-26 06:36:01.897600 - AI Analytics completed. Rows updated: 21
+2026-05-26 08:47:57.325789 - Automation started
+2026-05-26 08:47:57.374530 - Found 2 images
+2026-05-26 08:48:04.409515 - Step 1 Completed: Product selected | Product ID: Pe-33-00-00-331 | Title: CeraVe Resurfacing Retinol Serum 30ml | Post-Acne Marks, Brightening & Pore Minimizer | Score: 8
+2026-05-26 08:48:04.410241 - Step 2 Completed: Local AI content generated | Category: beauty | Hook: urgency
+2026-05-26 08:48:04.847902 - Image upload failed | HTTP 400: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'AmBDfc0Cz8LaBsStfSkFXDS'}}
+2026-05-26 08:48:05.215724 - Image upload failed | HTTP 400: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'AqlbXtQ7M6nL5Uk6ShM9SQV'}}
+2026-05-26 08:48:05.216851 - Uploaded images: 0
+2026-05-26 08:48:05.216932 - Failed: No images uploaded to Facebook. Check ACCESS_TOKEN, PAGE_ID, and app permissions.
