@@ -34970,3 +34970,13 @@ Order ke liye abhi inbox karein.
 2026-05-26 17:50:16.354209 - Video insight metric unavailable for 1706378577444766 | blue_reels_play_count
 2026-05-26 17:50:16.524897 - Video insight metric unavailable for 1706378577444766 | post_impressions_unique
 2026-05-26 17:50:16.528991 - AI Analytics completed. Rows updated: 21
+2026-05-26 18:09:00.880020 - Automation started
+2026-05-26 18:09:00.922569 - Found 6 images
+2026-05-26 18:09:05.368632 - Step 1 Completed: Product selected | Product ID: Pe-51-00-00-517 | Title: Pixi On-the-Glow Blush CheekTone Multi-Use pH Reactive Balm for Cheeks and Lips | Score: 8
+2026-05-26 18:09:05.369482 - Step 2 Completed: Local AI content generated | Category: general | Hook: discovery
+2026-05-26 18:09:05.598167 - Image upload failed | HTTP 400: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'A_xaQmDmWEEHnDP7xLnnik1'}}
+2026-05-26 18:09:05.801830 - Image upload failed | HTTP 400: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'A-yNGqKoFG7GOB4t2USmNSg'}}
+2026-05-26 18:09:05.989573 - Image upload failed | HTTP 400: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'AzEqFiYJ3cXlaFTrCzHVYtI'}}
+2026-05-26 18:09:06.248543 - Image upload failed | HTTP 400: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'APCQJPrYqYOMoV_R4zCQkI9'}}
+2026-05-26 18:09:06.249463 - Uploaded images: 0
+2026-05-26 18:09:06.249527 - Failed: No images uploaded to Facebook. Check ACCESS_TOKEN, PAGE_ID, and app permissions.
