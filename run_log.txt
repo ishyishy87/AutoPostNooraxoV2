@@ -36344,3 +36344,11 @@ Order ke liye abhi inbox karein.
 2026-05-27 08:41:48.652477 - Comment fetch failed: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'A4xPKX6rw74-0GnqYhv3Xp7'}}
 2026-05-27 08:41:48.653574 - No comments found for AI reply
 2026-05-27 08:41:48.653882 - AI comment worker completed. Sources scanned: 42
+2026-05-27 08:51:21.466881 - Automation started
+2026-05-27 08:51:21.516938 - Found 2 images
+2026-05-27 08:51:24.034957 - Step 1 Completed: Product selected | Product ID: Ai-92-00-00-92 | Title: Apple AirPods Pro 2nd Generation | Wireless Earbuds | Active Noise Cancellation & Custom Fit | Score: 15
+2026-05-27 08:51:24.035639 - Step 2 Completed: Local AI content generated | Category: tech | Hook: urgency
+2026-05-27 08:51:24.318666 - Image upload failed | HTTP 400: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'AC7Qd_YL2T4Lly2IBqF3AnM'}}
+2026-05-27 08:51:24.465777 - Image upload failed | HTTP 400: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'ApGdrU1SM9VAN9iWXcswj0w'}}
+2026-05-27 08:51:24.466677 - Uploaded images: 0
+2026-05-27 08:51:24.466769 - Failed: No images uploaded to Facebook. Check ACCESS_TOKEN, PAGE_ID, and app permissions.
