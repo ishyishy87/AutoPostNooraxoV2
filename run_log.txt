@@ -35790,3 +35790,152 @@ Order ke liye abhi inbox karein.
 2026-05-27 00:14:21.197721 - Comment fetch failed: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'A7ofL3B8d2S3bRNZ93Q8R3H'}}
 2026-05-27 00:14:21.198476 - No comments found for AI reply
 2026-05-27 00:14:21.198745 - AI comment worker completed. Sources scanned: 42
+2026-05-27 02:01:11.956246 - AI Analytics worker started
+2026-05-27 02:01:11.959834 - Analytics scanning post: 105834518183309_1550054067131091
+2026-05-27 02:01:12.083418 - Post metrics fetch failed for 105834518183309_1550054067131091: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'AjucENGjZMgNcTThMR7fuam'}}
+2026-05-27 02:01:12.084673 - Analytics scanning reel/video: 2152037468894511
+2026-05-27 02:01:12.137684 - Reel metrics fetch failed for 2152037468894511: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'AMYN3jA40Lt2L1AeiP4PXCq'}}
+2026-05-27 02:01:12.191440 - Video insight metric unavailable for 2152037468894511 | fb_reels_total_plays
+2026-05-27 02:01:12.246141 - Video insight metric unavailable for 2152037468894511 | blue_reels_play_count
+2026-05-27 02:01:12.303885 - Video insight metric unavailable for 2152037468894511 | post_impressions_unique
+2026-05-27 02:01:12.307123 - Analytics scanning post: 105834518183309_1550136320456199
+2026-05-27 02:01:12.365348 - Post metrics fetch failed for 105834518183309_1550136320456199: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'A7Lc7P_0ey5Cgu3h0eLJFN6'}}
+2026-05-27 02:01:12.366694 - Analytics scanning reel/video: 1794960628541039
+2026-05-27 02:01:12.421120 - Reel metrics fetch failed for 1794960628541039: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'AmrKpDAS9FNV4T8reD_AlLK'}}
+2026-05-27 02:01:12.474451 - Video insight metric unavailable for 1794960628541039 | fb_reels_total_plays
+2026-05-27 02:01:12.531031 - Video insight metric unavailable for 1794960628541039 | blue_reels_play_count
+2026-05-27 02:01:12.588387 - Video insight metric unavailable for 1794960628541039 | post_impressions_unique
+2026-05-27 02:01:12.590524 - Analytics scanning post: 105834518183309_1550143470455484
+2026-05-27 02:01:12.648290 - Post metrics fetch failed for 105834518183309_1550143470455484: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'AxYzhtgbJe3kFByRxTO0iZH'}}
+2026-05-27 02:01:12.649488 - Analytics scanning reel/video: 2477044379409805
+2026-05-27 02:01:12.710357 - Reel metrics fetch failed for 2477044379409805: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'AM157Hbxt4DisoLK9aBmRxr'}}
+2026-05-27 02:01:12.772590 - Video insight metric unavailable for 2477044379409805 | fb_reels_total_plays
+2026-05-27 02:01:12.825545 - Video insight metric unavailable for 2477044379409805 | blue_reels_play_count
+2026-05-27 02:01:12.958361 - Video insight metric unavailable for 2477044379409805 | post_impressions_unique
+2026-05-27 02:01:12.960689 - Analytics scanning post: 105834518183309_1550156170454214
+2026-05-27 02:01:13.016191 - Post metrics fetch failed for 105834518183309_1550156170454214: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'AfJ9i9lTYfxed6Vs3D4sEsw'}}
+2026-05-27 02:01:13.017380 - Analytics scanning reel/video: 1008953445121737
+2026-05-27 02:01:13.072461 - Reel metrics fetch failed for 1008953445121737: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'AoKitijIAkG_p0sMZ9RBsMf'}}
+2026-05-27 02:01:13.127720 - Video insight metric unavailable for 1008953445121737 | fb_reels_total_plays
+2026-05-27 02:01:13.196309 - Video insight metric unavailable for 1008953445121737 | blue_reels_play_count
+2026-05-27 02:01:13.252901 - Video insight metric unavailable for 1008953445121737 | post_impressions_unique
+2026-05-27 02:01:13.255158 - Analytics scanning post: 105834518183309_1550178680451963
+2026-05-27 02:01:13.315614 - Post metrics fetch failed for 105834518183309_1550178680451963: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'AeMf1HB9NpFt63ki2Ep6j7K'}}
+2026-05-27 02:01:13.316807 - Analytics scanning reel/video: 863293589360316
+2026-05-27 02:01:13.504369 - Reel metrics fetch failed for 863293589360316: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'A6MithIIpBSSo0EDwy5Nmk2'}}
+2026-05-27 02:01:13.561790 - Video insight metric unavailable for 863293589360316 | fb_reels_total_plays
+2026-05-27 02:01:13.617306 - Video insight metric unavailable for 863293589360316 | blue_reels_play_count
+2026-05-27 02:01:13.710738 - Video insight metric unavailable for 863293589360316 | post_impressions_unique
+2026-05-27 02:01:13.712894 - Analytics scanning post: 105834518183309_1550358787100619
+2026-05-27 02:01:13.776502 - Post metrics fetch failed for 105834518183309_1550358787100619: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'ArSpe8Sh59uB6THv0ImpFOn'}}
+2026-05-27 02:01:13.777826 - Analytics scanning reel/video: 957591029936055
+2026-05-27 02:01:13.830378 - Reel metrics fetch failed for 957591029936055: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'Az5U2yS8LxyBr5IV2viiOgy'}}
+2026-05-27 02:01:13.888503 - Video insight metric unavailable for 957591029936055 | fb_reels_total_plays
+2026-05-27 02:01:13.946678 - Video insight metric unavailable for 957591029936055 | blue_reels_play_count
+2026-05-27 02:01:14.000915 - Video insight metric unavailable for 957591029936055 | post_impressions_unique
+2026-05-27 02:01:14.003221 - Analytics scanning post: 105834518183309_1550435473759617
+2026-05-27 02:01:14.060131 - Post metrics fetch failed for 105834518183309_1550435473759617: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'Av_AXR7gYUwpIgITmFSwqP7'}}
+2026-05-27 02:01:14.061330 - Analytics scanning reel/video: 2043720306188402
+2026-05-27 02:01:14.116771 - Reel metrics fetch failed for 2043720306188402: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'ATDwPKBeluYcCbR4ruv4g6i'}}
+2026-05-27 02:01:14.169895 - Video insight metric unavailable for 2043720306188402 | fb_reels_total_plays
+2026-05-27 02:01:14.224763 - Video insight metric unavailable for 2043720306188402 | blue_reels_play_count
+2026-05-27 02:01:14.279519 - Video insight metric unavailable for 2043720306188402 | post_impressions_unique
+2026-05-27 02:01:14.281437 - Analytics scanning post: 105834518183309_1551013547035143
+2026-05-27 02:01:14.372781 - Post metrics fetch failed for 105834518183309_1551013547035143: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'AsZv28y_wORpYCtDgav3YC2'}}
+2026-05-27 02:01:14.374186 - Analytics scanning reel/video: 1353156736678160
+2026-05-27 02:01:14.425308 - Reel metrics fetch failed for 1353156736678160: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'ATqjvNAsQzcYXPgZBYGFL1L'}}
+2026-05-27 02:01:14.478565 - Video insight metric unavailable for 1353156736678160 | fb_reels_total_plays
+2026-05-27 02:01:14.536868 - Video insight metric unavailable for 1353156736678160 | blue_reels_play_count
+2026-05-27 02:01:14.599661 - Video insight metric unavailable for 1353156736678160 | post_impressions_unique
+2026-05-27 02:01:14.601737 - Analytics scanning post: 105834518183309_1551018103701354
+2026-05-27 02:01:14.659549 - Post metrics fetch failed for 105834518183309_1551018103701354: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'Aul7DtTzYWtKSW7aoe-uSVX'}}
+2026-05-27 02:01:14.660638 - Analytics scanning reel/video: 1484426343149214
+2026-05-27 02:01:14.715892 - Reel metrics fetch failed for 1484426343149214: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'AATwI9EKu7bUklXfQJzrpHu'}}
+2026-05-27 02:01:14.769588 - Video insight metric unavailable for 1484426343149214 | fb_reels_total_plays
+2026-05-27 02:01:14.855572 - Video insight metric unavailable for 1484426343149214 | blue_reels_play_count
+2026-05-27 02:01:14.912364 - Video insight metric unavailable for 1484426343149214 | post_impressions_unique
+2026-05-27 02:01:14.914549 - Analytics scanning post: 105834518183309_1551164890353342
+2026-05-27 02:01:14.979401 - Post metrics fetch failed for 105834518183309_1551164890353342: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'AcQC43p2UhpfRSDRfx2gikh'}}
+2026-05-27 02:01:14.980676 - Analytics scanning reel/video: 2013746262847884
+2026-05-27 02:01:15.039360 - Reel metrics fetch failed for 2013746262847884: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'AMb3SO6hG2jqhfGaZf3xCN_'}}
+2026-05-27 02:01:15.103408 - Video insight metric unavailable for 2013746262847884 | fb_reels_total_plays
+2026-05-27 02:01:15.161863 - Video insight metric unavailable for 2013746262847884 | blue_reels_play_count
+2026-05-27 02:01:15.213773 - Video insight metric unavailable for 2013746262847884 | post_impressions_unique
+2026-05-27 02:01:15.215749 - Analytics scanning post: 105834518183309_1551394263663738
+2026-05-27 02:01:15.273221 - Post metrics fetch failed for 105834518183309_1551394263663738: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'AyA8HGXA_BXyXJesZ7WOEA6'}}
+2026-05-27 02:01:15.274535 - Analytics scanning reel/video: 1532295394928715
+2026-05-27 02:01:15.327565 - Reel metrics fetch failed for 1532295394928715: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'AnZTSiqLDiYv28GCbHePnH_'}}
+2026-05-27 02:01:15.388797 - Video insight metric unavailable for 1532295394928715 | fb_reels_total_plays
+2026-05-27 02:01:15.442013 - Video insight metric unavailable for 1532295394928715 | blue_reels_play_count
+2026-05-27 02:01:15.495700 - Video insight metric unavailable for 1532295394928715 | post_impressions_unique
+2026-05-27 02:01:15.497831 - Analytics scanning post: 105834518183309_1551440906992407
+2026-05-27 02:01:15.561890 - Post metrics fetch failed for 105834518183309_1551440906992407: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'A0BM2cekFStsmXSkU8ZE7H3'}}
+2026-05-27 02:01:15.563593 - Analytics scanning reel/video: 730056413495205
+2026-05-27 02:01:15.618461 - Reel metrics fetch failed for 730056413495205: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'Aylc3K2UAeI1sBP3kc8lYo9'}}
+2026-05-27 02:01:15.680385 - Video insight metric unavailable for 730056413495205 | fb_reels_total_plays
+2026-05-27 02:01:15.734983 - Video insight metric unavailable for 730056413495205 | blue_reels_play_count
+2026-05-27 02:01:15.827655 - Video insight metric unavailable for 730056413495205 | post_impressions_unique
+2026-05-27 02:01:15.829767 - Analytics scanning post: 105834518183309_1551901433613021
+2026-05-27 02:01:15.888432 - Post metrics fetch failed for 105834518183309_1551901433613021: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'A9Gk1KzhQCP17zkZQNKx-pj'}}
+2026-05-27 02:01:15.889592 - Analytics scanning reel/video: 1579057693191051
+2026-05-27 02:01:16.058158 - Reel metrics fetch failed for 1579057693191051: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'AO64rAl3LpM_A48wcwZHInI'}}
+2026-05-27 02:01:16.120371 - Video insight metric unavailable for 1579057693191051 | fb_reels_total_plays
+2026-05-27 02:01:16.176641 - Video insight metric unavailable for 1579057693191051 | blue_reels_play_count
+2026-05-27 02:01:16.231445 - Video insight metric unavailable for 1579057693191051 | post_impressions_unique
+2026-05-27 02:01:16.233643 - Analytics scanning post: 105834518183309_1552306696905828
+2026-05-27 02:01:16.290160 - Post metrics fetch failed for 105834518183309_1552306696905828: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'A3yY6Qta74GcA-SxxPj3fOD'}}
+2026-05-27 02:01:16.291371 - Analytics scanning reel/video: 2206723540145873
+2026-05-27 02:01:16.345514 - Reel metrics fetch failed for 2206723540145873: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'AIwubRzZM4SEjo8EomBAdbP'}}
+2026-05-27 02:01:16.415277 - Video insight metric unavailable for 2206723540145873 | fb_reels_total_plays
+2026-05-27 02:01:16.474378 - Video insight metric unavailable for 2206723540145873 | blue_reels_play_count
+2026-05-27 02:01:16.529607 - Video insight metric unavailable for 2206723540145873 | post_impressions_unique
+2026-05-27 02:01:16.531747 - Analytics scanning post: 105834518183309_1552812710188560
+2026-05-27 02:01:16.619157 - Post metrics fetch failed for 105834518183309_1552812710188560: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'AGJ5rUXMJMRu7__k9kNkpsq'}}
+2026-05-27 02:01:16.620415 - Analytics scanning reel/video: 988707307043439
+2026-05-27 02:01:16.686753 - Reel metrics fetch failed for 988707307043439: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'AAjtZ8jNRKj8dlDuQnHJLKe'}}
+2026-05-27 02:01:16.740661 - Video insight metric unavailable for 988707307043439 | fb_reels_total_plays
+2026-05-27 02:01:16.874704 - Video insight metric unavailable for 988707307043439 | blue_reels_play_count
+2026-05-27 02:01:16.930076 - Video insight metric unavailable for 988707307043439 | post_impressions_unique
+2026-05-27 02:01:16.932184 - Analytics scanning post: 105834518183309_1553238263479338
+2026-05-27 02:01:16.986095 - Post metrics fetch failed for 105834518183309_1553238263479338: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'AeOxmb_t298stdykHKPBNWX'}}
+2026-05-27 02:01:16.987276 - Analytics scanning reel/video: 945414828326986
+2026-05-27 02:01:17.040722 - Reel metrics fetch failed for 945414828326986: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'AOMNTAX7YbNo7dEMqNTfeCm'}}
+2026-05-27 02:01:17.147623 - Video insight metric unavailable for 945414828326986 | fb_reels_total_plays
+2026-05-27 02:01:17.201303 - Video insight metric unavailable for 945414828326986 | blue_reels_play_count
+2026-05-27 02:01:17.257433 - Video insight metric unavailable for 945414828326986 | post_impressions_unique
+2026-05-27 02:01:17.259711 - Analytics scanning post: 105834518183309_1553774353425729
+2026-05-27 02:01:17.316164 - Post metrics fetch failed for 105834518183309_1553774353425729: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'A3w8ukCA6f8XHzwx1V0m5uD'}}
+2026-05-27 02:01:17.317414 - Analytics scanning reel/video: 1529560772083662
+2026-05-27 02:01:17.373413 - Reel metrics fetch failed for 1529560772083662: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'AlEUNwVh348YkAUXYY_XeG-'}}
+2026-05-27 02:01:17.470620 - Video insight metric unavailable for 1529560772083662 | fb_reels_total_plays
+2026-05-27 02:01:17.526564 - Video insight metric unavailable for 1529560772083662 | blue_reels_play_count
+2026-05-27 02:01:17.582892 - Video insight metric unavailable for 1529560772083662 | post_impressions_unique
+2026-05-27 02:01:17.585063 - Analytics scanning post: 105834518183309_1554209600048871
+2026-05-27 02:01:17.640196 - Post metrics fetch failed for 105834518183309_1554209600048871: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'A8oVWDzfrsqi3m9yWrnqVvk'}}
+2026-05-27 02:01:17.641373 - Analytics scanning reel/video: 1867915810833416
+2026-05-27 02:01:17.694182 - Reel metrics fetch failed for 1867915810833416: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'AZJ9554CSf6ItcBNPCIxN1Z'}}
+2026-05-27 02:01:17.747637 - Video insight metric unavailable for 1867915810833416 | fb_reels_total_plays
+2026-05-27 02:01:17.805302 - Video insight metric unavailable for 1867915810833416 | blue_reels_play_count
+2026-05-27 02:01:17.872365 - Video insight metric unavailable for 1867915810833416 | post_impressions_unique
+2026-05-27 02:01:17.874510 - Analytics scanning post: 105834518183309_1554744299995401
+2026-05-27 02:01:17.931498 - Post metrics fetch failed for 105834518183309_1554744299995401: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'ASqfD0OHs23AHTdXJP1axcl'}}
+2026-05-27 02:01:17.932599 - Analytics scanning reel/video: 1294261759583165
+2026-05-27 02:01:17.987466 - Reel metrics fetch failed for 1294261759583165: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'A6hQ9l-LIDCFrP091DlmmaD'}}
+2026-05-27 02:01:18.040306 - Video insight metric unavailable for 1294261759583165 | fb_reels_total_plays
+2026-05-27 02:01:18.094694 - Video insight metric unavailable for 1294261759583165 | blue_reels_play_count
+2026-05-27 02:01:18.207654 - Video insight metric unavailable for 1294261759583165 | post_impressions_unique
+2026-05-27 02:01:18.209850 - Analytics scanning post: 105834518183309_1555130676623430
+2026-05-27 02:01:18.264509 - Post metrics fetch failed for 105834518183309_1555130676623430: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'AU46ovHo6g4uIDA9kgeq5rN'}}
+2026-05-27 02:01:18.265966 - Analytics scanning reel/video: 2824787231207136
+2026-05-27 02:01:18.318879 - Reel metrics fetch failed for 2824787231207136: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'A1N61GlMpJqw_Ofm0xTKyK_'}}
+2026-05-27 02:01:18.371792 - Video insight metric unavailable for 2824787231207136 | fb_reels_total_plays
+2026-05-27 02:01:18.431791 - Video insight metric unavailable for 2824787231207136 | blue_reels_play_count
+2026-05-27 02:01:18.486013 - Video insight metric unavailable for 2824787231207136 | post_impressions_unique
+2026-05-27 02:01:18.488144 - Analytics scanning post: 105834518183309_1555663103236854
+2026-05-27 02:01:18.551751 - Post metrics fetch failed for 105834518183309_1555663103236854: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'ARwxzuaGSgfiNI6AmxIEjC2'}}
+2026-05-27 02:01:18.553218 - Analytics scanning reel/video: 1706378577444766
+2026-05-27 02:01:18.606165 - Reel metrics fetch failed for 1706378577444766: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'AGJvEONAQQdSVr0MMLxDfc_'}}
+2026-05-27 02:01:18.666239 - Video insight metric unavailable for 1706378577444766 | fb_reels_total_plays
+2026-05-27 02:01:18.719719 - Video insight metric unavailable for 1706378577444766 | blue_reels_play_count
+2026-05-27 02:01:18.781343 - Video insight metric unavailable for 1706378577444766 | post_impressions_unique
+2026-05-27 02:01:18.785580 - AI Analytics completed. Rows updated: 21
