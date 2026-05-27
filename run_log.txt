@@ -36757,3 +36757,13 @@ Order ke liye abhi inbox karein.
 2026-05-27 17:49:58.087331 - Video insight metric unavailable for 1706378577444766 | blue_reels_play_count
 2026-05-27 17:49:58.231691 - Video insight metric unavailable for 1706378577444766 | post_impressions_unique
 2026-05-27 17:49:58.235752 - AI Analytics completed. Rows updated: 21
+2026-05-27 18:10:26.613419 - Automation started
+2026-05-27 18:10:26.662810 - Found 4 images
+2026-05-27 18:10:33.260929 - Step 1 Completed: Product selected | Product ID: Ho-71-00-00-71 | Title: USB Rechargeable Flameless Arc Lighter | Flexible & Windproof Electric Wand Lighter | Score: 8
+2026-05-27 18:10:33.261511 - Step 2 Completed: Local AI content generated | Category: tech | Hook: discovery
+2026-05-27 18:10:33.741102 - Image upload failed | HTTP 400: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'ARmNX0atp2Zge5mWplwT63s'}}
+2026-05-27 18:10:34.054194 - Image upload failed | HTTP 400: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'AGQnA_23D-75bss_FXyIHoS'}}
+2026-05-27 18:10:34.331775 - Image upload failed | HTTP 400: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'ALPZNDxKxtCKDCzNYYj-tlS'}}
+2026-05-27 18:10:34.696886 - Image upload failed | HTTP 400: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'A6kJVno9_YpHge2xmhwNmLG'}}
+2026-05-27 18:10:34.697769 - Uploaded images: 0
+2026-05-27 18:10:34.697828 - Failed: No images uploaded to Facebook. Check ACCESS_TOKEN, PAGE_ID, and app permissions.
