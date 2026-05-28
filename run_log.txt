@@ -38131,3 +38131,13 @@ Order ke liye abhi inbox karein.
 2026-05-28 08:28:14.999891 - Comment fetch failed: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'A0MRhwhk_sZTZcXHIf5xfoB'}}
 2026-05-28 08:28:15.000823 - No comments found for AI reply
 2026-05-28 08:28:15.001057 - AI comment worker completed. Sources scanned: 42
+2026-05-28 08:57:43.060463 - Automation started
+2026-05-28 08:57:43.109290 - Found 5 images
+2026-05-28 08:57:47.462880 - Step 1 Completed: Product selected | Product ID: Ho-54-00-00-549 | Title: XINGCHAO Lint Remover AD-218 Pink White Portable Fabric Shaver USB Rechargeable with 3 Steel Blades | Score: 5
+2026-05-28 08:57:47.463611 - Step 2 Completed: Local AI content generated | Category: tech | Hook: discovery
+2026-05-28 08:57:47.621521 - Image upload failed | HTTP 400: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'A-Nd80TMuUHSMbrvIRY3_nA'}}
+2026-05-28 08:57:47.703694 - Image upload failed | HTTP 400: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'AfeLCndzEZMXAlEfBgZIInZ'}}
+2026-05-28 08:57:47.777201 - Image upload failed | HTTP 400: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'ANP0EcH06ye4gwMbdpamlpI'}}
+2026-05-28 08:57:47.853340 - Image upload failed | HTTP 400: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'AEkJSrayIRmV496dYNYwsfr'}}
+2026-05-28 08:57:47.854247 - Uploaded images: 0
+2026-05-28 08:57:47.854313 - Failed: No images uploaded to Facebook. Check ACCESS_TOKEN, PAGE_ID, and app permissions.
