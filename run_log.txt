@@ -38695,3 +38695,11 @@ Order ke liye abhi inbox karein.
 2026-05-28 17:54:46.409850 - Video insight metric unavailable for 1706378577444766 | blue_reels_play_count
 2026-05-28 17:54:46.517519 - Video insight metric unavailable for 1706378577444766 | post_impressions_unique
 2026-05-28 17:54:46.522209 - AI Analytics completed. Rows updated: 21
+2026-05-28 18:22:27.512772 - Automation started
+2026-05-28 18:22:27.551987 - Found 2 images
+2026-05-28 18:22:29.840594 - Step 1 Completed: Product selected | Product ID: Ho-37-00-00-370 | Title: Self-Adhesive Wooden Sheet | Peel & Stick Wallpaper for Furniture Walls Kitchen Decor  | YM504 | Score: 8
+2026-05-28 18:22:29.841186 - Step 2 Completed: Local AI content generated | Category: kitchen | Hook: budget
+2026-05-28 18:22:30.221869 - Image upload failed | HTTP 400: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'A3TePgv215OoEj55pN7YCqU'}}
+2026-05-28 18:22:30.469750 - Image upload failed | HTTP 400: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'A9O5lbff8NfP_-xyL9z_0hi'}}
+2026-05-28 18:22:30.470622 - Uploaded images: 0
+2026-05-28 18:22:30.470674 - Failed: No images uploaded to Facebook. Check ACCESS_TOKEN, PAGE_ID, and app permissions.
