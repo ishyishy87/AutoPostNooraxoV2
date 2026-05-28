@@ -37726,3 +37726,131 @@ Order ke liye abhi inbox karein.
 2026-05-28 01:45:45.195243 - Video insight metric unavailable for 1706378577444766 | blue_reels_play_count
 2026-05-28 01:45:45.326903 - Video insight metric unavailable for 1706378577444766 | post_impressions_unique
 2026-05-28 01:45:45.330359 - AI Analytics completed. Rows updated: 21
+2026-05-28 04:23:02.486163 - AI comment worker started
+2026-05-28 04:23:02.489909 - Scanning post comments: 105834518183309_1550054067131091
+2026-05-28 04:23:02.806887 - Comment fetch failed: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'A_7y5Cy1Em6GlT8cM4Dd3GY'}}
+2026-05-28 04:23:02.808201 - No comments found for AI reply
+2026-05-28 04:23:02.808537 - Scanning reel/video comments: 2152037468894511
+2026-05-28 04:23:03.017541 - Comment fetch failed: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'A19b00mnzfbTraEUWaNinKq'}}
+2026-05-28 04:23:03.018569 - No comments found for AI reply
+2026-05-28 04:23:03.019094 - Scanning post comments: 105834518183309_1550136320456199
+2026-05-28 04:23:03.229717 - Comment fetch failed: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'A6oL-YsSlJAyPXdCgzFidT3'}}
+2026-05-28 04:23:03.230829 - No comments found for AI reply
+2026-05-28 04:23:03.231201 - Scanning reel/video comments: 1794960628541039
+2026-05-28 04:23:03.444490 - Comment fetch failed: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'AsrmEZmL8vH3OsvbQbB2adj'}}
+2026-05-28 04:23:03.445554 - No comments found for AI reply
+2026-05-28 04:23:03.446097 - Scanning post comments: 105834518183309_1550143470455484
+2026-05-28 04:23:03.688610 - Comment fetch failed: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'Ac1LgKyBAzishaG8Vz0Wfqt'}}
+2026-05-28 04:23:03.689652 - No comments found for AI reply
+2026-05-28 04:23:03.689982 - Scanning reel/video comments: 2477044379409805
+2026-05-28 04:23:03.883744 - Comment fetch failed: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'AArYUtVcsx1QdWH7gCvqL6T'}}
+2026-05-28 04:23:03.884839 - No comments found for AI reply
+2026-05-28 04:23:03.885415 - Scanning post comments: 105834518183309_1550156170454214
+2026-05-28 04:23:04.097365 - Comment fetch failed: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'AemxpHe6D-9wstg4s76lggL'}}
+2026-05-28 04:23:04.098464 - No comments found for AI reply
+2026-05-28 04:23:04.098813 - Scanning reel/video comments: 1008953445121737
+2026-05-28 04:23:04.292916 - Comment fetch failed: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'AnTyzYPZxZWoLR2DZpf1Q6r'}}
+2026-05-28 04:23:04.293931 - No comments found for AI reply
+2026-05-28 04:23:04.294515 - Scanning post comments: 105834518183309_1550178680451963
+2026-05-28 04:23:04.488590 - Comment fetch failed: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'A2pPiyckGC5rYdc5yNkImVX'}}
+2026-05-28 04:23:04.489637 - No comments found for AI reply
+2026-05-28 04:23:04.489962 - Scanning reel/video comments: 863293589360316
+2026-05-28 04:23:04.709662 - Comment fetch failed: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'A_YGtL0XygwgWKTaRj78xkA'}}
+2026-05-28 04:23:04.710729 - No comments found for AI reply
+2026-05-28 04:23:04.711255 - Scanning post comments: 105834518183309_1550358787100619
+2026-05-28 04:23:04.923971 - Comment fetch failed: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'A1bxbe3imJOIzCwMqqmO8fO'}}
+2026-05-28 04:23:04.925012 - No comments found for AI reply
+2026-05-28 04:23:04.925365 - Scanning reel/video comments: 957591029936055
+2026-05-28 04:23:05.132075 - Comment fetch failed: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'AJ6LqPD6PuwjIYh2JoPwFeY'}}
+2026-05-28 04:23:05.133246 - No comments found for AI reply
+2026-05-28 04:23:05.133798 - Scanning post comments: 105834518183309_1550435473759617
+2026-05-28 04:23:05.349045 - Comment fetch failed: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'AONVu9W9Ly28ZLEB1t09MPT'}}
+2026-05-28 04:23:05.350252 - No comments found for AI reply
+2026-05-28 04:23:05.350616 - Scanning reel/video comments: 2043720306188402
+2026-05-28 04:23:05.547566 - Comment fetch failed: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'A3LH5203tIOdUYi2ozcAARv'}}
+2026-05-28 04:23:05.548624 - No comments found for AI reply
+2026-05-28 04:23:05.549186 - Scanning post comments: 105834518183309_1551013547035143
+2026-05-28 04:23:05.767280 - Comment fetch failed: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'A5vWvzS-JMWC9oXN1bfiG9D'}}
+2026-05-28 04:23:05.768309 - No comments found for AI reply
+2026-05-28 04:23:05.768637 - Scanning reel/video comments: 1353156736678160
+2026-05-28 04:23:06.068272 - Comment fetch failed: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'Ak928vy8sATfnbnVz2lHMoe'}}
+2026-05-28 04:23:06.069395 - No comments found for AI reply
+2026-05-28 04:23:06.069948 - Scanning post comments: 105834518183309_1551018103701354
+2026-05-28 04:23:06.286806 - Comment fetch failed: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'AV-YsK5pUCSJoYm3lQPmjmS'}}
+2026-05-28 04:23:06.287928 - No comments found for AI reply
+2026-05-28 04:23:06.288299 - Scanning reel/video comments: 1484426343149214
+2026-05-28 04:23:06.479808 - Comment fetch failed: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'AoPrRDv0KxHjkbTjWLd4q23'}}
+2026-05-28 04:23:06.480844 - No comments found for AI reply
+2026-05-28 04:23:06.481407 - Scanning post comments: 105834518183309_1551164890353342
+2026-05-28 04:23:06.680261 - Comment fetch failed: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'AhWb34F7yG7cT26OzFOK7DN'}}
+2026-05-28 04:23:06.681309 - No comments found for AI reply
+2026-05-28 04:23:06.681635 - Scanning reel/video comments: 2013746262847884
+2026-05-28 04:23:06.897366 - Comment fetch failed: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'AYoRCJy3_KQv15zUZByQFBo'}}
+2026-05-28 04:23:06.898363 - No comments found for AI reply
+2026-05-28 04:23:06.898902 - Scanning post comments: 105834518183309_1551394263663738
+2026-05-28 04:23:07.101395 - Comment fetch failed: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'ABlZHcIM2hcDhIoeNXSXYHf'}}
+2026-05-28 04:23:07.102416 - No comments found for AI reply
+2026-05-28 04:23:07.102746 - Scanning reel/video comments: 1532295394928715
+2026-05-28 04:23:07.314040 - Comment fetch failed: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'AnHZNlg8Y1nS0p4Zc5cKamp'}}
+2026-05-28 04:23:07.315082 - No comments found for AI reply
+2026-05-28 04:23:07.315651 - Scanning post comments: 105834518183309_1551440906992407
+2026-05-28 04:23:07.535714 - Comment fetch failed: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'AIuxE5Ccj-wbTSWhjoRl4Dd'}}
+2026-05-28 04:23:07.536767 - No comments found for AI reply
+2026-05-28 04:23:07.537113 - Scanning reel/video comments: 730056413495205
+2026-05-28 04:23:07.747489 - Comment fetch failed: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'AZPzF7weAf0-JUlppd-8BFx'}}
+2026-05-28 04:23:07.748549 - No comments found for AI reply
+2026-05-28 04:23:07.749098 - Scanning post comments: 105834518183309_1551901433613021
+2026-05-28 04:23:07.949911 - Comment fetch failed: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'A-VAmEJI8WH46aY9RhDC-Sp'}}
+2026-05-28 04:23:07.950945 - No comments found for AI reply
+2026-05-28 04:23:07.951304 - Scanning reel/video comments: 1579057693191051
+2026-05-28 04:23:08.144250 - Comment fetch failed: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'AN-DCWtu5pcS1--QQwcBz3_'}}
+2026-05-28 04:23:08.145378 - No comments found for AI reply
+2026-05-28 04:23:08.145959 - Scanning post comments: 105834518183309_1552306696905828
+2026-05-28 04:23:08.451127 - Comment fetch failed: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'ACGeMjDXl2T9daxd1KHm0ot'}}
+2026-05-28 04:23:08.452181 - No comments found for AI reply
+2026-05-28 04:23:08.452519 - Scanning reel/video comments: 2206723540145873
+2026-05-28 04:23:08.643904 - Comment fetch failed: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'Awv1-YUplCVBKHQjdfJ7RJ2'}}
+2026-05-28 04:23:08.645063 - No comments found for AI reply
+2026-05-28 04:23:08.645666 - Scanning post comments: 105834518183309_1552812710188560
+2026-05-28 04:23:08.861442 - Comment fetch failed: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'ADA7VkXynffsEd1oEO-qxXX'}}
+2026-05-28 04:23:08.862570 - No comments found for AI reply
+2026-05-28 04:23:08.862921 - Scanning reel/video comments: 988707307043439
+2026-05-28 04:23:09.169732 - Comment fetch failed: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'AHJgIXLAcIdnrybrqm14kCj'}}
+2026-05-28 04:23:09.170867 - No comments found for AI reply
+2026-05-28 04:23:09.171467 - Scanning post comments: 105834518183309_1553238263479338
+2026-05-28 04:23:09.387637 - Comment fetch failed: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'AmV2TMJKz7CbpKNQwS96Vmb'}}
+2026-05-28 04:23:09.388780 - No comments found for AI reply
+2026-05-28 04:23:09.389132 - Scanning reel/video comments: 945414828326986
+2026-05-28 04:23:09.603002 - Comment fetch failed: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'AOU-cczgckp9977RvGpaDDL'}}
+2026-05-28 04:23:09.604179 - No comments found for AI reply
+2026-05-28 04:23:09.604777 - Scanning post comments: 105834518183309_1553774353425729
+2026-05-28 04:23:09.818840 - Comment fetch failed: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'Ad6N5XIsAdGKWon0MmVGUGr'}}
+2026-05-28 04:23:09.819981 - No comments found for AI reply
+2026-05-28 04:23:09.820357 - Scanning reel/video comments: 1529560772083662
+2026-05-28 04:23:10.030454 - Comment fetch failed: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'Aj-obmpbr8wXcgTBNi5wNCd'}}
+2026-05-28 04:23:10.031613 - No comments found for AI reply
+2026-05-28 04:23:10.032004 - Scanning post comments: 105834518183309_1554209600048871
+2026-05-28 04:23:10.385405 - Comment fetch failed: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'AfK0cs0jcFlTXUmEyNLtrXX'}}
+2026-05-28 04:23:10.386541 - No comments found for AI reply
+2026-05-28 04:23:10.386763 - Scanning reel/video comments: 1867915810833416
+2026-05-28 04:23:10.585350 - Comment fetch failed: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'A-UUkdRwiXGC1HqaVs0Doxl'}}
+2026-05-28 04:23:10.586700 - No comments found for AI reply
+2026-05-28 04:23:10.587384 - Scanning post comments: 105834518183309_1554744299995401
+2026-05-28 04:23:10.802663 - Comment fetch failed: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'A9jg5qa8ikIrfdVBYi1qkF2'}}
+2026-05-28 04:23:10.803828 - No comments found for AI reply
+2026-05-28 04:23:10.804231 - Scanning reel/video comments: 1294261759583165
+2026-05-28 04:23:10.999389 - Comment fetch failed: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'A1kDNMEV-A80uZ7mrgXHsUe'}}
+2026-05-28 04:23:11.000579 - No comments found for AI reply
+2026-05-28 04:23:11.001120 - Scanning post comments: 105834518183309_1555130676623430
+2026-05-28 04:23:11.195576 - Comment fetch failed: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'AwqaXjmKx5i-Lw1K-eRdnCN'}}
+2026-05-28 04:23:11.196701 - No comments found for AI reply
+2026-05-28 04:23:11.197064 - Scanning reel/video comments: 2824787231207136
+2026-05-28 04:23:11.409719 - Comment fetch failed: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'A_uluq8iyBYmOSaC5qd3rz4'}}
+2026-05-28 04:23:11.410855 - No comments found for AI reply
+2026-05-28 04:23:11.411452 - Scanning post comments: 105834518183309_1555663103236854
+2026-05-28 04:23:11.620941 - Comment fetch failed: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'APMsmwJMHXNnhEpqlHRtKwP'}}
+2026-05-28 04:23:11.622117 - No comments found for AI reply
+2026-05-28 04:23:11.622483 - Scanning reel/video comments: 1706378577444766
+2026-05-28 04:23:11.828699 - Comment fetch failed: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'AaF7ssrJyHGyNhz1kNmeW7r'}}
+2026-05-28 04:23:11.829879 - No comments found for AI reply
+2026-05-28 04:23:11.830230 - AI comment worker completed. Sources scanned: 42
