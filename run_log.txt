@@ -39939,3 +39939,12 @@ Order ke liye abhi inbox karein.
 2026-05-29 08:45:55.470044 - Comment fetch failed: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'AiikOwRolblMdVUtKnwN3zm'}}
 2026-05-29 08:45:55.471092 - No comments found for AI reply
 2026-05-29 08:45:55.471407 - AI comment worker completed. Sources scanned: 42
+2026-05-29 08:55:05.880408 - Automation started
+2026-05-29 08:55:05.932441 - Found 3 images
+2026-05-29 08:55:10.222790 - Step 1 Completed: Product selected | Product ID: Sm-20-00-00-205 | Title: i20 Ultra Max Suit Smartwatch & Earbuds Combo | 10-in-1 Set with 7 Straps | Random Colors | Score: 15
+2026-05-29 08:55:10.223641 - Step 2 Completed: Local AI content generated | Category: tech | Hook: budget
+2026-05-29 08:55:10.657637 - Image upload failed | HTTP 400: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'Ag-dLK6JDOwIXmzlRaPT2TL'}}
+2026-05-29 08:55:10.776698 - Image upload failed | HTTP 400: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'ArigJFInvFon_oFc_4opP35'}}
+2026-05-29 08:55:11.110325 - Image upload failed | HTTP 400: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'AJL69DzqHe_Sele0V13kiXF'}}
+2026-05-29 08:55:11.111581 - Uploaded images: 0
+2026-05-29 08:55:11.111667 - Failed: No images uploaded to Facebook. Check ACCESS_TOKEN, PAGE_ID, and app permissions.
