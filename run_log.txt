@@ -40502,3 +40502,13 @@ Order ke liye abhi inbox karein.
 2026-05-29 16:25:13.341219 - Comment fetch failed: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'AOZWK8t6JPVHFWu8UXTxu2N'}}
 2026-05-29 16:25:13.341901 - No comments found for AI reply
 2026-05-29 16:25:13.342189 - AI comment worker completed. Sources scanned: 42
+2026-05-29 18:18:14.799553 - Automation started
+2026-05-29 18:18:14.850259 - Found 6 images
+2026-05-29 18:18:19.744898 - Step 1 Completed: Product selected | Product ID: Pe-35-00-00-356 | Title: Kashees Eventone Liquid Foundation | High Coverage Long Lasting Radiant Makeup Base 30 ml | Score: 8
+2026-05-29 18:18:19.745621 - Step 2 Completed: Local AI content generated | Category: beauty | Hook: urgency
+2026-05-29 18:18:20.101576 - Image upload failed | HTTP 400: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'AvLxeEYjb4ilA3g2-Rsc3GL'}}
+2026-05-29 18:18:20.365051 - Image upload failed | HTTP 400: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'A_v_mPyA1BHekxcxTai1-X-'}}
+2026-05-29 18:18:20.739627 - Image upload failed | HTTP 400: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'ARPCkzRT5gz_pRKEwSLyVNR'}}
+2026-05-29 18:18:21.017194 - Image upload failed | HTTP 400: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'AmrM36wxd6QV8YZ6cwWp1EQ'}}
+2026-05-29 18:18:21.018243 - Uploaded images: 0
+2026-05-29 18:18:21.018315 - Failed: No images uploaded to Facebook. Check ACCESS_TOKEN, PAGE_ID, and app permissions.
