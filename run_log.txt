@@ -41876,3 +41876,13 @@ Order ke liye abhi inbox karein.
 2026-05-30 07:27:53.062557 - Comment fetch failed: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'ANMPWWn4XFSk53WDEzEhsmd'}}
 2026-05-30 07:27:53.063498 - No comments found for AI reply
 2026-05-30 07:27:53.063607 - AI comment worker completed. Sources scanned: 42
+2026-05-30 08:01:20.020853 - Automation started
+2026-05-30 08:01:20.070162 - Found 4 images
+2026-05-30 08:01:24.513444 - Step 1 Completed: Product selected | Product ID: Sm-28-00-00-282 | Title: Arctic Air Freedom Wearable Neck Fan & Air Purifier | USB Rechargeable 3-Speed Personal Cooler for Indoor Outdoor Travel | Score: 5
+2026-05-30 08:01:24.514093 - Step 2 Completed: Local AI content generated | Category: tech | Hook: urgency
+2026-05-30 08:01:24.613985 - Image upload failed | HTTP 400: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'AWYDq_sZ911eHIUz5PVEfny'}}
+2026-05-30 08:01:24.674475 - Image upload failed | HTTP 400: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'AzLUoPiT7aH2_y7auShNcSG'}}
+2026-05-30 08:01:24.724515 - Image upload failed | HTTP 400: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'AJfvYuJSucVW8DaVk1Kv4-U'}}
+2026-05-30 08:01:24.787453 - Image upload failed | HTTP 400: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'A2sb0JJ5TBVedxtIZP0PB0q'}}
+2026-05-30 08:01:24.788131 - Uploaded images: 0
+2026-05-30 08:01:24.788239 - Failed: No images uploaded to Facebook. Check ACCESS_TOKEN, PAGE_ID, and app permissions.
