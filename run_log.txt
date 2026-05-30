@@ -42973,3 +42973,12 @@ Order ke liye abhi inbox karein.
 2026-05-30 15:57:00.760092 - Video insight metric unavailable for 1706378577444766 | blue_reels_play_count
 2026-05-30 15:57:00.862674 - Video insight metric unavailable for 1706378577444766 | post_impressions_unique
 2026-05-30 15:57:00.866343 - AI Analytics completed. Rows updated: 21
+2026-05-30 16:33:27.230882 - Automation started
+2026-05-30 16:33:27.280115 - Found 3 images
+2026-05-30 16:33:31.083490 - Step 1 Completed: Product selected | Product ID: Ho-37-00-00-375 | Title: Anti-Slip Fridge & Shelf Mat | Waterproof Washable Liner for Kitchen Drawers Cabinets | Parrot Green | Score: 8
+2026-05-30 16:33:31.084213 - Step 2 Completed: Local AI content generated | Category: kitchen | Hook: budget
+2026-05-30 16:33:31.245911 - Image upload failed | HTTP 400: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'AP4bLOW2wvLfIbDfcH4tF_K'}}
+2026-05-30 16:33:31.405325 - Image upload failed | HTTP 400: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'AptEZt1JLYjgK7q6g0IgLCf'}}
+2026-05-30 16:33:31.556406 - Image upload failed | HTTP 400: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'AjGQV4nWtyLDCz1i5QDVCcm'}}
+2026-05-30 16:33:31.557421 - Uploaded images: 0
+2026-05-30 16:33:31.557497 - Failed: No images uploaded to Facebook. Check ACCESS_TOKEN, PAGE_ID, and app permissions.
