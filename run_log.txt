@@ -45827,3 +45827,12 @@ Order ke liye abhi inbox karein.
 2026-05-31 15:58:37.608123 - Video insight metric unavailable for 1706378577444766 | blue_reels_play_count
 2026-05-31 15:58:37.704134 - Video insight metric unavailable for 1706378577444766 | post_impressions_unique
 2026-05-31 15:58:37.708263 - AI Analytics completed. Rows updated: 21
+2026-05-31 16:40:02.447142 - Automation started
+2026-05-31 16:40:02.492396 - Found 3 images
+2026-05-31 16:40:05.623451 - Step 1 Completed: Product selected | Product ID: Pe-64-00-00-643 | Title: Kiss Beauty Makeup Fixer 150ml | Hydrating Anti-Oxidant 24H Makeup Setting Spray | Score: 8
+2026-05-31 16:40:05.624019 - Step 2 Completed: Local AI content generated | Category: beauty | Hook: urgency
+2026-05-31 16:40:05.901001 - Image upload failed | HTTP 400: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'AhTuXkbPDCsGLxBuh0KwS7v'}}
+2026-05-31 16:40:06.002596 - Image upload failed | HTTP 400: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'AV4G1ZeqS6-D9ifB-iVFP4D'}}
+2026-05-31 16:40:06.088226 - Image upload failed | HTTP 400: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'ANCVL-SfX-wRahpYhyg1zO8'}}
+2026-05-31 16:40:06.088865 - Uploaded images: 0
+2026-05-31 16:40:06.089114 - Failed: No images uploaded to Facebook. Check ACCESS_TOKEN, PAGE_ID, and app permissions.
