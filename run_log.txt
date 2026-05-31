@@ -44730,3 +44730,13 @@ Order ke liye abhi inbox karein.
 2026-05-31 06:44:38.377867 - Video insight metric unavailable for 1706378577444766 | blue_reels_play_count
 2026-05-31 06:44:38.466774 - Video insight metric unavailable for 1706378577444766 | post_impressions_unique
 2026-05-31 06:44:38.470156 - AI Analytics completed. Rows updated: 21
+2026-05-31 08:24:59.306695 - Automation started
+2026-05-31 08:24:59.348898 - Found 7 images
+2026-05-31 08:25:03.328452 - Step 1 Completed: Product selected | Product ID: Ho-19-00-00-193 | Title: USB Portable 3-in-1 Air Humidifier | Mute, Colorful LED Light & Aromatherapy | For Home, Office & Car | Score: 8
+2026-05-31 08:25:03.329019 - Step 2 Completed: Local AI content generated | Category: tech | Hook: budget
+2026-05-31 08:25:03.708662 - Image upload failed | HTTP 400: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'A0gZyl6tpD1VsZpQ-2Fm45-'}}
+2026-05-31 08:25:03.981640 - Image upload failed | HTTP 400: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'AGSeM6cB4krAgwivD1kAPdd'}}
+2026-05-31 08:25:04.355622 - Image upload failed | HTTP 400: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'Afvr1WFAKE4lk_BzmE3znQx'}}
+2026-05-31 08:25:04.571293 - Image upload failed | HTTP 400: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'AiENcNJzz3CzDYp4Yho1nVT'}}
+2026-05-31 08:25:04.572153 - Uploaded images: 0
+2026-05-31 08:25:04.572371 - Failed: No images uploaded to Facebook. Check ACCESS_TOKEN, PAGE_ID, and app permissions.
