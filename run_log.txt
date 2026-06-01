@@ -47456,3 +47456,13 @@ Order ke liye abhi inbox karein.
 2026-06-01 10:26:45.730593 - Comment fetch failed: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'AyAb9PKFSC2J7b5S_txXtrU'}}
 2026-06-01 10:26:45.731616 - No comments found for AI reply
 2026-06-01 10:26:45.731914 - AI comment worker completed. Sources scanned: 42
+2026-06-01 10:36:18.978675 - Automation started
+2026-06-01 10:36:19.027888 - Found 6 images
+2026-06-01 10:36:23.446506 - Step 1 Completed: Product selected | Product ID: Sm-15-00-00-156 | Title: Stick & Grip Suction Cup Phone Holder | Reusable Silicone Pad | Random Color | Score: 8
+2026-06-01 10:36:23.447180 - Step 2 Completed: Local AI content generated | Category: tech | Hook: urgency
+2026-06-01 10:36:23.670936 - Image upload failed | HTTP 400: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'AhSKh-jNmT5tYV0punnAE_R'}}
+2026-06-01 10:36:23.801227 - Image upload failed | HTTP 400: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'APjrgfDoHq0L2MyEVV9QyRs'}}
+2026-06-01 10:36:23.929645 - Image upload failed | HTTP 400: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'AcWxpiJdxcrxrtgsw8LkqqB'}}
+2026-06-01 10:36:24.078872 - Image upload failed | HTTP 400: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'AAzlEPd_pIT6ppVo--iNh65'}}
+2026-06-01 10:36:24.079866 - Uploaded images: 0
+2026-06-01 10:36:24.079926 - Failed: No images uploaded to Facebook. Check ACCESS_TOKEN, PAGE_ID, and app permissions.
