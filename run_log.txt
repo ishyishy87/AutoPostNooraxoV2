@@ -50522,3 +50522,12 @@ Order ke liye abhi inbox karein.
 2026-06-03 07:28:44.590223 - Video insight metric unavailable for 1706378577444766 | blue_reels_play_count
 2026-06-03 07:28:44.686234 - Video insight metric unavailable for 1706378577444766 | post_impressions_unique
 2026-06-03 07:28:44.689970 - AI Analytics completed. Rows updated: 21
+2026-06-03 10:17:36.355532 - Automation started
+2026-06-03 10:17:36.398755 - Found 3 images
+2026-06-03 10:17:38.895685 - Step 1 Completed: Product selected | Product ID: Pe-77-00-00-771 | Title: YAO BU BU WEIXING Cold / Skin Gel Spray | Herbal Pain Relief for Back, Knee & Joint Care | Score: 8
+2026-06-03 10:17:38.896484 - Step 2 Completed: Local AI content generated | Category: beauty | Hook: urgency
+2026-06-03 10:17:39.180593 - Image upload failed | HTTP 400: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'A3_Rb_tyUf004ekQ1z8IFSv'}}
+2026-06-03 10:17:39.357887 - Image upload failed | HTTP 400: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'AYYzII2slb9-KP4NNj3ipG8'}}
+2026-06-03 10:17:39.519772 - Image upload failed | HTTP 400: {'error': {'message': 'Error validating access token: Sessions for the user are not allowed because the user is not a confirmed user.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 464, 'fbtrace_id': 'Ayt2U-VzzpbDtAEG4v5E_qk'}}
+2026-06-03 10:17:39.520709 - Uploaded images: 0
+2026-06-03 10:17:39.520782 - Failed: No images uploaded to Facebook. Check ACCESS_TOKEN, PAGE_ID, and app permissions.
